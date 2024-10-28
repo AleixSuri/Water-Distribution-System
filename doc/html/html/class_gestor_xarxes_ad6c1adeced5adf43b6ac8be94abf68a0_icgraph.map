@@ -1,0 +1,9 @@
+<map id="GestorXarxes.cabalMinim" name="GestorXarxes.cabalMinim">
+<area shape="rect" id="Node000001" title="Retorna el cabal mínim que hi hauria d’haver entre tots els nodes d’origen de la component connexa de..." alt="" coords="615,13,785,40"/>
+<area shape="rect" id="Node000002" href="$class_simulador_mode_text.html#a53cfc639a48b4b17ce1dd460214a342a" title="Llegeix el node Origen entrat pel reader i el percentatge de cabal. A partir d&#39;aquestes dades busca e..." alt="" coords="388,5,567,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="600,29,568,29,568,24,600,24"/>
+<area shape="rect" id="Node000003" href="$class_simulador_mode_text.html#acf46c7460ef06bf77ae48ab3217c40f1" title="Processarà el fitxer de text, localitzant els nodes corresponents a la xarxa a partir dels seus ident..." alt="" coords="158,13,340,40"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="373,29,341,29,341,24,373,24"/>
+<area shape="rect" id="Node000004" href="$class_be_water.html#aa8aad185395e8f524e8b46d8317e5590" title=" " alt="" coords="5,13,110,40"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="142,29,110,29,110,24,142,24"/>
+</map>

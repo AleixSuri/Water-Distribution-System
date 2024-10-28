@@ -1,0 +1,15 @@
+<map id="SimuladorModeText.lecturaProximitat" name="SimuladorModeText.lecturaProximitat">
+<area shape="rect" id="Node000001" title="Va llegint i guardant nodes aixetes fins a trobar un nou case o fi de fitxer. Després crida GestorXar..." alt="" coords="5,101,185,144"/>
+<area shape="rect" id="Node000002" href="$class_simulador_mode_text.html#ad0bc9e5e1e2a78d8a894576c1f3f42bb" title="Funció que serveix per indicar si si la línia indica que hi ha un canvi de case." alt="" coords="234,5,423,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="140,98,232,58,247,51,249,56,234,62,142,103"/>
+<area shape="rect" id="Node000003" href="$class_simulador_mode_text.html#a7eea3df87ad4d1829356fa6683b0f5eb" title="A partir d&#39;un string es classifica la informació i es crea una coordenada de la classe Coordenades." alt="" coords="239,72,418,115"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="185,109,223,104,224,109,185,114"/>
+<area shape="rect" id="Node000004" href="$class_xarxa.html#ac2fb01e420a9efe5d013da6c3d25e0b4" title="Node xarxa." alt="" coords="286,139,371,165"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="185,131,271,142,270,147,185,137"/>
+<area shape="rect" id="Node000005" href="$class_gestor_xarxes.html#ad9edd2ee02d5fd240f09950e41093bab" title="Retorna una llista amb tots els nodes de cjtNodes ordenats." alt="" coords="233,189,424,216"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="148,142,234,175,257,182,256,187,232,180,146,147"/>
+<area shape="rect" id="Node000006" href="$class_node_aixeta.html#a804fd738681b48f8bd30fa0054c826e5" title="Coordenades del node." alt="" coords="472,164,638,191"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="424,189,456,186,457,191,424,195"/>
+<area shape="rect" id="Node000007" href="$class_coordenades.html#af0623aa8643efc99b90f77622392d6a5" title="Distancia entre coordenades." alt="" coords="479,215,632,241"/>
+<area shape="poly" id="edge6_Node000005_Node000007" title=" " alt="" coords="424,211,463,215,463,220,424,216"/>
+</map>

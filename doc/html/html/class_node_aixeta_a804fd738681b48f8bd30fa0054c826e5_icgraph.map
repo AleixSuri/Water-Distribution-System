@@ -1,0 +1,22 @@
+<map id="NodeAixeta.coordenades" name="NodeAixeta.coordenades">
+<area shape="rect" id="Node000001" title="Coordenades del node." alt="" coords="863,84,1029,111"/>
+<area shape="rect" id="Node000002" href="$class_xarxa.html#ab85333f399f42cbafcbf3b12ba1c8ce1" title="Connectar Canonada." alt="" coords="615,8,815,35"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="888,81,814,56,759,38,760,33,816,51,890,76"/>
+<area shape="rect" id="Node000006" href="$class_xarxa.html#a644452390beb298a9a47f5e074c9a353" title="Dibuixar." alt="" coords="427,76,529,103"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="847,98,529,93,530,88,847,93"/>
+<area shape="rect" id="Node000007" href="$class_xarxa.html#a913586697079c9e6844de4c8c8bd0254" title="Enllaç d&#39;sprites." alt="" coords="643,109,787,136"/>
+<area shape="poly" id="edge7_Node000001_Node000007" title=" " alt="" coords="847,111,788,117,787,112,847,106"/>
+<area shape="rect" id="Node000008" href="$class_gestor_xarxes.html#ad9edd2ee02d5fd240f09950e41093bab" title="Retorna una llista amb tots els nodes de cjtNodes ordenats." alt="" coords="619,160,811,187"/>
+<area shape="poly" id="edge9_Node000001_Node000008" title=" " alt="" coords="899,119,816,151,776,162,775,157,814,145,897,114"/>
+<area shape="rect" id="Node000003" href="$class_simulador_mode_text.html#ac18ef739cf6737e14ef5fde680ad8e5f" title="Llegeix l&#39;id de dos nodes i crida la funció connectar de la classe xarxa per crear una canonada entre..." alt="" coords="388,5,567,48"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="600,27,568,27,568,22,600,21"/>
+<area shape="rect" id="Node000004" href="$class_simulador_mode_text.html#acf46c7460ef06bf77ae48ab3217c40f1" title="Processarà el fitxer de text, localitzant els nodes corresponents a la xarxa a partir dels seus ident..." alt="" coords="158,76,340,103"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="383,55,301,78,300,73,382,50"/>
+<area shape="rect" id="Node000005" href="$class_be_water.html#aa8aad185395e8f524e8b46d8317e5590" title=" " alt="" coords="5,76,110,103"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="142,92,110,92,110,87,142,87"/>
+<area shape="poly" id="edge6_Node000006_Node000004" title=" " alt="" coords="411,92,340,92,340,87,411,87"/>
+<area shape="poly" id="edge8_Node000007_Node000006" title=" " alt="" coords="628,113,529,99,530,94,629,108"/>
+<area shape="rect" id="Node000009" href="$class_simulador_mode_text.html#af4c662e40a59d5df8334cf2db36e1b59" title="Va llegint i guardant nodes aixetes fins a trobar un nou case o fi de fitxer. Després crida GestorXar..." alt="" coords="388,135,567,177"/>
+<area shape="poly" id="edge10_Node000008_Node000009" title=" " alt="" coords="603,168,567,165,568,160,604,163"/>
+<area shape="poly" id="edge11_Node000009_Node000004" title=" " alt="" coords="387,132,297,106,298,101,389,127"/>
+</map>

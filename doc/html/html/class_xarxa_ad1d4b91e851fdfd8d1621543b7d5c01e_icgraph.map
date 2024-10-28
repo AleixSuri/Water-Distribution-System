@@ -1,0 +1,15 @@
+<map id="Xarxa.afegir" name="Xarxa.afegir">
+<area shape="rect" id="Node000001" title="Afegir Origen." alt="" coords="615,80,704,107"/>
+<area shape="rect" id="Node000002" href="$class_simulador_mode_text.html#a40e7923a65346d611f85cb6dba0e5f81" title="Crea un node Connexió llegint els seus atributs i s&#39;afegeix a la xarxa." alt="" coords="388,5,567,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="606,77,537,51,539,46,607,72"/>
+<area shape="rect" id="Node000005" href="$class_simulador_mode_text.html#a5af6017e80467f1c7dfd5a26363a9873" title="Crea un node Origen llegint els seus atributs i s&#39;afegeix a la xarxa." alt="" coords="388,72,567,115"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="599,96,568,96,568,91,599,91"/>
+<area shape="rect" id="Node000006" href="$class_simulador_mode_text.html#adbf338f2b86b71451482bb5723983d1d" title="Crea un node Terminal llegint els seus atributs i s&#39;afegeix a la xarxa." alt="" coords="388,139,567,181"/>
+<area shape="poly" id="edge6_Node000001_Node000006" title=" " alt="" coords="607,115,539,141,537,136,606,110"/>
+<area shape="rect" id="Node000003" href="$class_simulador_mode_text.html#acf46c7460ef06bf77ae48ab3217c40f1" title="Processarà el fitxer de text, localitzant els nodes corresponents a la xarxa a partir dels seus ident..." alt="" coords="158,80,340,107"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="389,55,298,82,297,77,387,50"/>
+<area shape="rect" id="Node000004" href="$class_be_water.html#aa8aad185395e8f524e8b46d8317e5590" title=" " alt="" coords="5,80,110,107"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="142,96,110,96,110,91,142,91"/>
+<area shape="poly" id="edge5_Node000005_Node000003" title=" " alt="" coords="373,96,341,96,341,91,373,91"/>
+<area shape="poly" id="edge7_Node000006_Node000003" title=" " alt="" coords="387,136,297,110,298,105,389,131"/>
+</map>

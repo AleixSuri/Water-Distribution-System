@@ -1,0 +1,12 @@
+<map id="GestorXarxes.esConnex" name="GestorXarxes.esConnex">
+<area shape="rect" id="Node000001" title="Es Connex." alt="" coords="812,43,973,69"/>
+<area shape="rect" id="Node000002" href="$class_gestor_xarxes.html#aef6c5c914fde2624b680c0cc1775a403" title="Retornarà true si el sub graf creat a partir del node Origen no té cicles i és connex." alt="" coords="615,43,764,69"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="796,59,764,59,764,53,796,53"/>
+<area shape="rect" id="Node000003" href="$class_simulador_mode_text.html#a79ed3bf06a954d297b850b01f084740a" title="Va llegint i guardant terminals fins a trobar un nou case o fi de fitxer. Després crida GestorXarxes ..." alt="" coords="388,5,567,48"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="600,46,568,42,568,36,601,41"/>
+<area shape="rect" id="Node000004" href="$class_simulador_mode_text.html#acf46c7460ef06bf77ae48ab3217c40f1" title="Processarà el fitxer de text, localitzant els nodes corresponents a la xarxa a partir dels seus ident..." alt="" coords="158,43,340,69"/>
+<area shape="poly" id="edge5_Node000002_Node000004" title=" " alt="" coords="600,62,567,63,388,63,341,62,341,56,388,57,567,57,599,57"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="373,43,341,47,340,42,372,37"/>
+<area shape="rect" id="Node000005" href="$class_be_water.html#aa8aad185395e8f524e8b46d8317e5590" title=" " alt="" coords="5,43,110,69"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="142,59,110,59,110,53,142,53"/>
+</map>

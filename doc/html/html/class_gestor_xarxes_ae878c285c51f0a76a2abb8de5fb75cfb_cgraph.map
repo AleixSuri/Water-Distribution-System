@@ -1,0 +1,29 @@
+<map id="GestorXarxes.excesCabal" name="GestorXarxes.excesCabal">
+<area shape="rect" id="Node000001" title="Retorna un set amb totes les canonades les quals tenen una demanda més gran que la seva capacitat màx..." alt="" coords="5,191,177,218"/>
+<area shape="rect" id="Node000002" href="$class_canonada.html#a0615873ebdfdf3b6f8e42c7267942890" title="Capacitat." alt="" coords="635,115,772,142"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="106,188,150,152,215,105,295,59,338,40,382,25,439,10,486,3,532,7,588,25,618,39,644,59,685,101,681,105,640,63,615,44,586,30,531,13,486,8,440,15,384,30,340,45,298,64,218,110,153,157,110,193"/>
+<area shape="rect" id="Node000003" href="$class_xarxa.html#adcd8f7fb8f883a1d958b709bd4254ec3" title="Demanda teòrica." alt="" coords="225,166,335,192"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="177,190,209,186,210,191,178,195"/>
+<area shape="rect" id="Node000009" href="$class_canonada.html#a50c5156883999228c31c34eff8a84db9" title="Node sortida." alt="" coords="644,216,763,243"/>
+<area shape="poly" id="edge16_Node000001_Node000009" title=" " alt="" coords="177,205,628,224,628,229,177,211"/>
+<area shape="rect" id="Node000010" href="$class_xarxa.html#a02680efa33036bc4143db53170bd1e05" title="Sortides d&#39;un node." alt="" coords="434,368,537,395"/>
+<area shape="poly" id="edge17_Node000001_Node000010" title=" " alt="" coords="118,216,232,277,307,313,384,347,421,361,419,366,382,352,304,318,229,281,116,221"/>
+<area shape="rect" id="Node000004" href="$class_node_aixeta.html#abc42af0213d387ddd4c03edec5770c62" title="Estat de l&#39;aixeta." alt="" coords="402,39,568,66"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="291,163,328,123,354,101,382,82,409,69,412,74,384,87,357,106,332,127,294,167"/>
+<area shape="rect" id="Node000005" href="$class_xarxa.html#a8e4fd4b92d7ed7b4dfa2721003bc1178" title="Demanda canonada." alt="" coords="383,166,587,192"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="336,184,367,185,367,191,335,190"/>
+<area shape="rect" id="Node000007" href="$class_node_aixeta.html#a99b337749880eb596891234af8158b14" title="Identificador del node." alt="" coords="820,166,922,192"/>
+<area shape="poly" id="edge11_Node000003_Node000007" title=" " alt="" coords="309,163,390,130,445,112,506,97,572,85,639,81,707,85,773,101,815,124,849,153,846,157,812,128,771,106,706,90,639,86,572,91,507,102,447,117,392,135,311,168"/>
+<area shape="rect" id="Node000008" href="$class_xarxa.html#ac2fb01e420a9efe5d013da6c3d25e0b4" title="Node xarxa." alt="" coords="828,318,914,344"/>
+<area shape="poly" id="edge12_Node000003_Node000008" title=" " alt="" coords="336,190,814,314,812,319,334,196"/>
+<area shape="poly" id="edge13_Node000003_Node000010" title=" " alt="" coords="288,192,300,224,320,266,348,310,385,348,420,366,418,371,381,352,344,313,316,268,295,226,283,194"/>
+<area shape="poly" id="edge5_Node000005_Node000002" title=" " alt="" coords="545,162,627,143,629,148,547,168"/>
+<area shape="poly" id="edge6_Node000005_Node000003" title=" " alt="" coords="382,173,351,173,351,168,382,167"/>
+<area shape="rect" id="Node000006" href="$class_xarxa.html#afe582745498e42a253c40f59f9b8c6ce" title="Entrades d&#39;un node." alt="" coords="650,166,757,192"/>
+<area shape="poly" id="edge7_Node000005_Node000006" title=" " alt="" coords="587,176,634,176,634,182,587,182"/>
+<area shape="poly" id="edge10_Node000005_Node000009" title=" " alt="" coords="547,190,630,210,629,215,545,196"/>
+<area shape="poly" id="edge8_Node000006_Node000007" title=" " alt="" coords="757,176,804,176,804,182,757,182"/>
+<area shape="poly" id="edge9_Node000006_Node000008" title=" " alt="" coords="753,191,773,202,800,225,823,252,857,302,853,305,818,255,796,229,770,207,750,195"/>
+<area shape="poly" id="edge14_Node000010_Node000007" title=" " alt="" coords="525,365,638,320,705,288,770,253,808,227,841,200,845,204,812,231,773,257,707,293,640,325,527,370"/>
+<area shape="poly" id="edge15_Node000010_Node000008" title=" " alt="" coords="537,375,645,363,771,347,813,340,813,345,772,352,645,369,537,380"/>
+</map>

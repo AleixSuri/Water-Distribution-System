@@ -1,0 +1,5 @@
+<map id="NodeAixeta" name="NodeAixeta">
+<area shape="rect" id="Node000001" title="Node d&#39;una xarxa de distribució d&#39;aigua." alt="" coords="10,96,98,123"/>
+<area shape="rect" id="Node000002" href="$class_coordenades.html" title="Coordenades geogràfiques (latitud, longitud)" alt="" coords="5,5,103,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="57,48,57,95,51,95,51,48"/>
+</map>

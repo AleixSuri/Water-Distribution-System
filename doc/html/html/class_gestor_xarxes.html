@@ -1,0 +1,1343 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="ca">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.9.8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>BeWater: Referència de la Classe GestorXarxes</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectlogo"><img alt="Logo" src="BeWater 256.jpg"/></td>
+  <td id="projectalign">
+   <div id="projectname">BeWater
+   </div>
+   <div id="projectbrief">Be water, my friend - Bruce Lee</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generat per Doxygen 1.9.8 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','Cerca');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">Carregant...</div>
+<div class="SRStatus" id="Searching">Cercant...</div>
+<div class="SRStatus" id="NoMatches">Cap coincidència</div>
+</div>
+</div>
+</div>
+</div>
+
+</div><!-- top -->
+<div class="header">
+  <div class="summary">
+<a href="#pub-static-methods">Mètodes Públics Estàtics</a> &#124;
+<a href="#pri-static-methods">Mètodes Privats Estàtics</a> &#124;
+<a href="class_gestor_xarxes-members.html">Llista de tots els membres</a>  </div>
+  <div class="headertitle"><div class="title">Referència de la Classe GestorXarxes<span class="mlabels"><span class="mlabel">abstract</span></span></div></div>
+</div><!--header-->
+<div class="contents">
+
+<p>Mòdul funcional amb funcions per a la gestió de xarxes de distribució d'aigua.  
+ <a href="class_gestor_xarxes.html#details">Més...</a></p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
+Mètodes Públics Estàtics</h2></td></tr>
+<tr class="memitem:a51fa1439ecaabee3627f77eed9122ad3" id="r_a51fa1439ecaabee3627f77eed9122ad3"><td class="memItemLeft" align="right" valign="top">static boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_gestor_xarxes.html#a51fa1439ecaabee3627f77eed9122ad3">teCicles</a> (<a class="el" href="class_xarxa.html">Xarxa</a> x, <a class="el" href="class_origen.html">Origen</a> nodeOrigen)</td></tr>
+<tr class="memdesc:a51fa1439ecaabee3627f77eed9122ad3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Retornarà true si el sub graf creat a partir del node origen té cicles. Altrament retornarà false.  <br /></td></tr>
+<tr class="separator:a51fa1439ecaabee3627f77eed9122ad3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aef6c5c914fde2624b680c0cc1775a403" id="r_aef6c5c914fde2624b680c0cc1775a403"><td class="memItemLeft" align="right" valign="top">static boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_gestor_xarxes.html#aef6c5c914fde2624b680c0cc1775a403">esArbre</a> (<a class="el" href="class_xarxa.html">Xarxa</a> x, <a class="el" href="class_origen.html">Origen</a> nodeOrigen)</td></tr>
+<tr class="memdesc:aef6c5c914fde2624b680c0cc1775a403"><td class="mdescLeft">&#160;</td><td class="mdescRight">Retornarà true si el sub graf creat a partir del node <a class="el" href="class_origen.html" title="Node origen d&#39;una xarxa de distribució d&#39;aigua.">Origen</a> no té cicles i és connex.  <br /></td></tr>
+<tr class="separator:aef6c5c914fde2624b680c0cc1775a403"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad6c1adeced5adf43b6ac8be94abf68a0" id="r_ad6c1adeced5adf43b6ac8be94abf68a0"><td class="memItemLeft" align="right" valign="top">static float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_gestor_xarxes.html#ad6c1adeced5adf43b6ac8be94abf68a0">cabalMinim</a> (<a class="el" href="class_xarxa.html">Xarxa</a> x, <a class="el" href="class_origen.html">Origen</a> nodeOrigen, float percentatgeDemandaSatisfet)</td></tr>
+<tr class="memdesc:ad6c1adeced5adf43b6ac8be94abf68a0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Retorna el cabal mínim que hi hauria d’haver entre tots els nodes d’origen de la component connexa de la xarxa x que conté nodeOrigen, per tal que cap node terminal de la mateixa component, d'entre aquells on arribi aigua, no rebi menys d'un percentatgeDemandaSatisfet% de la seva demanda.  <br /></td></tr>
+<tr class="separator:ad6c1adeced5adf43b6ac8be94abf68a0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae878c285c51f0a76a2abb8de5fb75cfb" id="r_ae878c285c51f0a76a2abb8de5fb75cfb"><td class="memItemLeft" align="right" valign="top">static Set&lt; <a class="el" href="class_canonada.html">Canonada</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_gestor_xarxes.html#ae878c285c51f0a76a2abb8de5fb75cfb">excesCabal</a> (<a class="el" href="class_xarxa.html">Xarxa</a> x, <a class="el" href="class_origen.html">Origen</a> nodeOrigen, Set&lt; <a class="el" href="class_canonada.html">Canonada</a> &gt; cjtCanonades)</td></tr>
+<tr class="memdesc:ae878c285c51f0a76a2abb8de5fb75cfb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Retorna un set amb totes les canonades les quals tenen una demanda més gran que la seva capacitat màxima.  <br /></td></tr>
+<tr class="separator:ae878c285c51f0a76a2abb8de5fb75cfb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7d51af69de370700b78f51254bd900e2" id="r_a7d51af69de370700b78f51254bd900e2"><td class="memItemLeft" align="right" valign="top">static Set&lt; <a class="el" href="class_node_aixeta.html">NodeAixeta</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_gestor_xarxes.html#a7d51af69de370700b78f51254bd900e2">aixetesTancar</a> (<a class="el" href="class_xarxa.html">Xarxa</a> x, Map&lt; <a class="el" href="class_terminal.html">Terminal</a>, Boolean &gt; aiguaArriba)</td></tr>
+<tr class="memdesc:a7d51af69de370700b78f51254bd900e2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Retorna un set amb tots els nodes aixetes els quals estàn trencats o embossats (no passa aigua)  <br /></td></tr>
+<tr class="separator:a7d51af69de370700b78f51254bd900e2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad9edd2ee02d5fd240f09950e41093bab" id="r_ad9edd2ee02d5fd240f09950e41093bab"><td class="memItemLeft" align="right" valign="top">static List&lt; <a class="el" href="class_node_aixeta.html">NodeAixeta</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_gestor_xarxes.html#ad9edd2ee02d5fd240f09950e41093bab">nodesOrdenats</a> (<a class="el" href="class_coordenades.html">Coordenades</a> c, Set&lt; <a class="el" href="class_node_aixeta.html">NodeAixeta</a> &gt; cjtNodes)</td></tr>
+<tr class="memdesc:ad9edd2ee02d5fd240f09950e41093bab"><td class="mdescLeft">&#160;</td><td class="mdescRight">Retorna una llista amb tots els nodes de cjtNodes ordenats.  <br /></td></tr>
+<tr class="separator:ad9edd2ee02d5fd240f09950e41093bab"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a06132634b519e01136ad0f55d2664e93" id="r_a06132634b519e01136ad0f55d2664e93"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_gestor_xarxes.html#a06132634b519e01136ad0f55d2664e93">fluxMaxim</a> (<a class="el" href="class_xarxa.html">Xarxa</a> x, <a class="el" href="class_origen.html">Origen</a> nodeOrigen)</td></tr>
+<tr class="memdesc:a06132634b519e01136ad0f55d2664e93"><td class="mdescLeft">&#160;</td><td class="mdescRight">Dibuixa la xarxa x amb tots els cabals i capacitats de cada canonada i node juntament amb l'estat del node aixeta (obert/tancat)  <br /></td></tr>
+<tr class="separator:a06132634b519e01136ad0f55d2664e93"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-static-methods" name="pri-static-methods"></a>
+Mètodes Privats Estàtics</h2></td></tr>
+<tr class="memitem:ab78893a7b542bbce4397af1ebd18562e" id="r_ab78893a7b542bbce4397af1ebd18562e"><td class="memItemLeft" align="right" valign="top">static boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_gestor_xarxes.html#ab78893a7b542bbce4397af1ebd18562e">recorregutCicle</a> (<a class="el" href="class_node.html">Node</a> node, Set&lt; <a class="el" href="class_node.html">Node</a> &gt; visitats)</td></tr>
+<tr class="memdesc:ab78893a7b542bbce4397af1ebd18562e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Algoritme cicles.  <br /></td></tr>
+<tr class="separator:ab78893a7b542bbce4397af1ebd18562e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3ef76bc7aacab2d890734a3d13de7d92" id="r_a3ef76bc7aacab2d890734a3d13de7d92"><td class="memItemLeft" align="right" valign="top">static boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_gestor_xarxes.html#a3ef76bc7aacab2d890734a3d13de7d92">esConnex</a> (<a class="el" href="class_xarxa.html">Xarxa</a> x, <a class="el" href="class_origen.html">Origen</a> nodeOrigen)</td></tr>
+<tr class="memdesc:a3ef76bc7aacab2d890734a3d13de7d92"><td class="mdescLeft">&#160;</td><td class="mdescRight">Es Connex.  <br /></td></tr>
+<tr class="separator:a3ef76bc7aacab2d890734a3d13de7d92"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8dc25aca4b2f9592137eb651a6266b0d" id="r_a8dc25aca4b2f9592137eb651a6266b0d"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_gestor_xarxes.html#a8dc25aca4b2f9592137eb651a6266b0d">dfsConnex</a> (Graph graf, <a class="el" href="class_node.html">Node</a> node, Set&lt; <a class="el" href="class_node.html">Node</a> &gt; visitats)</td></tr>
+<tr class="memdesc:a8dc25aca4b2f9592137eb651a6266b0d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Algoritme DFS connex.  <br /></td></tr>
+<tr class="separator:a8dc25aca4b2f9592137eb651a6266b0d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab71282c05543f6f16daa313ea20c44fb" id="r_ab71282c05543f6f16daa313ea20c44fb"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_gestor_xarxes.html#ab71282c05543f6f16daa313ea20c44fb">eliminarFills</a> (Set&lt; <a class="el" href="class_node_aixeta.html">NodeAixeta</a> &gt; tancarAixetes, <a class="el" href="class_node_aixeta.html">NodeAixeta</a> aixeta, <a class="el" href="class_xarxa.html">Xarxa</a> x, Set&lt; <a class="el" href="class_node_aixeta.html">NodeAixeta</a> &gt; tancarAixetesFills)</td></tr>
+<tr class="memdesc:ab71282c05543f6f16daa313ea20c44fb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Guarda a tancarAixetesFills tots els nodes fills trobats des del node aixeta.  <br /></td></tr>
+<tr class="separator:ab71282c05543f6f16daa313ea20c44fb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa37ac2ac3dfd37f5738ec6a7f6b1a7ee" id="r_aa37ac2ac3dfd37f5738ec6a7f6b1a7ee"><td class="memItemLeft" align="right" valign="top">static Graph&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_gestor_xarxes.html#aa37ac2ac3dfd37f5738ec6a7f6b1a7ee">crearMaxFlow</a> (Graph graph, String idOrigen)</td></tr>
+<tr class="memdesc:aa37ac2ac3dfd37f5738ec6a7f6b1a7ee"><td class="mdescLeft">&#160;</td><td class="mdescRight">Crea un nou graf amb un sol node origen i un sol node terminal a partir del graf graph.  <br /></td></tr>
+<tr class="separator:aa37ac2ac3dfd37f5738ec6a7f6b1a7ee"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a177558746736df4eb42f9aff43e1c6ea" id="r_a177558746736df4eb42f9aff43e1c6ea"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_gestor_xarxes.html#a177558746736df4eb42f9aff43e1c6ea">crearPipe</a> (Graph maxFlow, <a class="el" href="class_node_aixeta.html">NodeAixeta</a> node1, <a class="el" href="class_node_aixeta.html">NodeAixeta</a> node2, <a class="el" href="class_canonada.html">Canonada</a> pipe)</td></tr>
+<tr class="memdesc:a177558746736df4eb42f9aff43e1c6ea"><td class="mdescLeft">&#160;</td><td class="mdescRight">Crea una pipe en el graph maxFlow.  <br /></td></tr>
+<tr class="separator:a177558746736df4eb42f9aff43e1c6ea"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac679c9ad0c436c0342f761d3f167bff7" id="r_ac679c9ad0c436c0342f761d3f167bff7"><td class="memItemLeft" align="right" valign="top">static float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_gestor_xarxes.html#ac679c9ad0c436c0342f761d3f167bff7">buscarCabalMaxim</a> (<a class="el" href="class_node_aixeta.html">NodeAixeta</a> nodeAixeta, float cabalPossible, Graph graph)</td></tr>
+<tr class="memdesc:ac679c9ad0c436c0342f761d3f167bff7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Retorna el flux màxim que pot donar el nodeAixeta. Com a màxim serà cabalPossible.  <br /></td></tr>
+<tr class="separator:ac679c9ad0c436c0342f761d3f167bff7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">Descripció Detallada</h2>
+<div class="textblock"><p>Mòdul funcional amb funcions per a la gestió de xarxes de distribució d'aigua. </p>
+<dl class="section author"><dt>Autor</dt><dd>Arnau Herrera </dd></dl>
+
+<p class="definition">Definició a la línia <a class="el" href="_gestor_xarxes_8java_source.html#l00014">14</a> del fitxer <a class="el" href="_gestor_xarxes_8java_source.html">GestorXarxes.java</a>.</p>
+</div><h2 class="groupheader">Documentació de les Funcions Membre</h2>
+<a id="a7d51af69de370700b78f51254bd900e2" name="a7d51af69de370700b78f51254bd900e2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7d51af69de370700b78f51254bd900e2">&#9670;&#160;</a></span>aixetesTancar()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static Set&lt; <a class="el" href="class_node_aixeta.html">NodeAixeta</a> &gt; GestorXarxes.aixetesTancar </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_xarxa.html">Xarxa</a>&#160;</td>
+          <td class="paramname"><em>x</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Map&lt; <a class="el" href="class_terminal.html">Terminal</a>, Boolean &gt;&#160;</td>
+          <td class="paramname"><em>aiguaArriba</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Retorna un set amb tots els nodes aixetes els quals estàn trencats o embossats (no passa aigua) </p>
+<dl class="section pre"><dt>Precondició</dt><dd>Tots els terminals de aiguaArriba pertanyen a la xarxa x, aiguaArriba.get(t) indica si arriba aigua a t i la xarxa x té forma d'arbre </dd></dl>
+<dl class="section post"><dt>Postcondició</dt><dd>Retorna el conjunt de nodes n de la xarxa x més propers (seguint la topologia) als terminals t de aiguaArriba, tals que per sota de n la situació actual de la xarxa és incoherent amb aiguaArriba </dd></dl>
+
+<p class="definition">Definició a la línia <a class="el" href="_gestor_xarxes_8java_source.html#l00175">175</a> del fitxer <a class="el" href="_gestor_xarxes_8java_source.html">GestorXarxes.java</a>.</p>
+<div class="dynheader">
+Gràfic de crides d'aquesta funció:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_gestor_xarxes_a7d51af69de370700b78f51254bd900e2_cgraph.png" border="0" usemap="#aclass_gestor_xarxes_a7d51af69de370700b78f51254bd900e2_cgraph" alt=""/></div>
+<map name="aclass_gestor_xarxes_a7d51af69de370700b78f51254bd900e2_cgraph" id="aclass_gestor_xarxes_a7d51af69de370700b78f51254bd900e2_cgraph">
+<area shape="rect" title="Retorna un set amb tots els nodes aixetes els quals estàn trencats o embossats (no passa aigua)" alt="" coords="5,56,190,83"/>
+<area shape="rect" href="class_node_aixeta.html#abc42af0213d387ddd4c03edec5770c62" title="Estat de l&#39;aixeta." alt="" coords="241,5,407,32"/>
+<area shape="poly" title=" " alt="" coords="160,53,246,33,247,39,161,58"/>
+<area shape="rect" href="class_gestor_xarxes.html#ab71282c05543f6f16daa313ea20c44fb" title="Guarda a tancarAixetesFills tots els nodes fills trobats des del node aixeta." alt="" coords="238,131,410,157"/>
+<area shape="poly" title=" " alt="" coords="141,81,267,123,266,128,140,86"/>
+<area shape="rect" href="class_xarxa.html#afe582745498e42a253c40f59f9b8c6ce" title="Entrades d&#39;un node." alt="" coords="464,56,571,83"/>
+<area shape="poly" title=" " alt="" coords="190,67,448,67,448,72,190,72"/>
+<area shape="poly" title=" " alt="" coords="291,132,285,122,289,112,302,106,324,104,347,107,359,113,357,118,345,112,324,109,304,111,293,116,290,121,295,129"/>
+<area shape="rect" href="class_canonada.html#a50c5156883999228c31c34eff8a84db9" title="Node sortida." alt="" coords="458,107,576,133"/>
+<area shape="poly" title=" " alt="" coords="410,131,442,127,443,132,411,136"/>
+<area shape="rect" href="class_xarxa.html#a02680efa33036bc4143db53170bd1e05" title="Sortides d&#39;un node." alt="" coords="466,157,569,184"/>
+<area shape="poly" title=" " alt="" coords="411,153,450,159,450,164,410,159"/>
+<area shape="rect" href="class_node_aixeta.html#a99b337749880eb596891234af8158b14" title="Identificador del node." alt="" coords="624,69,727,96"/>
+<area shape="poly" title=" " alt="" coords="551,154,575,143,641,103,643,107,578,148,554,159"/>
+<area shape="rect" href="class_xarxa.html#ac2fb01e420a9efe5d013da6c3d25e0b4" title="Node xarxa." alt="" coords="633,132,718,159"/>
+<area shape="poly" title=" " alt="" coords="569,160,617,152,618,157,570,165"/>
+<area shape="poly" title=" " alt="" coords="571,71,609,74,609,80,571,77"/>
+<area shape="poly" title=" " alt="" coords="552,81,577,92,636,122,634,127,575,97,550,86"/>
+</map>
+</div>
+<div class="dynheader">
+Gràfic de crides a aquesta funció:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_gestor_xarxes_a7d51af69de370700b78f51254bd900e2_icgraph.png" border="0" usemap="#aclass_gestor_xarxes_a7d51af69de370700b78f51254bd900e2_icgraph" alt=""/></div>
+<map name="aclass_gestor_xarxes_a7d51af69de370700b78f51254bd900e2_icgraph" id="aclass_gestor_xarxes_a7d51af69de370700b78f51254bd900e2_icgraph">
+<area shape="rect" title="Retorna un set amb tots els nodes aixetes els quals estàn trencats o embossats (no passa aigua)" alt="" coords="615,13,800,40"/>
+<area shape="rect" href="class_simulador_mode_text.html#a79ed3bf06a954d297b850b01f084740a" title="Va llegint i guardant terminals fins a trobar un nou case o fi de fitxer. Després crida GestorXarxes ..." alt="" coords="388,5,567,48"/>
+<area shape="poly" title=" " alt="" coords="600,29,568,29,568,24,600,24"/>
+<area shape="rect" href="class_simulador_mode_text.html#acf46c7460ef06bf77ae48ab3217c40f1" title="Processarà el fitxer de text, localitzant els nodes corresponents a la xarxa a partir dels seus ident..." alt="" coords="158,13,340,40"/>
+<area shape="poly" title=" " alt="" coords="373,29,341,29,341,24,373,24"/>
+<area shape="rect" href="class_be_water.html#aa8aad185395e8f524e8b46d8317e5590" title=" " alt="" coords="5,13,110,40"/>
+<area shape="poly" title=" " alt="" coords="142,29,110,29,110,24,142,24"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="ac679c9ad0c436c0342f761d3f167bff7" name="ac679c9ad0c436c0342f761d3f167bff7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac679c9ad0c436c0342f761d3f167bff7">&#9670;&#160;</a></span>buscarCabalMaxim()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static float GestorXarxes.buscarCabalMaxim </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_node_aixeta.html">NodeAixeta</a>&#160;</td>
+          <td class="paramname"><em>nodeAixeta</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>cabalPossible</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Graph&#160;</td>
+          <td class="paramname"><em>graph</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Retorna el flux màxim que pot donar el nodeAixeta. Com a màxim serà cabalPossible. </p>
+<dl class="section pre"><dt>Precondició</dt><dd>nodeAixeta pertany al graph </dd></dl>
+<dl class="section post"><dt>Postcondició</dt><dd>Gràcies a la recursivitat, va baixant per les arestes fins trobar la canonada més petita (capacitat) i acaba tornant la capacitat mínim de la línia del nodeAixeta. </dd></dl>
+
+<p class="definition">Definició a la línia <a class="el" href="_gestor_xarxes_8java_source.html#l00431">431</a> del fitxer <a class="el" href="_gestor_xarxes_8java_source.html">GestorXarxes.java</a>.</p>
+<div class="dynheader">
+Gràfic de crides d'aquesta funció:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_gestor_xarxes_ac679c9ad0c436c0342f761d3f167bff7_cgraph.png" border="0" usemap="#aclass_gestor_xarxes_ac679c9ad0c436c0342f761d3f167bff7_cgraph" alt=""/></div>
+<map name="aclass_gestor_xarxes_ac679c9ad0c436c0342f761d3f167bff7_cgraph" id="aclass_gestor_xarxes_ac679c9ad0c436c0342f761d3f167bff7_cgraph">
+<area shape="rect" title="Retorna el flux màxim que pot donar el nodeAixeta. Com a màxim serà cabalPossible." alt="" coords="5,48,181,91"/>
+<area shape="poly" title=" " alt="" coords="54,48,52,38,59,29,73,23,93,21,115,24,128,30,126,35,113,29,93,27,74,29,62,33,58,39,59,47"/>
+<area shape="rect" href="class_canonada.html#a0615873ebdfdf3b6f8e42c7267942890" title="Capacitat." alt="" coords="229,5,365,32"/>
+<area shape="poly" title=" " alt="" coords="180,45,225,34,226,39,181,50"/>
+<area shape="rect" href="class_node_aixeta.html#a99b337749880eb596891234af8158b14" title="Identificador del node." alt="" coords="246,56,348,83"/>
+<area shape="poly" title=" " alt="" coords="181,67,230,67,230,72,181,72"/>
+<area shape="rect" href="class_canonada.html#a50c5156883999228c31c34eff8a84db9" title="Node sortida." alt="" coords="238,107,356,133"/>
+<area shape="poly" title=" " alt="" coords="181,89,226,100,225,105,180,94"/>
+</map>
+</div>
+<div class="dynheader">
+Gràfic de crides a aquesta funció:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_gestor_xarxes_ac679c9ad0c436c0342f761d3f167bff7_icgraph.png" border="0" usemap="#aclass_gestor_xarxes_ac679c9ad0c436c0342f761d3f167bff7_icgraph" alt=""/></div>
+<map name="aclass_gestor_xarxes_ac679c9ad0c436c0342f761d3f167bff7_icgraph" id="aclass_gestor_xarxes_ac679c9ad0c436c0342f761d3f167bff7_icgraph">
+<area shape="rect" title="Retorna el flux màxim que pot donar el nodeAixeta. Com a màxim serà cabalPossible." alt="" coords="598,29,774,72"/>
+<area shape="poly" title=" " alt="" coords="721,16,708,10,686,8,666,10,653,15,648,21,650,28,645,29,643,19,650,10,664,5,686,3,709,5,723,11"/>
+<area shape="rect" href="class_gestor_xarxes.html#a06132634b519e01136ad0f55d2664e93" title="Dibuixa la xarxa x amb tots els cabals i capacitats de cada canonada i node juntament amb l&#39;estat del..." alt="" coords="388,37,550,64"/>
+<area shape="poly" title=" " alt="" coords="583,53,551,53,551,48,583,48"/>
+<area shape="poly" title=" " alt="" coords="506,24,493,18,469,16,446,18,434,23,431,28,437,35,433,38,426,29,430,19,445,13,469,11,495,13,509,20"/>
+<area shape="rect" href="class_simulador_mode_text.html#acf46c7460ef06bf77ae48ab3217c40f1" title="Processarà el fitxer de text, localitzant els nodes corresponents a la xarxa a partir dels seus ident..." alt="" coords="158,37,340,64"/>
+<area shape="poly" title=" " alt="" coords="372,53,341,53,341,48,372,48"/>
+<area shape="rect" href="class_be_water.html#aa8aad185395e8f524e8b46d8317e5590" title=" " alt="" coords="5,37,110,64"/>
+<area shape="poly" title=" " alt="" coords="142,53,110,53,110,48,142,48"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="ad6c1adeced5adf43b6ac8be94abf68a0" name="ad6c1adeced5adf43b6ac8be94abf68a0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad6c1adeced5adf43b6ac8be94abf68a0">&#9670;&#160;</a></span>cabalMinim()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static float GestorXarxes.cabalMinim </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_xarxa.html">Xarxa</a>&#160;</td>
+          <td class="paramname"><em>x</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="class_origen.html">Origen</a>&#160;</td>
+          <td class="paramname"><em>nodeOrigen</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>percentatgeDemandaSatisfet</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Retorna el cabal mínim que hi hauria d’haver entre tots els nodes d’origen de la component connexa de la xarxa x que conté nodeOrigen, per tal que cap node terminal de la mateixa component, d'entre aquells on arribi aigua, no rebi menys d'un percentatgeDemandaSatisfet% de la seva demanda. </p>
+<dl class="section pre"><dt>Precondició</dt><dd>nodeOrigen pertany a la xarxa x, la component connexa de la xarxa x que conté nodeOrigen no té cicles, i percentatgeDemandaSatisfet &gt; 0 </dd></dl>
+<dl class="section post"><dt>Postcondició</dt><dd>Retorna el cabal mínim del sub graf creat a partir del nodeOrigen </dd></dl>
+
+<p class="definition">Definició a la línia <a class="el" href="_gestor_xarxes_8java_source.html#l00118">118</a> del fitxer <a class="el" href="_gestor_xarxes_8java_source.html">GestorXarxes.java</a>.</p>
+<div class="dynheader">
+Gràfic de crides d'aquesta funció:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_gestor_xarxes_ad6c1adeced5adf43b6ac8be94abf68a0_cgraph.png" border="0" usemap="#aclass_gestor_xarxes_ad6c1adeced5adf43b6ac8be94abf68a0_cgraph" alt=""/></div>
+<map name="aclass_gestor_xarxes_ad6c1adeced5adf43b6ac8be94abf68a0_cgraph" id="aclass_gestor_xarxes_ad6c1adeced5adf43b6ac8be94abf68a0_cgraph">
+<area shape="rect" title="Retorna el cabal mínim que hi hauria d’haver entre tots els nodes d’origen de la component connexa de..." alt="" coords="5,223,175,250"/>
+<area shape="rect" href="class_node_aixeta.html#abc42af0213d387ddd4c03edec5770c62" title="Estat de l&#39;aixeta." alt="" coords="1026,36,1192,63"/>
+<area shape="poly" title=" " alt="" coords="114,220,163,194,222,166,289,140,358,122,446,102,537,87,716,65,880,53,1010,48,1011,53,880,58,717,70,537,92,447,108,360,127,291,145,224,171,165,198,116,225"/>
+<area shape="rect" href="class_xarxa.html#adaa9748254ce3c69078fb310c26240ad" title="Cabal teòric." alt="" coords="223,223,311,250"/>
+<area shape="poly" title=" " alt="" coords="175,234,207,234,207,239,175,239"/>
+<area shape="rect" href="class_xarxa.html#adcd8f7fb8f883a1d958b709bd4254ec3" title="Demanda teòrica." alt="" coords="855,71,965,98"/>
+<area shape="poly" title=" " alt="" coords="137,220,333,166,460,136,589,111,722,94,839,85,839,90,722,99,590,116,461,142,334,172,139,225"/>
+<area shape="rect" href="class_xarxa.html#ac2fb01e420a9efe5d013da6c3d25e0b4" title="Node xarxa." alt="" coords="1249,312,1334,339"/>
+<area shape="poly" title=" " alt="" coords="101,249,145,316,179,361,222,408,270,452,325,489,385,515,416,522,449,524,911,524,993,530,1059,537,1090,537,1121,532,1154,520,1191,500,1225,468,1251,429,1269,388,1281,353,1286,355,1274,390,1256,431,1229,472,1194,504,1156,525,1122,537,1090,542,1059,543,993,535,911,530,449,530,416,527,383,520,322,494,267,457,218,412,175,365,140,319,97,251"/>
+<area shape="rect" href="class_xarxa.html#ab7f455b274d613eef981f2189562901e" title="Crear SubGraf." alt="" coords="843,426,977,452"/>
+<area shape="poly" title=" " alt="" coords="108,248,149,282,209,326,281,370,320,389,360,404,421,421,485,433,612,447,731,448,827,444,828,449,731,454,612,452,484,439,420,426,358,410,318,394,279,375,206,331,146,286,105,252"/>
+<area shape="rect" href="class_xarxa.html#a2e7fcf2e1eb1a7ea77f2d40b8ac51495" title="Cabal canonada." alt="" coords="359,223,541,250"/>
+<area shape="poly" title=" " alt="" coords="312,242,343,243,343,248,311,247"/>
+<area shape="poly" title=" " alt="" coords="311,221,358,208,624,145,839,97,840,102,625,150,360,214,312,226"/>
+<area shape="rect" href="class_node_aixeta.html#a99b337749880eb596891234af8158b14" title="Identificador del node." alt="" coords="1240,186,1343,212"/>
+<area shape="poly" title=" " alt="" coords="282,221,316,195,358,170,453,128,536,97,611,75,682,59,833,39,1026,22,1074,14,1113,5,1150,5,1171,11,1194,22,1213,36,1230,53,1257,93,1275,134,1286,170,1281,171,1270,136,1252,95,1226,56,1210,40,1191,27,1169,16,1149,10,1113,10,1075,19,1026,27,833,44,683,64,612,80,538,102,455,133,360,175,319,199,285,225"/>
+<area shape="poly" title=" " alt="" coords="288,248,320,268,360,286,460,297,647,308,1026,323,1233,324,1233,329,1026,328,647,314,460,303,358,291,318,273,285,252"/>
+<area shape="rect" href="class_xarxa.html#afe582745498e42a253c40f59f9b8c6ce" title="Entrades d&#39;un node." alt="" coords="1056,287,1163,314"/>
+<area shape="poly" title=" " alt="" coords="311,248,359,259,552,283,743,295,913,299,1040,299,1040,304,913,305,743,300,551,288,359,264,310,253"/>
+<area shape="poly" title=" " alt="" coords="358,230,327,231,327,225,358,225"/>
+<area shape="rect" href="class_xarxa.html#a8e4fd4b92d7ed7b4dfa2721003bc1178" title="Demanda canonada." alt="" coords="589,172,794,199"/>
+<area shape="poly" title=" " alt="" coords="517,220,609,200,610,205,518,225"/>
+<area shape="rect" href="class_xarxa.html#a02680efa33036bc4143db53170bd1e05" title="Sortides d&#39;un node." alt="" coords="1058,186,1161,212"/>
+<area shape="poly" title=" " alt="" coords="514,248,590,259,692,265,793,259,926,239,1042,213,1043,219,927,244,794,264,692,271,589,264,514,253"/>
+<area shape="rect" href="class_canonada.html#add5baf3adf35132bc328f7f45b0bf3a7" title="Node entrada." alt="" coords="632,223,751,250"/>
+<area shape="poly" title=" " alt="" coords="542,234,617,234,617,239,542,239"/>
+<area shape="rect" href="class_canonada.html#a0615873ebdfdf3b6f8e42c7267942890" title="Capacitat." alt="" coords="842,172,978,199"/>
+<area shape="poly" title=" " alt="" coords="794,183,826,183,826,188,794,188"/>
+<area shape="poly" title=" " alt="" coords="781,170,792,163,806,153,816,142,825,131,840,119,877,102,879,107,843,124,829,135,820,146,810,157,795,168,783,174"/>
+<area shape="poly" title=" " alt="" coords="750,197,794,208,1047,280,1045,285,793,214,749,202"/>
+<area shape="rect" href="class_canonada.html#a50c5156883999228c31c34eff8a84db9" title="Node sortida." alt="" coords="851,122,969,148"/>
+<area shape="poly" title=" " alt="" coords="752,169,835,150,836,155,753,174"/>
+<area shape="poly" title=" " alt="" coords="965,72,1013,64,1014,69,966,77"/>
+<area shape="poly" title=" " alt="" coords="855,93,843,100,829,111,820,122,810,133,795,144,763,159,732,170,730,165,761,154,792,139,806,129,816,118,825,107,840,95,853,89"/>
+<area shape="poly" title=" " alt="" coords="958,96,1231,178,1229,183,956,101"/>
+<area shape="poly" title=" " alt="" coords="963,96,980,108,992,123,999,138,1004,167,1009,195,1016,209,1028,222,1048,238,1067,248,1104,256,1145,259,1193,273,1254,302,1252,307,1191,278,1144,265,1103,261,1065,253,1045,242,1024,226,1012,212,1004,197,999,168,994,139,988,126,976,112,960,100"/>
+<area shape="poly" title=" " alt="" coords="956,96,979,107,1004,128,1028,149,1070,175,1067,180,1024,153,1001,132,977,112,953,101"/>
+<area shape="poly" title=" " alt="" coords="1161,196,1225,196,1225,202,1161,202"/>
+<area shape="poly" title=" " alt="" coords="1157,211,1194,229,1237,263,1271,299,1267,302,1233,267,1191,233,1154,215"/>
+<area shape="poly" title=" " alt="" coords="1134,284,1251,218,1254,222,1136,289"/>
+<area shape="poly" title=" " alt="" coords="1164,305,1234,315,1233,320,1163,310"/>
+<area shape="poly" title=" " alt="" coords="969,423,1020,407,1077,386,1136,358,1191,324,1216,301,1239,275,1273,224,1277,227,1243,278,1220,304,1194,328,1139,363,1079,391,1022,412,971,428"/>
+<area shape="rect" href="class_xarxa.html#ae077535225c5cb5787a5c3af7c5d93d2" title="Copiar graf." alt="" coords="1053,463,1165,490"/>
+<area shape="poly" title=" " alt="" coords="977,449,1038,460,1037,466,976,454"/>
+<area shape="poly" title=" " alt="" coords="1131,460,1191,418,1266,348,1269,352,1194,422,1134,465"/>
+<area shape="poly" title=" " alt="" coords="1078,464,1072,454,1076,445,1089,439,1109,436,1131,439,1143,445,1140,450,1129,444,1109,442,1090,444,1080,448,1078,454,1082,461"/>
+</map>
+</div>
+<div class="dynheader">
+Gràfic de crides a aquesta funció:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_gestor_xarxes_ad6c1adeced5adf43b6ac8be94abf68a0_icgraph.png" border="0" usemap="#aclass_gestor_xarxes_ad6c1adeced5adf43b6ac8be94abf68a0_icgraph" alt=""/></div>
+<map name="aclass_gestor_xarxes_ad6c1adeced5adf43b6ac8be94abf68a0_icgraph" id="aclass_gestor_xarxes_ad6c1adeced5adf43b6ac8be94abf68a0_icgraph">
+<area shape="rect" title="Retorna el cabal mínim que hi hauria d’haver entre tots els nodes d’origen de la component connexa de..." alt="" coords="615,13,785,40"/>
+<area shape="rect" href="class_simulador_mode_text.html#a53cfc639a48b4b17ce1dd460214a342a" title="Llegeix el node Origen entrat pel reader i el percentatge de cabal. A partir d&#39;aquestes dades busca e..." alt="" coords="388,5,567,48"/>
+<area shape="poly" title=" " alt="" coords="600,29,568,29,568,24,600,24"/>
+<area shape="rect" href="class_simulador_mode_text.html#acf46c7460ef06bf77ae48ab3217c40f1" title="Processarà el fitxer de text, localitzant els nodes corresponents a la xarxa a partir dels seus ident..." alt="" coords="158,13,340,40"/>
+<area shape="poly" title=" " alt="" coords="373,29,341,29,341,24,373,24"/>
+<area shape="rect" href="class_be_water.html#aa8aad185395e8f524e8b46d8317e5590" title=" " alt="" coords="5,13,110,40"/>
+<area shape="poly" title=" " alt="" coords="142,29,110,29,110,24,142,24"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="aa37ac2ac3dfd37f5738ec6a7f6b1a7ee" name="aa37ac2ac3dfd37f5738ec6a7f6b1a7ee"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa37ac2ac3dfd37f5738ec6a7f6b1a7ee">&#9670;&#160;</a></span>crearMaxFlow()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static Graph GestorXarxes.crearMaxFlow </td>
+          <td>(</td>
+          <td class="paramtype">Graph&#160;</td>
+          <td class="paramname"><em>graph</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">String&#160;</td>
+          <td class="paramname"><em>idOrigen</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Crea un nou graf amb un sol node origen i un sol node terminal a partir del graf graph. </p>
+<dl class="section pre"><dt>Precondició</dt><dd>&ndash; </dd></dl>
+<dl class="section post"><dt>Postcondició</dt><dd>Retorna el graf graph, però amb només un origen i un terminal. </dd></dl>
+
+<p class="definition">Definició a la línia <a class="el" href="_gestor_xarxes_8java_source.html#l00296">296</a> del fitxer <a class="el" href="_gestor_xarxes_8java_source.html">GestorXarxes.java</a>.</p>
+<div class="dynheader">
+Gràfic de crides d'aquesta funció:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_gestor_xarxes_aa37ac2ac3dfd37f5738ec6a7f6b1a7ee_cgraph.png" border="0" usemap="#aclass_gestor_xarxes_aa37ac2ac3dfd37f5738ec6a7f6b1a7ee_cgraph" alt=""/></div>
+<map name="aclass_gestor_xarxes_aa37ac2ac3dfd37f5738ec6a7f6b1a7ee_cgraph" id="aclass_gestor_xarxes_aa37ac2ac3dfd37f5738ec6a7f6b1a7ee_cgraph">
+<area shape="rect" title="Crea un nou graf amb un sol node origen i un sol node terminal a partir del graf graph." alt="" coords="5,157,190,184"/>
+<area shape="rect" href="class_canonada.html#a0615873ebdfdf3b6f8e42c7267942890" title="Capacitat." alt="" coords="255,5,392,32"/>
+<area shape="poly" title=" " alt="" coords="108,155,160,100,196,69,236,42,248,36,251,40,239,46,199,73,164,104,112,158"/>
+<area shape="rect" href="class_gestor_xarxes.html#a177558746736df4eb42f9aff43e1c6ea" title="Crea una pipe en el graph maxFlow." alt="" coords="244,56,403,83"/>
+<area shape="poly" title=" " alt="" coords="123,154,237,99,268,86,270,91,239,104,126,159"/>
+<area shape="rect" href="class_node_aixeta.html#a99b337749880eb596891234af8158b14" title="Identificador del node." alt="" coords="457,81,559,108"/>
+<area shape="poly" title=" " alt="" coords="173,154,442,104,443,109,174,159"/>
+<area shape="rect" href="class_origen.html#ae368d55fb365f672fdda2f9b384b88f2" title="Establir Cabal." alt="" coords="254,157,393,184"/>
+<area shape="poly" title=" " alt="" coords="190,168,239,168,239,173,190,173"/>
+<area shape="rect" href="class_terminal.html#a7ed45a824a9fd4bc12cc23cde658e726" title="Estableix la demanda actual." alt="" coords="238,208,409,251"/>
+<area shape="poly" title=" " alt="" coords="152,182,224,201,223,206,151,187"/>
+<area shape="rect" href="class_canonada.html#add5baf3adf35132bc328f7f45b0bf3a7" title="Node entrada." alt="" coords="264,275,383,301"/>
+<area shape="poly" title=" " alt="" coords="118,183,170,221,239,260,254,267,252,272,236,265,167,225,115,187"/>
+<area shape="rect" href="class_canonada.html#a50c5156883999228c31c34eff8a84db9" title="Node sortida." alt="" coords="264,325,383,352"/>
+<area shape="poly" title=" " alt="" coords="110,183,161,244,197,280,239,311,251,317,248,322,236,316,194,284,157,248,106,186"/>
+<area shape="poly" title=" " alt="" coords="403,78,442,83,441,88,403,83"/>
+<area shape="rect" href="class_origen.html#a4519bdb1ab8f7f01d880ac6a4aca5014" title="Cabal." alt="" coords="461,157,555,184"/>
+<area shape="poly" title=" " alt="" coords="393,168,446,168,446,173,393,173"/>
+</map>
+</div>
+<div class="dynheader">
+Gràfic de crides a aquesta funció:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_gestor_xarxes_aa37ac2ac3dfd37f5738ec6a7f6b1a7ee_icgraph.png" border="0" usemap="#aclass_gestor_xarxes_aa37ac2ac3dfd37f5738ec6a7f6b1a7ee_icgraph" alt=""/></div>
+<map name="aclass_gestor_xarxes_aa37ac2ac3dfd37f5738ec6a7f6b1a7ee_icgraph" id="aclass_gestor_xarxes_aa37ac2ac3dfd37f5738ec6a7f6b1a7ee_icgraph">
+<area shape="rect" title="Crea un nou graf amb un sol node origen i un sol node terminal a partir del graf graph." alt="" coords="598,29,783,56"/>
+<area shape="rect" href="class_gestor_xarxes.html#a06132634b519e01136ad0f55d2664e93" title="Dibuixa la xarxa x amb tots els cabals i capacitats de cada canonada i node juntament amb l&#39;estat del..." alt="" coords="388,29,550,56"/>
+<area shape="poly" title=" " alt="" coords="583,45,551,45,551,40,583,40"/>
+<area shape="poly" title=" " alt="" coords="507,16,494,10,469,8,446,10,433,15,431,20,436,27,432,30,425,21,430,11,445,5,469,3,495,5,509,12"/>
+<area shape="rect" href="class_simulador_mode_text.html#acf46c7460ef06bf77ae48ab3217c40f1" title="Processarà el fitxer de text, localitzant els nodes corresponents a la xarxa a partir dels seus ident..." alt="" coords="158,29,340,56"/>
+<area shape="poly" title=" " alt="" coords="372,45,341,45,341,40,372,40"/>
+<area shape="rect" href="class_be_water.html#aa8aad185395e8f524e8b46d8317e5590" title=" " alt="" coords="5,29,110,56"/>
+<area shape="poly" title=" " alt="" coords="142,45,110,45,110,40,142,40"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a177558746736df4eb42f9aff43e1c6ea" name="a177558746736df4eb42f9aff43e1c6ea"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a177558746736df4eb42f9aff43e1c6ea">&#9670;&#160;</a></span>crearPipe()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void GestorXarxes.crearPipe </td>
+          <td>(</td>
+          <td class="paramtype">Graph&#160;</td>
+          <td class="paramname"><em>maxFlow</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="class_node_aixeta.html">NodeAixeta</a>&#160;</td>
+          <td class="paramname"><em>node1</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="class_node_aixeta.html">NodeAixeta</a>&#160;</td>
+          <td class="paramname"><em>node2</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="class_canonada.html">Canonada</a>&#160;</td>
+          <td class="paramname"><em>pipe</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Crea una pipe en el graph maxFlow. </p>
+<dl class="section pre"><dt>Precondició</dt><dd>nodesAixeta pertanyen al graph </dd></dl>
+<dl class="section post"><dt>Postcondició</dt><dd>Crea una pipe amb el nom dels ids dels nodes i es guarda al graph maxFlow </dd></dl>
+
+<p class="definition">Definició a la línia <a class="el" href="_gestor_xarxes_8java_source.html#l00420">420</a> del fitxer <a class="el" href="_gestor_xarxes_8java_source.html">GestorXarxes.java</a>.</p>
+<div class="dynheader">
+Gràfic de crides d'aquesta funció:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_gestor_xarxes_a177558746736df4eb42f9aff43e1c6ea_cgraph.png" border="0" usemap="#aclass_gestor_xarxes_a177558746736df4eb42f9aff43e1c6ea_cgraph" alt=""/></div>
+<map name="aclass_gestor_xarxes_a177558746736df4eb42f9aff43e1c6ea_cgraph" id="aclass_gestor_xarxes_a177558746736df4eb42f9aff43e1c6ea_cgraph">
+<area shape="rect" title="Crea una pipe en el graph maxFlow." alt="" coords="5,5,164,32"/>
+<area shape="rect" href="class_node_aixeta.html#a99b337749880eb596891234af8158b14" title="Identificador del node." alt="" coords="212,5,314,32"/>
+<area shape="poly" title=" " alt="" coords="164,16,196,16,196,21,164,21"/>
+</map>
+</div>
+<div class="dynheader">
+Gràfic de crides a aquesta funció:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_gestor_xarxes_a177558746736df4eb42f9aff43e1c6ea_icgraph.png" border="0" usemap="#aclass_gestor_xarxes_a177558746736df4eb42f9aff43e1c6ea_icgraph" alt=""/></div>
+<map name="aclass_gestor_xarxes_a177558746736df4eb42f9aff43e1c6ea_icgraph" id="aclass_gestor_xarxes_a177558746736df4eb42f9aff43e1c6ea_icgraph">
+<area shape="rect" title="Crea una pipe en el graph maxFlow." alt="" coords="831,29,989,56"/>
+<area shape="rect" href="class_gestor_xarxes.html#aa37ac2ac3dfd37f5738ec6a7f6b1a7ee" title="Crea un nou graf amb un sol node origen i un sol node terminal a partir del graf graph." alt="" coords="598,29,783,56"/>
+<area shape="poly" title=" " alt="" coords="815,45,783,45,783,40,815,40"/>
+<area shape="rect" href="class_gestor_xarxes.html#a06132634b519e01136ad0f55d2664e93" title="Dibuixa la xarxa x amb tots els cabals i capacitats de cada canonada i node juntament amb l&#39;estat del..." alt="" coords="388,29,550,56"/>
+<area shape="poly" title=" " alt="" coords="583,45,551,45,551,40,583,40"/>
+<area shape="poly" title=" " alt="" coords="507,16,494,10,469,8,446,10,433,15,431,20,436,27,432,30,425,21,430,11,445,5,469,3,495,5,509,12"/>
+<area shape="rect" href="class_simulador_mode_text.html#acf46c7460ef06bf77ae48ab3217c40f1" title="Processarà el fitxer de text, localitzant els nodes corresponents a la xarxa a partir dels seus ident..." alt="" coords="158,29,340,56"/>
+<area shape="poly" title=" " alt="" coords="372,45,341,45,341,40,372,40"/>
+<area shape="rect" href="class_be_water.html#aa8aad185395e8f524e8b46d8317e5590" title=" " alt="" coords="5,29,110,56"/>
+<area shape="poly" title=" " alt="" coords="142,45,110,45,110,40,142,40"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a8dc25aca4b2f9592137eb651a6266b0d" name="a8dc25aca4b2f9592137eb651a6266b0d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8dc25aca4b2f9592137eb651a6266b0d">&#9670;&#160;</a></span>dfsConnex()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void GestorXarxes.dfsConnex </td>
+          <td>(</td>
+          <td class="paramtype">Graph&#160;</td>
+          <td class="paramname"><em>graf</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="class_node.html">Node</a>&#160;</td>
+          <td class="paramname"><em>node</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Set&lt; <a class="el" href="class_node.html">Node</a> &gt;&#160;</td>
+          <td class="paramname"><em>visitats</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Algoritme DFS connex. </p>
+<dl class="section pre"><dt>Precondició</dt><dd>&mdash; </dd></dl>
+<dl class="section post"><dt>Postcondició</dt><dd>actualitza el Set visitats per dir si hi ha una component connexa </dd></dl>
+
+<p class="definition">Definició a la línia <a class="el" href="_gestor_xarxes_8java_source.html#l00099">99</a> del fitxer <a class="el" href="_gestor_xarxes_8java_source.html">GestorXarxes.java</a>.</p>
+<div class="dynheader">
+Gràfic de crides d'aquesta funció:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_gestor_xarxes_a8dc25aca4b2f9592137eb651a6266b0d_cgraph.png" border="0" usemap="#aclass_gestor_xarxes_a8dc25aca4b2f9592137eb651a6266b0d_cgraph" alt=""/></div>
+<map name="aclass_gestor_xarxes_a8dc25aca4b2f9592137eb651a6266b0d_cgraph" id="aclass_gestor_xarxes_a8dc25aca4b2f9592137eb651a6266b0d_cgraph">
+<area shape="rect" title="Algoritme DFS connex." alt="" coords="5,29,170,56"/>
+<area shape="poly" title=" " alt="" coords="59,30,54,21,58,11,69,5,88,3,107,5,118,12,115,16,106,10,87,8,71,10,62,15,59,20,64,28"/>
+</map>
+</div>
+<div class="dynheader">
+Gràfic de crides a aquesta funció:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_gestor_xarxes_a8dc25aca4b2f9592137eb651a6266b0d_icgraph.png" border="0" usemap="#aclass_gestor_xarxes_a8dc25aca4b2f9592137eb651a6266b0d_icgraph" alt=""/></div>
+<map name="aclass_gestor_xarxes_a8dc25aca4b2f9592137eb651a6266b0d_icgraph" id="aclass_gestor_xarxes_a8dc25aca4b2f9592137eb651a6266b0d_icgraph">
+<area shape="rect" title="Algoritme DFS connex." alt="" coords="1021,43,1185,69"/>
+<area shape="poly" title=" " alt="" coords="1139,30,1127,24,1103,21,1081,23,1069,28,1066,33,1072,41,1067,44,1061,34,1065,24,1080,18,1103,16,1128,19,1142,25"/>
+<area shape="rect" href="class_gestor_xarxes.html#a3ef76bc7aacab2d890734a3d13de7d92" title="Es Connex." alt="" coords="812,43,973,69"/>
+<area shape="poly" title=" " alt="" coords="1006,59,973,59,973,53,1006,53"/>
+<area shape="rect" href="class_gestor_xarxes.html#aef6c5c914fde2624b680c0cc1775a403" title="Retornarà true si el sub graf creat a partir del node Origen no té cicles i és connex." alt="" coords="615,43,764,69"/>
+<area shape="poly" title=" " alt="" coords="796,59,764,59,764,53,796,53"/>
+<area shape="rect" href="class_simulador_mode_text.html#a79ed3bf06a954d297b850b01f084740a" title="Va llegint i guardant terminals fins a trobar un nou case o fi de fitxer. Després crida GestorXarxes ..." alt="" coords="388,5,567,48"/>
+<area shape="poly" title=" " alt="" coords="600,46,568,42,568,36,601,41"/>
+<area shape="rect" href="class_simulador_mode_text.html#acf46c7460ef06bf77ae48ab3217c40f1" title="Processarà el fitxer de text, localitzant els nodes corresponents a la xarxa a partir dels seus ident..." alt="" coords="158,43,340,69"/>
+<area shape="poly" title=" " alt="" coords="600,62,567,63,388,63,341,62,341,56,388,57,567,57,599,57"/>
+<area shape="poly" title=" " alt="" coords="373,43,341,47,340,42,372,37"/>
+<area shape="rect" href="class_be_water.html#aa8aad185395e8f524e8b46d8317e5590" title=" " alt="" coords="5,43,110,69"/>
+<area shape="poly" title=" " alt="" coords="142,59,110,59,110,53,142,53"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="ab71282c05543f6f16daa313ea20c44fb" name="ab71282c05543f6f16daa313ea20c44fb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab71282c05543f6f16daa313ea20c44fb">&#9670;&#160;</a></span>eliminarFills()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void GestorXarxes.eliminarFills </td>
+          <td>(</td>
+          <td class="paramtype">Set&lt; <a class="el" href="class_node_aixeta.html">NodeAixeta</a> &gt;&#160;</td>
+          <td class="paramname"><em>tancarAixetes</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="class_node_aixeta.html">NodeAixeta</a>&#160;</td>
+          <td class="paramname"><em>aixeta</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="class_xarxa.html">Xarxa</a>&#160;</td>
+          <td class="paramname"><em>x</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Set&lt; <a class="el" href="class_node_aixeta.html">NodeAixeta</a> &gt;&#160;</td>
+          <td class="paramname"><em>tancarAixetesFills</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Guarda a tancarAixetesFills tots els nodes fills trobats des del node aixeta. </p>
+<dl class="section pre"><dt>Precondició</dt><dd>&ndash; </dd></dl>
+<dl class="section post"><dt>Postcondició</dt><dd>Omple tancarAixetesFills amb tots els nodes connexió inferiors al nodeAixeta aixeta </dd></dl>
+
+<p class="definition">Definició a la línia <a class="el" href="_gestor_xarxes_8java_source.html#l00208">208</a> del fitxer <a class="el" href="_gestor_xarxes_8java_source.html">GestorXarxes.java</a>.</p>
+<div class="dynheader">
+Gràfic de crides d'aquesta funció:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_gestor_xarxes_ab71282c05543f6f16daa313ea20c44fb_cgraph.png" border="0" usemap="#aclass_gestor_xarxes_ab71282c05543f6f16daa313ea20c44fb_cgraph" alt=""/></div>
+<map name="aclass_gestor_xarxes_ab71282c05543f6f16daa313ea20c44fb_cgraph" id="aclass_gestor_xarxes_ab71282c05543f6f16daa313ea20c44fb_cgraph">
+<area shape="rect" title="Guarda a tancarAixetesFills tots els nodes fills trobats des del node aixeta." alt="" coords="5,31,178,57"/>
+<area shape="poly" title=" " alt="" coords="59,32,53,22,57,12,70,6,92,4,115,7,127,13,124,18,113,12,91,9,71,11,61,16,58,21,63,29"/>
+<area shape="rect" href="class_canonada.html#a50c5156883999228c31c34eff8a84db9" title="Node sortida." alt="" coords="226,5,344,32"/>
+<area shape="poly" title=" " alt="" coords="178,30,210,26,210,31,178,35"/>
+<area shape="rect" href="class_xarxa.html#a02680efa33036bc4143db53170bd1e05" title="Sortides d&#39;un node." alt="" coords="233,56,337,83"/>
+<area shape="poly" title=" " alt="" coords="178,53,218,58,217,63,178,58"/>
+<area shape="rect" href="class_node_aixeta.html#a99b337749880eb596891234af8158b14" title="Identificador del node." alt="" coords="392,31,494,57"/>
+<area shape="poly" title=" " alt="" coords="337,58,377,52,378,57,338,64"/>
+<area shape="rect" href="class_xarxa.html#ac2fb01e420a9efe5d013da6c3d25e0b4" title="Node xarxa." alt="" coords="401,81,486,108"/>
+<area shape="poly" title=" " alt="" coords="338,75,385,83,385,88,337,80"/>
+</map>
+</div>
+<div class="dynheader">
+Gràfic de crides a aquesta funció:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_gestor_xarxes_ab71282c05543f6f16daa313ea20c44fb_icgraph.png" border="0" usemap="#aclass_gestor_xarxes_ab71282c05543f6f16daa313ea20c44fb_icgraph" alt=""/></div>
+<map name="aclass_gestor_xarxes_ab71282c05543f6f16daa313ea20c44fb_icgraph" id="aclass_gestor_xarxes_ab71282c05543f6f16daa313ea20c44fb_icgraph">
+<area shape="rect" title="Guarda a tancarAixetesFills tots els nodes fills trobats des del node aixeta." alt="" coords="848,29,1020,56"/>
+<area shape="poly" title=" " alt="" coords="973,17,959,10,934,8,910,10,897,15,894,20,900,27,896,30,889,21,894,11,909,5,934,3,961,5,975,12"/>
+<area shape="rect" href="class_gestor_xarxes.html#a7d51af69de370700b78f51254bd900e2" title="Retorna un set amb tots els nodes aixetes els quals estàn trencats o embossats (no passa aigua)" alt="" coords="615,29,800,56"/>
+<area shape="poly" title=" " alt="" coords="832,45,800,45,800,40,832,40"/>
+<area shape="rect" href="class_simulador_mode_text.html#a79ed3bf06a954d297b850b01f084740a" title="Va llegint i guardant terminals fins a trobar un nou case o fi de fitxer. Després crida GestorXarxes ..." alt="" coords="388,21,567,64"/>
+<area shape="poly" title=" " alt="" coords="600,45,568,45,568,40,600,40"/>
+<area shape="rect" href="class_simulador_mode_text.html#acf46c7460ef06bf77ae48ab3217c40f1" title="Processarà el fitxer de text, localitzant els nodes corresponents a la xarxa a partir dels seus ident..." alt="" coords="158,29,340,56"/>
+<area shape="poly" title=" " alt="" coords="373,45,341,45,341,40,373,40"/>
+<area shape="rect" href="class_be_water.html#aa8aad185395e8f524e8b46d8317e5590" title=" " alt="" coords="5,29,110,56"/>
+<area shape="poly" title=" " alt="" coords="142,45,110,45,110,40,142,40"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="aef6c5c914fde2624b680c0cc1775a403" name="aef6c5c914fde2624b680c0cc1775a403"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aef6c5c914fde2624b680c0cc1775a403">&#9670;&#160;</a></span>esArbre()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static boolean GestorXarxes.esArbre </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_xarxa.html">Xarxa</a>&#160;</td>
+          <td class="paramname"><em>x</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="class_origen.html">Origen</a>&#160;</td>
+          <td class="paramname"><em>nodeOrigen</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Retornarà true si el sub graf creat a partir del node <a class="el" href="class_origen.html" title="Node origen d&#39;una xarxa de distribució d&#39;aigua.">Origen</a> no té cicles i és connex. </p>
+<dl class="section pre"><dt>Precondició</dt><dd>nodeOrigen pertany a la xarxa x </dd></dl>
+<dl class="section post"><dt>Postcondició</dt><dd>Diu si la component connexa de la xarxa x que conté nodeOrigen és un arbre </dd></dl>
+
+<p class="definition">Definició a la línia <a class="el" href="_gestor_xarxes_8java_source.html#l00076">76</a> del fitxer <a class="el" href="_gestor_xarxes_8java_source.html">GestorXarxes.java</a>.</p>
+<div class="dynheader">
+Gràfic de crides d'aquesta funció:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_gestor_xarxes_aef6c5c914fde2624b680c0cc1775a403_cgraph.png" border="0" usemap="#aclass_gestor_xarxes_aef6c5c914fde2624b680c0cc1775a403_cgraph" alt=""/></div>
+<map name="aclass_gestor_xarxes_aef6c5c914fde2624b680c0cc1775a403_cgraph" id="aclass_gestor_xarxes_aef6c5c914fde2624b680c0cc1775a403_cgraph">
+<area shape="rect" title="Retornarà true si el sub graf creat a partir del node Origen no té cicles i és connex." alt="" coords="5,80,154,107"/>
+<area shape="rect" href="class_gestor_xarxes.html#a3ef76bc7aacab2d890734a3d13de7d92" title="Es Connex." alt="" coords="202,55,363,81"/>
+<area shape="poly" title=" " alt="" coords="154,81,186,77,186,83,155,87"/>
+<area shape="rect" href="class_gestor_xarxes.html#a51fa1439ecaabee3627f77eed9122ad3" title="Retornarà true si el sub graf creat a partir del node origen té cicles. Altrament retornarà false." alt="" coords="207,105,358,132"/>
+<area shape="poly" title=" " alt="" coords="155,100,192,105,191,110,154,105"/>
+<area shape="rect" href="class_xarxa.html#ab7f455b274d613eef981f2189562901e" title="Crear SubGraf." alt="" coords="440,80,573,107"/>
+<area shape="poly" title=" " alt="" coords="364,74,424,81,424,87,363,80"/>
+<area shape="rect" href="class_gestor_xarxes.html#a8dc25aca4b2f9592137eb651a6266b0d" title="Algoritme DFS connex." alt="" coords="424,29,588,56"/>
+<area shape="poly" title=" " alt="" coords="363,56,408,51,409,56,364,62"/>
+<area shape="rect" href="class_xarxa.html#ae077535225c5cb5787a5c3af7c5d93d2" title="Copiar graf." alt="" coords="649,55,762,81"/>
+<area shape="poly" title=" " alt="" coords="573,82,634,74,634,80,573,88"/>
+<area shape="rect" href="class_node_aixeta.html#a99b337749880eb596891234af8158b14" title="Identificador del node." alt="" coords="654,105,757,132"/>
+<area shape="poly" title=" " alt="" coords="573,99,639,108,639,113,573,104"/>
+<area shape="poly" title=" " alt="" coords="680,55,675,46,678,36,689,30,706,28,723,31,733,37,730,42,721,36,705,33,691,35,683,40,681,46,685,53"/>
+<area shape="rect" href="class_xarxa.html#ac2fb01e420a9efe5d013da6c3d25e0b4" title="Node xarxa." alt="" coords="810,55,895,81"/>
+<area shape="poly" title=" " alt="" coords="762,65,794,65,794,71,762,71"/>
+<area shape="poly" title=" " alt="" coords="472,30,466,21,470,11,484,5,506,3,530,5,543,12,540,16,528,10,506,8,485,10,474,15,472,20,477,27"/>
+<area shape="poly" title=" " alt="" coords="358,108,424,100,425,105,358,113"/>
+<area shape="rect" href="class_gestor_xarxes.html#ab78893a7b542bbce4397af1ebd18562e" title="Algoritme cicles." alt="" coords="411,155,601,181"/>
+<area shape="poly" title=" " alt="" coords="346,130,428,148,427,153,345,135"/>
+<area shape="poly" title=" " alt="" coords="472,156,466,146,470,136,484,130,506,128,530,131,543,137,540,142,528,136,506,133,485,135,474,140,472,145,477,153"/>
+</map>
+</div>
+<div class="dynheader">
+Gràfic de crides a aquesta funció:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_gestor_xarxes_aef6c5c914fde2624b680c0cc1775a403_icgraph.png" border="0" usemap="#aclass_gestor_xarxes_aef6c5c914fde2624b680c0cc1775a403_icgraph" alt=""/></div>
+<map name="aclass_gestor_xarxes_aef6c5c914fde2624b680c0cc1775a403_icgraph" id="aclass_gestor_xarxes_aef6c5c914fde2624b680c0cc1775a403_icgraph">
+<area shape="rect" title="Retornarà true si el sub graf creat a partir del node Origen no té cicles i és connex." alt="" coords="615,43,764,69"/>
+<area shape="rect" href="class_simulador_mode_text.html#a79ed3bf06a954d297b850b01f084740a" title="Va llegint i guardant terminals fins a trobar un nou case o fi de fitxer. Després crida GestorXarxes ..." alt="" coords="388,5,567,48"/>
+<area shape="poly" title=" " alt="" coords="600,46,568,42,568,36,601,41"/>
+<area shape="rect" href="class_simulador_mode_text.html#acf46c7460ef06bf77ae48ab3217c40f1" title="Processarà el fitxer de text, localitzant els nodes corresponents a la xarxa a partir dels seus ident..." alt="" coords="158,43,340,69"/>
+<area shape="poly" title=" " alt="" coords="600,62,567,63,388,63,341,62,341,56,388,57,567,57,599,57"/>
+<area shape="poly" title=" " alt="" coords="373,43,341,47,340,42,372,37"/>
+<area shape="rect" href="class_be_water.html#aa8aad185395e8f524e8b46d8317e5590" title=" " alt="" coords="5,43,110,69"/>
+<area shape="poly" title=" " alt="" coords="142,59,110,59,110,53,142,53"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a3ef76bc7aacab2d890734a3d13de7d92" name="a3ef76bc7aacab2d890734a3d13de7d92"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3ef76bc7aacab2d890734a3d13de7d92">&#9670;&#160;</a></span>esConnex()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static boolean GestorXarxes.esConnex </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_xarxa.html">Xarxa</a>&#160;</td>
+          <td class="paramname"><em>x</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="class_origen.html">Origen</a>&#160;</td>
+          <td class="paramname"><em>nodeOrigen</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Es Connex. </p>
+<dl class="section pre"><dt>Precondició</dt><dd>&mdash; </dd></dl>
+<dl class="section post"><dt>Postcondició</dt><dd>retorna true si el graf es connex a partir d'un algoritme dfs </dd></dl>
+
+<p class="definition">Definició a la línia <a class="el" href="_gestor_xarxes_8java_source.html#l00086">86</a> del fitxer <a class="el" href="_gestor_xarxes_8java_source.html">GestorXarxes.java</a>.</p>
+<div class="dynheader">
+Gràfic de crides d'aquesta funció:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_gestor_xarxes_a3ef76bc7aacab2d890734a3d13de7d92_cgraph.png" border="0" usemap="#aclass_gestor_xarxes_a3ef76bc7aacab2d890734a3d13de7d92_cgraph" alt=""/></div>
+<map name="aclass_gestor_xarxes_a3ef76bc7aacab2d890734a3d13de7d92_cgraph" id="aclass_gestor_xarxes_a3ef76bc7aacab2d890734a3d13de7d92_cgraph">
+<area shape="rect" title="Es Connex." alt="" coords="5,92,167,119"/>
+<area shape="rect" href="class_xarxa.html#ab7f455b274d613eef981f2189562901e" title="Crear SubGraf." alt="" coords="230,55,364,81"/>
+<area shape="poly" title=" " alt="" coords="164,89,214,80,215,85,165,94"/>
+<area shape="rect" href="class_gestor_xarxes.html#a8dc25aca4b2f9592137eb651a6266b0d" title="Algoritme DFS connex." alt="" coords="215,129,379,156"/>
+<area shape="poly" title=" " alt="" coords="165,117,203,123,202,129,164,122"/>
+<area shape="rect" href="class_xarxa.html#ae077535225c5cb5787a5c3af7c5d93d2" title="Copiar graf." alt="" coords="427,29,539,56"/>
+<area shape="poly" title=" " alt="" coords="364,56,412,50,412,55,364,62"/>
+<area shape="rect" href="class_node_aixeta.html#a99b337749880eb596891234af8158b14" title="Identificador del node." alt="" coords="432,80,534,107"/>
+<area shape="poly" title=" " alt="" coords="364,74,417,82,416,87,364,80"/>
+<area shape="poly" title=" " alt="" coords="457,30,453,21,456,11,466,5,483,3,501,5,511,12,508,16,499,10,483,8,468,10,460,14,458,20,462,28"/>
+<area shape="rect" href="class_xarxa.html#ac2fb01e420a9efe5d013da6c3d25e0b4" title="Node xarxa." alt="" coords="587,29,673,56"/>
+<area shape="poly" title=" " alt="" coords="540,40,571,40,571,45,540,45"/>
+<area shape="poly" title=" " alt="" coords="265,130,259,121,263,111,276,105,297,103,319,105,331,112,328,116,318,110,297,108,277,110,267,115,265,120,269,127"/>
+</map>
+</div>
+<div class="dynheader">
+Gràfic de crides a aquesta funció:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_gestor_xarxes_a3ef76bc7aacab2d890734a3d13de7d92_icgraph.png" border="0" usemap="#aclass_gestor_xarxes_a3ef76bc7aacab2d890734a3d13de7d92_icgraph" alt=""/></div>
+<map name="aclass_gestor_xarxes_a3ef76bc7aacab2d890734a3d13de7d92_icgraph" id="aclass_gestor_xarxes_a3ef76bc7aacab2d890734a3d13de7d92_icgraph">
+<area shape="rect" title="Es Connex." alt="" coords="812,43,973,69"/>
+<area shape="rect" href="class_gestor_xarxes.html#aef6c5c914fde2624b680c0cc1775a403" title="Retornarà true si el sub graf creat a partir del node Origen no té cicles i és connex." alt="" coords="615,43,764,69"/>
+<area shape="poly" title=" " alt="" coords="796,59,764,59,764,53,796,53"/>
+<area shape="rect" href="class_simulador_mode_text.html#a79ed3bf06a954d297b850b01f084740a" title="Va llegint i guardant terminals fins a trobar un nou case o fi de fitxer. Després crida GestorXarxes ..." alt="" coords="388,5,567,48"/>
+<area shape="poly" title=" " alt="" coords="600,46,568,42,568,36,601,41"/>
+<area shape="rect" href="class_simulador_mode_text.html#acf46c7460ef06bf77ae48ab3217c40f1" title="Processarà el fitxer de text, localitzant els nodes corresponents a la xarxa a partir dels seus ident..." alt="" coords="158,43,340,69"/>
+<area shape="poly" title=" " alt="" coords="600,62,567,63,388,63,341,62,341,56,388,57,567,57,599,57"/>
+<area shape="poly" title=" " alt="" coords="373,43,341,47,340,42,372,37"/>
+<area shape="rect" href="class_be_water.html#aa8aad185395e8f524e8b46d8317e5590" title=" " alt="" coords="5,43,110,69"/>
+<area shape="poly" title=" " alt="" coords="142,59,110,59,110,53,142,53"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="ae878c285c51f0a76a2abb8de5fb75cfb" name="ae878c285c51f0a76a2abb8de5fb75cfb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae878c285c51f0a76a2abb8de5fb75cfb">&#9670;&#160;</a></span>excesCabal()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static Set&lt; <a class="el" href="class_canonada.html">Canonada</a> &gt; GestorXarxes.excesCabal </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_xarxa.html">Xarxa</a>&#160;</td>
+          <td class="paramname"><em>x</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="class_origen.html">Origen</a>&#160;</td>
+          <td class="paramname"><em>nodeOrigen</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Set&lt; <a class="el" href="class_canonada.html">Canonada</a> &gt;&#160;</td>
+          <td class="paramname"><em>cjtCanonades</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Retorna un set amb totes les canonades les quals tenen una demanda més gran que la seva capacitat màxima. </p>
+<dl class="section pre"><dt>Precondició</dt><dd>nodeOrigen pertany a la xarxa x, la component connexa de la xarxa x que conté nodeOrigen no té cicles, i les canonades de cjtCanonades pertanyen a aquesta component </dd></dl>
+<dl class="section post"><dt>Postcondició</dt><dd>Retorna el subconjunt de canonades de cjtCanonades tals que, si es satisfés la demanda de tots els nodes terminals de la mateixa component, es sobrepassaria la seva capacitat </dd></dl>
+
+<p class="definition">Definició a la línia <a class="el" href="_gestor_xarxes_8java_source.html#l00141">141</a> del fitxer <a class="el" href="_gestor_xarxes_8java_source.html">GestorXarxes.java</a>.</p>
+<div class="dynheader">
+Gràfic de crides d'aquesta funció:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_gestor_xarxes_ae878c285c51f0a76a2abb8de5fb75cfb_cgraph.png" border="0" usemap="#aclass_gestor_xarxes_ae878c285c51f0a76a2abb8de5fb75cfb_cgraph" alt=""/></div>
+<map name="aclass_gestor_xarxes_ae878c285c51f0a76a2abb8de5fb75cfb_cgraph" id="aclass_gestor_xarxes_ae878c285c51f0a76a2abb8de5fb75cfb_cgraph">
+<area shape="rect" title="Retorna un set amb totes les canonades les quals tenen una demanda més gran que la seva capacitat màx..." alt="" coords="5,191,177,218"/>
+<area shape="rect" href="class_canonada.html#a0615873ebdfdf3b6f8e42c7267942890" title="Capacitat." alt="" coords="635,115,772,142"/>
+<area shape="poly" title=" " alt="" coords="106,188,150,152,215,105,295,59,338,40,382,25,439,10,486,3,532,7,588,25,618,39,644,59,685,101,681,105,640,63,615,44,586,30,531,13,486,8,440,15,384,30,340,45,298,64,218,110,153,157,110,193"/>
+<area shape="rect" href="class_xarxa.html#adcd8f7fb8f883a1d958b709bd4254ec3" title="Demanda teòrica." alt="" coords="225,166,335,192"/>
+<area shape="poly" title=" " alt="" coords="177,190,209,186,210,191,178,195"/>
+<area shape="rect" href="class_canonada.html#a50c5156883999228c31c34eff8a84db9" title="Node sortida." alt="" coords="644,216,763,243"/>
+<area shape="poly" title=" " alt="" coords="177,205,628,224,628,229,177,211"/>
+<area shape="rect" href="class_xarxa.html#a02680efa33036bc4143db53170bd1e05" title="Sortides d&#39;un node." alt="" coords="434,368,537,395"/>
+<area shape="poly" title=" " alt="" coords="118,216,232,277,307,313,384,347,421,361,419,366,382,352,304,318,229,281,116,221"/>
+<area shape="rect" href="class_node_aixeta.html#abc42af0213d387ddd4c03edec5770c62" title="Estat de l&#39;aixeta." alt="" coords="402,39,568,66"/>
+<area shape="poly" title=" " alt="" coords="291,163,328,123,354,101,382,82,409,69,412,74,384,87,357,106,332,127,294,167"/>
+<area shape="rect" href="class_xarxa.html#a8e4fd4b92d7ed7b4dfa2721003bc1178" title="Demanda canonada." alt="" coords="383,166,587,192"/>
+<area shape="poly" title=" " alt="" coords="336,184,367,185,367,191,335,190"/>
+<area shape="rect" href="class_node_aixeta.html#a99b337749880eb596891234af8158b14" title="Identificador del node." alt="" coords="820,166,922,192"/>
+<area shape="poly" title=" " alt="" coords="309,163,390,130,445,112,506,97,572,85,639,81,707,85,773,101,815,124,849,153,846,157,812,128,771,106,706,90,639,86,572,91,507,102,447,117,392,135,311,168"/>
+<area shape="rect" href="class_xarxa.html#ac2fb01e420a9efe5d013da6c3d25e0b4" title="Node xarxa." alt="" coords="828,318,914,344"/>
+<area shape="poly" title=" " alt="" coords="336,190,814,314,812,319,334,196"/>
+<area shape="poly" title=" " alt="" coords="288,192,300,224,320,266,348,310,385,348,420,366,418,371,381,352,344,313,316,268,295,226,283,194"/>
+<area shape="poly" title=" " alt="" coords="545,162,627,143,629,148,547,168"/>
+<area shape="poly" title=" " alt="" coords="382,173,351,173,351,168,382,167"/>
+<area shape="rect" href="class_xarxa.html#afe582745498e42a253c40f59f9b8c6ce" title="Entrades d&#39;un node." alt="" coords="650,166,757,192"/>
+<area shape="poly" title=" " alt="" coords="587,176,634,176,634,182,587,182"/>
+<area shape="poly" title=" " alt="" coords="547,190,630,210,629,215,545,196"/>
+<area shape="poly" title=" " alt="" coords="757,176,804,176,804,182,757,182"/>
+<area shape="poly" title=" " alt="" coords="753,191,773,202,800,225,823,252,857,302,853,305,818,255,796,229,770,207,750,195"/>
+<area shape="poly" title=" " alt="" coords="525,365,638,320,705,288,770,253,808,227,841,200,845,204,812,231,773,257,707,293,640,325,527,370"/>
+<area shape="poly" title=" " alt="" coords="537,375,645,363,771,347,813,340,813,345,772,352,645,369,537,380"/>
+</map>
+</div>
+<div class="dynheader">
+Gràfic de crides a aquesta funció:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_gestor_xarxes_ae878c285c51f0a76a2abb8de5fb75cfb_icgraph.png" border="0" usemap="#aclass_gestor_xarxes_ae878c285c51f0a76a2abb8de5fb75cfb_icgraph" alt=""/></div>
+<map name="aclass_gestor_xarxes_ae878c285c51f0a76a2abb8de5fb75cfb_icgraph" id="aclass_gestor_xarxes_ae878c285c51f0a76a2abb8de5fb75cfb_icgraph">
+<area shape="rect" title="Retorna un set amb totes les canonades les quals tenen una demanda més gran que la seva capacitat màx..." alt="" coords="615,13,787,40"/>
+<area shape="rect" href="class_simulador_mode_text.html#a53f4b8fe49e91f63d2979b9829277423" title="Va llegint terminals i es van guardant tots els que tenen excés amb la crida de la funció de GestorXa..." alt="" coords="388,5,567,48"/>
+<area shape="poly" title=" " alt="" coords="600,29,568,29,568,24,600,24"/>
+<area shape="rect" href="class_simulador_mode_text.html#acf46c7460ef06bf77ae48ab3217c40f1" title="Processarà el fitxer de text, localitzant els nodes corresponents a la xarxa a partir dels seus ident..." alt="" coords="158,13,340,40"/>
+<area shape="poly" title=" " alt="" coords="373,29,341,29,341,24,373,24"/>
+<area shape="rect" href="class_be_water.html#aa8aad185395e8f524e8b46d8317e5590" title=" " alt="" coords="5,13,110,40"/>
+<area shape="poly" title=" " alt="" coords="142,29,110,29,110,24,142,24"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a06132634b519e01136ad0f55d2664e93" name="a06132634b519e01136ad0f55d2664e93"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a06132634b519e01136ad0f55d2664e93">&#9670;&#160;</a></span>fluxMaxim()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void GestorXarxes.fluxMaxim </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_xarxa.html">Xarxa</a>&#160;</td>
+          <td class="paramname"><em>x</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="class_origen.html">Origen</a>&#160;</td>
+          <td class="paramname"><em>nodeOrigen</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Dibuixa la xarxa x amb tots els cabals i capacitats de cada canonada i node juntament amb l'estat del node aixeta (obert/tancat) </p>
+<dl class="section pre"><dt>Precondició</dt><dd>nodeOrigen pertany a la xarxa x </dd></dl>
+<dl class="section post"><dt>Postcondició</dt><dd>Dibuixa el flux màxim que pot circular per la xarxa x, tenint en compte la capacitat de les canonades </dd></dl>
+
+<p class="definition">Definició a la línia <a class="el" href="_gestor_xarxes_8java_source.html#l00266">266</a> del fitxer <a class="el" href="_gestor_xarxes_8java_source.html">GestorXarxes.java</a>.</p>
+<div class="dynheader">
+Gràfic de crides d'aquesta funció:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_gestor_xarxes_a06132634b519e01136ad0f55d2664e93_cgraph.png" border="0" usemap="#aclass_gestor_xarxes_a06132634b519e01136ad0f55d2664e93_cgraph" alt=""/></div>
+<map name="aclass_gestor_xarxes_a06132634b519e01136ad0f55d2664e93_cgraph" id="aclass_gestor_xarxes_a06132634b519e01136ad0f55d2664e93_cgraph">
+<area shape="rect" title="Dibuixa la xarxa x amb tots els cabals i capacitats de cada canonada i node juntament amb l&#39;estat del..." alt="" coords="5,149,168,176"/>
+<area shape="poly" title=" " alt="" coords="49,151,42,141,47,131,62,125,87,123,113,125,127,132,124,137,111,130,86,128,63,130,51,135,48,140,53,147"/>
+<area shape="rect" href="class_gestor_xarxes.html#ac679c9ad0c436c0342f761d3f167bff7" title="Retorna el flux màxim que pot donar el nodeAixeta. Com a màxim serà cabalPossible." alt="" coords="220,57,396,100"/>
+<area shape="poly" title=" " alt="" coords="123,146,235,104,236,109,125,151"/>
+<area shape="rect" href="class_canonada.html#a0615873ebdfdf3b6f8e42c7267942890" title="Capacitat." alt="" coords="466,75,602,101"/>
+<area shape="poly" title=" " alt="" coords="168,147,400,109,450,101,451,106,400,115,169,153"/>
+<area shape="rect" href="class_node_aixeta.html#a99b337749880eb596891234af8158b14" title="Identificador del node." alt="" coords="667,176,770,203"/>
+<area shape="poly" title=" " alt="" coords="93,147,110,118,137,82,172,46,214,19,241,9,264,4,305,5,348,13,400,19,463,15,514,7,539,6,564,8,591,16,621,31,654,58,679,93,698,128,711,160,706,162,693,131,675,96,650,62,618,36,589,21,563,14,539,11,515,12,464,20,400,24,347,18,305,11,265,10,242,14,217,24,175,50,141,86,115,121,97,150"/>
+<area shape="rect" href="class_canonada.html#a50c5156883999228c31c34eff8a84db9" title="Node sortida." alt="" coords="475,125,593,152"/>
+<area shape="poly" title=" " alt="" coords="168,161,278,159,400,153,459,147,459,152,400,159,278,165,168,166"/>
+<area shape="rect" href="class_gestor_xarxes.html#aa37ac2ac3dfd37f5738ec6a7f6b1a7ee" title="Crea un nou graf amb un sol node origen i un sol node terminal a partir del graf graph." alt="" coords="216,225,400,252"/>
+<area shape="poly" title=" " alt="" coords="129,174,253,217,251,222,127,179"/>
+<area shape="rect" href="class_xarxa.html#ab7f455b274d613eef981f2189562901e" title="Crear SubGraf." alt="" coords="241,445,375,472"/>
+<area shape="poly" title=" " alt="" coords="100,175,289,431,285,434,96,178"/>
+<area shape="poly" title=" " alt="" coords="266,57,264,47,271,38,286,33,308,31,332,33,346,39,344,44,330,38,308,36,287,38,274,43,269,49,271,56"/>
+<area shape="poly" title=" " alt="" coords="396,80,450,82,450,87,396,85"/>
+<area shape="poly" title=" " alt="" coords="377,54,432,43,494,37,559,41,591,48,621,60,650,81,674,107,707,161,703,163,670,110,647,85,618,65,589,54,558,46,495,42,433,48,378,59"/>
+<area shape="poly" title=" " alt="" coords="391,98,467,118,465,123,390,103"/>
+<area shape="poly" title=" " alt="" coords="322,223,446,111,459,105,461,110,450,116,326,227"/>
+<area shape="poly" title=" " alt="" coords="325,251,377,293,411,314,449,330,497,344,536,351,574,348,618,330,649,307,673,277,692,245,705,216,710,218,697,247,678,280,652,311,621,334,575,353,536,356,495,349,447,335,409,319,374,297,322,255"/>
+<area shape="poly" title=" " alt="" coords="359,222,399,204,413,194,422,183,432,173,447,162,459,156,462,160,449,166,435,177,426,187,416,198,401,209,361,227"/>
+<area shape="rect" href="class_gestor_xarxes.html#a177558746736df4eb42f9aff43e1c6ea" title="Crea una pipe en el graph maxFlow." alt="" coords="455,176,613,203"/>
+<area shape="poly" title=" " alt="" coords="371,222,454,204,455,209,373,227"/>
+<area shape="rect" href="class_origen.html#ae368d55fb365f672fdda2f9b384b88f2" title="Establir Cabal." alt="" coords="465,395,603,421"/>
+<area shape="poly" title=" " alt="" coords="322,251,373,309,409,343,449,374,473,386,470,391,447,378,406,347,369,313,318,254"/>
+<area shape="rect" href="class_terminal.html#a7ed45a824a9fd4bc12cc23cde658e726" title="Estableix la demanda actual." alt="" coords="448,227,619,269"/>
+<area shape="poly" title=" " alt="" coords="401,240,432,241,432,247,400,245"/>
+<area shape="rect" href="class_canonada.html#add5baf3adf35132bc328f7f45b0bf3a7" title="Node entrada." alt="" coords="475,293,593,320"/>
+<area shape="poly" title=" " alt="" coords="355,250,449,279,473,286,471,291,447,284,353,255"/>
+<area shape="poly" title=" " alt="" coords="613,187,652,187,652,192,613,192"/>
+<area shape="rect" href="class_origen.html#a4519bdb1ab8f7f01d880ac6a4aca5014" title="Cabal." alt="" coords="671,395,766,421"/>
+<area shape="poly" title=" " alt="" coords="603,405,656,405,656,411,603,411"/>
+<area shape="poly" title=" " alt="" coords="375,469,432,475,496,473,560,460,590,448,618,431,641,410,661,384,677,355,689,325,705,266,712,218,718,218,710,267,694,327,682,357,665,387,645,413,621,436,593,453,562,465,496,479,432,480,375,475"/>
+<area shape="rect" href="class_xarxa.html#ae077535225c5cb5787a5c3af7c5d93d2" title="Copiar graf." alt="" coords="478,520,590,547"/>
+<area shape="poly" title=" " alt="" coords="351,470,477,512,476,517,350,475"/>
+<area shape="poly" title=" " alt="" coords="502,521,496,511,500,502,513,496,534,493,556,496,568,502,565,507,554,501,534,499,514,501,504,505,502,511,507,518"/>
+<area shape="rect" href="class_xarxa.html#ac2fb01e420a9efe5d013da6c3d25e0b4" title="Node xarxa." alt="" coords="676,520,761,547"/>
+<area shape="poly" title=" " alt="" coords="590,531,661,531,661,536,590,536"/>
+</map>
+</div>
+<div class="dynheader">
+Gràfic de crides a aquesta funció:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_gestor_xarxes_a06132634b519e01136ad0f55d2664e93_icgraph.png" border="0" usemap="#aclass_gestor_xarxes_a06132634b519e01136ad0f55d2664e93_icgraph" alt=""/></div>
+<map name="aclass_gestor_xarxes_a06132634b519e01136ad0f55d2664e93_icgraph" id="aclass_gestor_xarxes_a06132634b519e01136ad0f55d2664e93_icgraph">
+<area shape="rect" title="Dibuixa la xarxa x amb tots els cabals i capacitats de cada canonada i node juntament amb l&#39;estat del..." alt="" coords="388,29,550,56"/>
+<area shape="poly" title=" " alt="" coords="507,16,494,10,469,8,446,10,433,15,431,20,436,27,432,30,425,21,430,11,445,5,469,3,495,5,509,12"/>
+<area shape="rect" href="class_simulador_mode_text.html#acf46c7460ef06bf77ae48ab3217c40f1" title="Processarà el fitxer de text, localitzant els nodes corresponents a la xarxa a partir dels seus ident..." alt="" coords="158,29,340,56"/>
+<area shape="poly" title=" " alt="" coords="372,45,341,45,341,40,372,40"/>
+<area shape="rect" href="class_be_water.html#aa8aad185395e8f524e8b46d8317e5590" title=" " alt="" coords="5,29,110,56"/>
+<area shape="poly" title=" " alt="" coords="142,45,110,45,110,40,142,40"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="ad9edd2ee02d5fd240f09950e41093bab" name="ad9edd2ee02d5fd240f09950e41093bab"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad9edd2ee02d5fd240f09950e41093bab">&#9670;&#160;</a></span>nodesOrdenats()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static List&lt; <a class="el" href="class_node_aixeta.html">NodeAixeta</a> &gt; GestorXarxes.nodesOrdenats </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_coordenades.html">Coordenades</a>&#160;</td>
+          <td class="paramname"><em>c</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Set&lt; <a class="el" href="class_node_aixeta.html">NodeAixeta</a> &gt;&#160;</td>
+          <td class="paramname"><em>cjtNodes</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Retorna una llista amb tots els nodes de cjtNodes ordenats. </p>
+<dl class="section pre"><dt>Precondició</dt><dd>&ndash; </dd></dl>
+<dl class="section post"><dt>Postcondició</dt><dd>Retorna una llista amb els nodes de cjtNodes ordenats segons la seva distància a c i, en cas d'empat, en ordre alfabètic dels seus identificadors </dd></dl>
+
+<p class="definition">Definició a la línia <a class="el" href="_gestor_xarxes_8java_source.html#l00234">234</a> del fitxer <a class="el" href="_gestor_xarxes_8java_source.html">GestorXarxes.java</a>.</p>
+<div class="dynheader">
+Gràfic de crides d'aquesta funció:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_gestor_xarxes_ad9edd2ee02d5fd240f09950e41093bab_cgraph.png" border="0" usemap="#aclass_gestor_xarxes_ad9edd2ee02d5fd240f09950e41093bab_cgraph" alt=""/></div>
+<map name="aclass_gestor_xarxes_ad9edd2ee02d5fd240f09950e41093bab_cgraph" id="aclass_gestor_xarxes_ad9edd2ee02d5fd240f09950e41093bab_cgraph">
+<area shape="rect" title="Retorna una llista amb tots els nodes de cjtNodes ordenats." alt="" coords="5,31,197,57"/>
+<area shape="rect" href="class_node_aixeta.html#a804fd738681b48f8bd30fa0054c826e5" title="Coordenades del node." alt="" coords="245,5,411,32"/>
+<area shape="poly" title=" " alt="" coords="196,31,229,27,230,32,197,36"/>
+<area shape="rect" href="class_coordenades.html#af0623aa8643efc99b90f77622392d6a5" title="Distancia entre coordenades." alt="" coords="251,56,405,83"/>
+<area shape="poly" title=" " alt="" coords="197,52,236,56,235,62,196,57"/>
+</map>
+</div>
+<div class="dynheader">
+Gràfic de crides a aquesta funció:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_gestor_xarxes_ad9edd2ee02d5fd240f09950e41093bab_icgraph.png" border="0" usemap="#aclass_gestor_xarxes_ad9edd2ee02d5fd240f09950e41093bab_icgraph" alt=""/></div>
+<map name="aclass_gestor_xarxes_ad9edd2ee02d5fd240f09950e41093bab_icgraph" id="aclass_gestor_xarxes_ad9edd2ee02d5fd240f09950e41093bab_icgraph">
+<area shape="rect" title="Retorna una llista amb tots els nodes de cjtNodes ordenats." alt="" coords="615,13,807,40"/>
+<area shape="rect" href="class_simulador_mode_text.html#af4c662e40a59d5df8334cf2db36e1b59" title="Va llegint i guardant nodes aixetes fins a trobar un nou case o fi de fitxer. Després crida GestorXar..." alt="" coords="388,5,567,48"/>
+<area shape="poly" title=" " alt="" coords="600,29,568,29,568,24,600,24"/>
+<area shape="rect" href="class_simulador_mode_text.html#acf46c7460ef06bf77ae48ab3217c40f1" title="Processarà el fitxer de text, localitzant els nodes corresponents a la xarxa a partir dels seus ident..." alt="" coords="158,13,340,40"/>
+<area shape="poly" title=" " alt="" coords="373,29,341,29,341,24,373,24"/>
+<area shape="rect" href="class_be_water.html#aa8aad185395e8f524e8b46d8317e5590" title=" " alt="" coords="5,13,110,40"/>
+<area shape="poly" title=" " alt="" coords="142,29,110,29,110,24,142,24"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="ab78893a7b542bbce4397af1ebd18562e" name="ab78893a7b542bbce4397af1ebd18562e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab78893a7b542bbce4397af1ebd18562e">&#9670;&#160;</a></span>recorregutCicle()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static boolean GestorXarxes.recorregutCicle </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_node.html">Node</a>&#160;</td>
+          <td class="paramname"><em>node</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Set&lt; <a class="el" href="class_node.html">Node</a> &gt;&#160;</td>
+          <td class="paramname"><em>visitats</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Algoritme cicles. </p>
+<dl class="section pre"><dt>Precondició</dt><dd>&mdash; </dd></dl>
+<dl class="section post"><dt>Postcondició</dt><dd>Retorna true si el graf conté un cicle a partir d'un algoritme que recorre cada node adjacent, false altrament </dd></dl>
+
+<p class="definition">Definició a la línia <a class="el" href="_gestor_xarxes_8java_source.html#l00045">45</a> del fitxer <a class="el" href="_gestor_xarxes_8java_source.html">GestorXarxes.java</a>.</p>
+<div class="dynheader">
+Gràfic de crides d'aquesta funció:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_gestor_xarxes_ab78893a7b542bbce4397af1ebd18562e_cgraph.png" border="0" usemap="#aclass_gestor_xarxes_ab78893a7b542bbce4397af1ebd18562e_cgraph" alt=""/></div>
+<map name="aclass_gestor_xarxes_ab78893a7b542bbce4397af1ebd18562e_cgraph" id="aclass_gestor_xarxes_ab78893a7b542bbce4397af1ebd18562e_cgraph">
+<area shape="rect" title="Algoritme cicles." alt="" coords="5,29,196,56"/>
+<area shape="poly" title=" " alt="" coords="68,30,62,21,66,11,79,5,101,3,123,5,135,12,133,16,122,10,100,8,81,10,70,15,68,20,73,27"/>
+</map>
+</div>
+<div class="dynheader">
+Gràfic de crides a aquesta funció:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_gestor_xarxes_ab78893a7b542bbce4397af1ebd18562e_icgraph.png" border="0" usemap="#aclass_gestor_xarxes_ab78893a7b542bbce4397af1ebd18562e_icgraph" alt=""/></div>
+<map name="aclass_gestor_xarxes_ab78893a7b542bbce4397af1ebd18562e_icgraph" id="aclass_gestor_xarxes_ab78893a7b542bbce4397af1ebd18562e_icgraph">
+<area shape="rect" title="Algoritme cicles." alt="" coords="1041,152,1231,179"/>
+<area shape="poly" title=" " alt="" coords="1174,139,1161,133,1136,131,1113,133,1101,137,1098,143,1104,150,1099,153,1093,143,1097,133,1112,127,1136,125,1162,128,1176,134"/>
+<area shape="rect" href="class_gestor_xarxes.html#a51fa1439ecaabee3627f77eed9122ad3" title="Retornarà true si el sub graf creat a partir del node origen té cicles. Altrament retornarà false." alt="" coords="843,152,993,179"/>
+<area shape="poly" title=" " alt="" coords="1026,168,993,168,993,163,1026,163"/>
+<area shape="rect" href="class_gestor_xarxes.html#aef6c5c914fde2624b680c0cc1775a403" title="Retornarà true si el sub graf creat a partir del node Origen no té cicles i és connex." alt="" coords="631,72,779,99"/>
+<area shape="poly" title=" " alt="" coords="867,148,794,120,745,102,746,97,796,115,869,143"/>
+<area shape="rect" href="class_simulador_mode_text.html#acf46c7460ef06bf77ae48ab3217c40f1" title="Processarà el fitxer de text, localitzant els nodes corresponents a la xarxa a partir dels seus ident..." alt="" coords="158,123,340,149"/>
+<area shape="poly" title=" " alt="" coords="827,164,340,143,341,137,827,159"/>
+<area shape="rect" href="class_simulador_mode_text.html#a53cfc639a48b4b17ce1dd460214a342a" title="Llegeix el node Origen entrat pel reader i el percentatge de cabal. A partir d&#39;aquestes dades busca e..." alt="" coords="615,173,795,216"/>
+<area shape="poly" title=" " alt="" coords="828,180,796,185,795,180,827,175"/>
+<area shape="rect" href="class_simulador_mode_text.html#a53f4b8fe49e91f63d2979b9829277423" title="Va llegint terminals i es van guardant tots els que tenen excés amb la crida de la funció de GestorXa..." alt="" coords="388,229,567,272"/>
+<area shape="poly" title=" " alt="" coords="885,189,843,212,795,231,737,243,678,251,568,256,568,251,677,246,736,238,794,225,841,207,882,185"/>
+<area shape="rect" href="class_simulador_mode_text.html#a79ed3bf06a954d297b850b01f084740a" title="Va llegint i guardant terminals fins a trobar un nou case o fi de fitxer. Després crida GestorXarxes ..." alt="" coords="388,5,567,48"/>
+<area shape="poly" title=" " alt="" coords="635,70,562,51,564,46,637,65"/>
+<area shape="poly" title=" " alt="" coords="615,96,388,120,341,126,340,121,388,115,615,91"/>
+<area shape="poly" title=" " alt="" coords="415,57,389,69,278,125,276,120,387,64,413,52"/>
+<area shape="rect" href="class_be_water.html#aa8aad185395e8f524e8b46d8317e5590" title=" " alt="" coords="5,123,110,149"/>
+<area shape="poly" title=" " alt="" coords="142,139,110,139,110,133,142,133"/>
+<area shape="poly" title=" " alt="" coords="600,184,388,157,340,151,341,146,388,152,600,179"/>
+<area shape="poly" title=" " alt="" coords="417,224,387,209,276,152,278,148,389,204,420,220"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a51fa1439ecaabee3627f77eed9122ad3" name="a51fa1439ecaabee3627f77eed9122ad3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a51fa1439ecaabee3627f77eed9122ad3">&#9670;&#160;</a></span>teCicles()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static boolean GestorXarxes.teCicles </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_xarxa.html">Xarxa</a>&#160;</td>
+          <td class="paramname"><em>x</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="class_origen.html">Origen</a>&#160;</td>
+          <td class="paramname"><em>nodeOrigen</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Retornarà true si el sub graf creat a partir del node origen té cicles. Altrament retornarà false. </p>
+<dl class="section pre"><dt>Precondició</dt><dd>nodeOrigen pertany a la xarxa x </dd></dl>
+<dl class="section post"><dt>Postcondició</dt><dd>Diu si la component connexa de la xarxa x que conté nodeOrigen té cicles </dd></dl>
+
+<p class="definition">Definició a la línia <a class="el" href="_gestor_xarxes_8java_source.html#l00020">20</a> del fitxer <a class="el" href="_gestor_xarxes_8java_source.html">GestorXarxes.java</a>.</p>
+<div class="dynheader">
+Gràfic de crides d'aquesta funció:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_gestor_xarxes_a51fa1439ecaabee3627f77eed9122ad3_cgraph.png" border="0" usemap="#aclass_gestor_xarxes_a51fa1439ecaabee3627f77eed9122ad3_cgraph" alt=""/></div>
+<map name="aclass_gestor_xarxes_a51fa1439ecaabee3627f77eed9122ad3_cgraph" id="aclass_gestor_xarxes_a51fa1439ecaabee3627f77eed9122ad3_cgraph">
+<area shape="rect" title="Retornarà true si el sub graf creat a partir del node origen té cicles. Altrament retornarà false." alt="" coords="5,92,156,119"/>
+<area shape="rect" href="class_xarxa.html#ab7f455b274d613eef981f2189562901e" title="Crear SubGraf." alt="" coords="232,55,366,81"/>
+<area shape="poly" title=" " alt="" coords="156,90,216,79,217,85,157,95"/>
+<area shape="rect" href="class_gestor_xarxes.html#ab78893a7b542bbce4397af1ebd18562e" title="Algoritme cicles." alt="" coords="204,129,394,156"/>
+<area shape="poly" title=" " alt="" coords="157,116,203,124,202,129,156,121"/>
+<area shape="rect" href="class_xarxa.html#ae077535225c5cb5787a5c3af7c5d93d2" title="Copiar graf." alt="" coords="442,29,554,56"/>
+<area shape="poly" title=" " alt="" coords="365,57,426,49,427,54,366,62"/>
+<area shape="rect" href="class_node_aixeta.html#a99b337749880eb596891234af8158b14" title="Identificador del node." alt="" coords="447,80,549,107"/>
+<area shape="poly" title=" " alt="" coords="366,74,432,82,431,88,365,79"/>
+<area shape="poly" title=" " alt="" coords="472,30,468,21,471,11,481,5,498,3,516,5,526,12,523,16,514,10,498,8,483,10,475,14,473,20,477,28"/>
+<area shape="rect" href="class_xarxa.html#ac2fb01e420a9efe5d013da6c3d25e0b4" title="Node xarxa." alt="" coords="602,29,688,56"/>
+<area shape="poly" title=" " alt="" coords="555,40,586,40,586,45,555,45"/>
+<area shape="poly" title=" " alt="" coords="265,130,259,121,263,111,277,105,299,103,323,105,335,112,333,116,321,110,299,108,278,110,267,115,264,120,269,127"/>
+</map>
+</div>
+<div class="dynheader">
+Gràfic de crides a aquesta funció:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_gestor_xarxes_a51fa1439ecaabee3627f77eed9122ad3_icgraph.png" border="0" usemap="#aclass_gestor_xarxes_a51fa1439ecaabee3627f77eed9122ad3_icgraph" alt=""/></div>
+<map name="aclass_gestor_xarxes_a51fa1439ecaabee3627f77eed9122ad3_icgraph" id="aclass_gestor_xarxes_a51fa1439ecaabee3627f77eed9122ad3_icgraph">
+<area shape="rect" title="Retornarà true si el sub graf creat a partir del node origen té cicles. Altrament retornarà false." alt="" coords="843,152,993,179"/>
+<area shape="rect" href="class_gestor_xarxes.html#aef6c5c914fde2624b680c0cc1775a403" title="Retornarà true si el sub graf creat a partir del node Origen no té cicles i és connex." alt="" coords="631,72,779,99"/>
+<area shape="poly" title=" " alt="" coords="867,148,794,120,745,102,746,97,796,115,869,143"/>
+<area shape="rect" href="class_simulador_mode_text.html#acf46c7460ef06bf77ae48ab3217c40f1" title="Processarà el fitxer de text, localitzant els nodes corresponents a la xarxa a partir dels seus ident..." alt="" coords="158,123,340,149"/>
+<area shape="poly" title=" " alt="" coords="827,164,340,143,341,137,827,159"/>
+<area shape="rect" href="class_simulador_mode_text.html#a53cfc639a48b4b17ce1dd460214a342a" title="Llegeix el node Origen entrat pel reader i el percentatge de cabal. A partir d&#39;aquestes dades busca e..." alt="" coords="615,173,795,216"/>
+<area shape="poly" title=" " alt="" coords="828,180,796,185,795,180,827,175"/>
+<area shape="rect" href="class_simulador_mode_text.html#a53f4b8fe49e91f63d2979b9829277423" title="Va llegint terminals i es van guardant tots els que tenen excés amb la crida de la funció de GestorXa..." alt="" coords="388,229,567,272"/>
+<area shape="poly" title=" " alt="" coords="885,189,843,212,795,231,737,243,678,251,568,256,568,251,677,246,736,238,794,225,841,207,882,185"/>
+<area shape="rect" href="class_simulador_mode_text.html#a79ed3bf06a954d297b850b01f084740a" title="Va llegint i guardant terminals fins a trobar un nou case o fi de fitxer. Després crida GestorXarxes ..." alt="" coords="388,5,567,48"/>
+<area shape="poly" title=" " alt="" coords="635,70,562,51,564,46,637,65"/>
+<area shape="poly" title=" " alt="" coords="615,96,388,120,341,126,340,121,388,115,615,91"/>
+<area shape="poly" title=" " alt="" coords="415,57,389,69,278,125,276,120,387,64,413,52"/>
+<area shape="rect" href="class_be_water.html#aa8aad185395e8f524e8b46d8317e5590" title=" " alt="" coords="5,123,110,149"/>
+<area shape="poly" title=" " alt="" coords="142,139,110,139,110,133,142,133"/>
+<area shape="poly" title=" " alt="" coords="600,184,388,157,340,151,341,146,388,152,600,179"/>
+<area shape="poly" title=" " alt="" coords="417,224,387,209,276,152,278,148,389,204,420,220"/>
+</map>
+</div>
+
+</div>
+</div>
+<hr/>La documentació d'aquesta classe es va generar a partir del següent fitxer:<ul>
+<li>C:/Users/aleix/projects/projPro/proj/ij/projecte-d7/src/<a class="el" href="_gestor_xarxes_8java_source.html">GestorXarxes.java</a></li>
+</ul>
+</div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Generat per&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
+</small></address>
+</body>
+</html>

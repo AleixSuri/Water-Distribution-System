@@ -1,0 +1,7 @@
+<map id="GestorXarxes.nodesOrdenats" name="GestorXarxes.nodesOrdenats">
+<area shape="rect" id="Node000001" title="Retorna una llista amb tots els nodes de cjtNodes ordenats." alt="" coords="5,31,197,57"/>
+<area shape="rect" id="Node000002" href="$class_node_aixeta.html#a804fd738681b48f8bd30fa0054c826e5" title="Coordenades del node." alt="" coords="245,5,411,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="196,31,229,27,230,32,197,36"/>
+<area shape="rect" id="Node000003" href="$class_coordenades.html#af0623aa8643efc99b90f77622392d6a5" title="Distancia entre coordenades." alt="" coords="251,56,405,83"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="197,52,236,56,235,62,196,57"/>
+</map>

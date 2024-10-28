@@ -1,0 +1,23 @@
+<map id="GestorXarxes.esArbre" name="GestorXarxes.esArbre">
+<area shape="rect" id="Node000001" title="Retornarà true si el sub graf creat a partir del node Origen no té cicles i és connex." alt="" coords="5,80,154,107"/>
+<area shape="rect" id="Node000002" href="$class_gestor_xarxes.html#a3ef76bc7aacab2d890734a3d13de7d92" title="Es Connex." alt="" coords="202,55,363,81"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="154,81,186,77,186,83,155,87"/>
+<area shape="rect" id="Node000008" href="$class_gestor_xarxes.html#a51fa1439ecaabee3627f77eed9122ad3" title="Retornarà true si el sub graf creat a partir del node origen té cicles. Altrament retornarà false." alt="" coords="207,105,358,132"/>
+<area shape="poly" id="edge9_Node000001_Node000008" title=" " alt="" coords="155,100,192,105,191,110,154,105"/>
+<area shape="rect" id="Node000003" href="$class_xarxa.html#ab7f455b274d613eef981f2189562901e" title="Crear SubGraf." alt="" coords="440,80,573,107"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="364,74,424,81,424,87,363,80"/>
+<area shape="rect" id="Node000007" href="$class_gestor_xarxes.html#a8dc25aca4b2f9592137eb651a6266b0d" title="Algoritme DFS connex." alt="" coords="424,29,588,56"/>
+<area shape="poly" id="edge7_Node000002_Node000007" title=" " alt="" coords="363,56,408,51,409,56,364,62"/>
+<area shape="rect" id="Node000004" href="$class_xarxa.html#ae077535225c5cb5787a5c3af7c5d93d2" title="Copiar graf." alt="" coords="649,55,762,81"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="573,82,634,74,634,80,573,88"/>
+<area shape="rect" id="Node000006" href="$class_node_aixeta.html#a99b337749880eb596891234af8158b14" title="Identificador del node." alt="" coords="654,105,757,132"/>
+<area shape="poly" id="edge6_Node000003_Node000006" title=" " alt="" coords="573,99,639,108,639,113,573,104"/>
+<area shape="poly" id="edge4_Node000004_Node000004" title=" " alt="" coords="680,55,675,46,678,36,689,30,706,28,723,31,733,37,730,42,721,36,705,33,691,35,683,40,681,46,685,53"/>
+<area shape="rect" id="Node000005" href="$class_xarxa.html#ac2fb01e420a9efe5d013da6c3d25e0b4" title="Node xarxa." alt="" coords="810,55,895,81"/>
+<area shape="poly" id="edge5_Node000004_Node000005" title=" " alt="" coords="762,65,794,65,794,71,762,71"/>
+<area shape="poly" id="edge8_Node000007_Node000007" title=" " alt="" coords="472,30,466,21,470,11,484,5,506,3,530,5,543,12,540,16,528,10,506,8,485,10,474,15,472,20,477,27"/>
+<area shape="poly" id="edge10_Node000008_Node000003" title=" " alt="" coords="358,108,424,100,425,105,358,113"/>
+<area shape="rect" id="Node000009" href="$class_gestor_xarxes.html#ab78893a7b542bbce4397af1ebd18562e" title="Algoritme cicles." alt="" coords="411,155,601,181"/>
+<area shape="poly" id="edge11_Node000008_Node000009" title=" " alt="" coords="346,130,428,148,427,153,345,135"/>
+<area shape="poly" id="edge12_Node000009_Node000009" title=" " alt="" coords="472,156,466,146,470,136,484,130,506,128,530,131,543,137,540,142,528,136,506,133,485,135,474,140,472,145,477,153"/>
+</map>

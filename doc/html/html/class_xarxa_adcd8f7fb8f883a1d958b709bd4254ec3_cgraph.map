@@ -1,0 +1,24 @@
+<map id="Xarxa.demanda" name="Xarxa.demanda">
+<area shape="rect" id="Node000001" title="Demanda teòrica." alt="" coords="5,157,116,184"/>
+<area shape="rect" id="Node000002" href="$class_node_aixeta.html#abc42af0213d387ddd4c03edec5770c62" title="Estat de l&#39;aixeta." alt="" coords="183,5,349,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="68,155,104,104,131,74,162,48,186,36,189,40,165,53,135,78,108,107,72,159"/>
+<area shape="rect" id="Node000003" href="$class_xarxa.html#a8e4fd4b92d7ed7b4dfa2721003bc1178" title="Demanda canonada." alt="" coords="164,157,368,184"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="116,176,148,177,148,182,116,181"/>
+<area shape="rect" id="Node000006" href="$class_node_aixeta.html#a99b337749880eb596891234af8158b14" title="Identificador del node." alt="" coords="600,157,703,184"/>
+<area shape="poly" id="edge9_Node000001_Node000006" title=" " alt="" coords="90,154,171,122,226,104,287,88,352,77,420,72,488,77,553,92,596,115,630,144,626,148,593,120,551,97,487,82,420,78,353,82,288,94,227,109,173,127,92,159"/>
+<area shape="rect" id="Node000007" href="$class_xarxa.html#ac2fb01e420a9efe5d013da6c3d25e0b4" title="Node xarxa." alt="" coords="609,259,694,285"/>
+<area shape="poly" id="edge10_Node000001_Node000007" title=" " alt="" coords="77,182,114,215,139,233,165,247,268,288,311,299,353,306,441,306,552,295,593,287,594,292,553,300,441,312,353,311,310,304,266,293,163,252,136,237,111,220,73,186"/>
+<area shape="rect" id="Node000009" href="$class_xarxa.html#a02680efa33036bc4143db53170bd1e05" title="Sortides d&#39;un node." alt="" coords="433,259,536,285"/>
+<area shape="poly" id="edge11_Node000001_Node000009" title=" " alt="" coords="117,182,164,193,418,254,417,259,163,199,116,187"/>
+<area shape="poly" id="edge4_Node000003_Node000001" title=" " alt="" coords="163,164,131,165,131,159,163,159"/>
+<area shape="rect" id="Node000004" href="$class_canonada.html#a0615873ebdfdf3b6f8e42c7267942890" title="Capacitat." alt="" coords="416,107,552,133"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="326,154,408,135,409,140,327,159"/>
+<area shape="rect" id="Node000005" href="$class_xarxa.html#afe582745498e42a253c40f59f9b8c6ce" title="Entrades d&#39;un node." alt="" coords="431,157,538,184"/>
+<area shape="poly" id="edge5_Node000003_Node000005" title=" " alt="" coords="368,168,415,168,415,173,368,173"/>
+<area shape="rect" id="Node000008" href="$class_canonada.html#a50c5156883999228c31c34eff8a84db9" title="Node sortida." alt="" coords="425,208,543,235"/>
+<area shape="poly" id="edge8_Node000003_Node000008" title=" " alt="" coords="327,182,411,202,409,207,326,187"/>
+<area shape="poly" id="edge6_Node000005_Node000006" title=" " alt="" coords="538,168,585,168,585,173,538,173"/>
+<area shape="poly" id="edge7_Node000005_Node000007" title=" " alt="" coords="529,182,554,194,592,219,626,246,622,250,589,224,551,198,527,187"/>
+<area shape="poly" id="edge12_Node000009_Node000006" title=" " alt="" coords="527,256,551,244,589,219,622,192,626,197,592,223,554,249,529,260"/>
+<area shape="poly" id="edge13_Node000009_Node000007" title=" " alt="" coords="536,269,594,269,594,275,536,275"/>
+</map>

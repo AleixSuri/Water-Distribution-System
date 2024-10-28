@@ -1,0 +1,11 @@
+<map id="GestorXarxes.buscarCabalMaxim" name="GestorXarxes.buscarCabalMaxim">
+<area shape="rect" id="Node000001" title="Retorna el flux màxim que pot donar el nodeAixeta. Com a màxim serà cabalPossible." alt="" coords="598,29,774,72"/>
+<area shape="poly" id="edge1_Node000001_Node000001" title=" " alt="" coords="721,16,708,10,686,8,666,10,653,15,648,21,650,28,645,29,643,19,650,10,664,5,686,3,709,5,723,11"/>
+<area shape="rect" id="Node000002" href="$class_gestor_xarxes.html#a06132634b519e01136ad0f55d2664e93" title="Dibuixa la xarxa x amb tots els cabals i capacitats de cada canonada i node juntament amb l&#39;estat del..." alt="" coords="388,37,550,64"/>
+<area shape="poly" id="edge2_Node000001_Node000002" title=" " alt="" coords="583,53,551,53,551,48,583,48"/>
+<area shape="poly" id="edge3_Node000002_Node000002" title=" " alt="" coords="506,24,493,18,469,16,446,18,434,23,431,28,437,35,433,38,426,29,430,19,445,13,469,11,495,13,509,20"/>
+<area shape="rect" id="Node000003" href="$class_simulador_mode_text.html#acf46c7460ef06bf77ae48ab3217c40f1" title="Processarà el fitxer de text, localitzant els nodes corresponents a la xarxa a partir dels seus ident..." alt="" coords="158,37,340,64"/>
+<area shape="poly" id="edge4_Node000002_Node000003" title=" " alt="" coords="372,53,341,53,341,48,372,48"/>
+<area shape="rect" id="Node000004" href="$class_be_water.html#aa8aad185395e8f524e8b46d8317e5590" title=" " alt="" coords="5,37,110,64"/>
+<area shape="poly" id="edge5_Node000003_Node000004" title=" " alt="" coords="142,53,110,53,110,48,142,48"/>
+</map>

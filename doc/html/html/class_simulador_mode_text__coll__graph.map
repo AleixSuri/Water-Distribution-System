@@ -1,0 +1,5 @@
+<map id="SimuladorModeText" name="SimuladorModeText">
+<area shape="rect" id="Node000001" title="Simula les operacions de construcció, modificació i consulta d&#39;una xarxa de distribució d&#39;aigua a par..." alt="" coords="5,96,142,123"/>
+<area shape="rect" id="Node000002" href="$class_xarxa.html" title="Xarxa de distribució d&#39;aigua, no necessàriament connexa (graf dirigit de Node)" alt="" coords="47,5,100,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="76,48,76,95,71,95,71,48"/>
+</map>

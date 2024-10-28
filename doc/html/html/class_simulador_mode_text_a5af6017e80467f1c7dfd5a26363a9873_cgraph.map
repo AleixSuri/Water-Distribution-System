@@ -1,0 +1,9 @@
+<map id="SimuladorModeText.lecturaOrigen" name="SimuladorModeText.lecturaOrigen">
+<area shape="rect" id="Node000001" title="Crea un node Origen llegint els seus atributs i s&#39;afegeix a la xarxa." alt="" coords="5,27,185,69"/>
+<area shape="rect" id="Node000002" href="$class_xarxa.html#ad1d4b91e851fdfd8d1621543b7d5c01e" title="Afegir Origen." alt="" coords="278,5,367,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="185,34,263,24,263,29,185,39"/>
+<area shape="rect" id="Node000004" href="$class_simulador_mode_text.html#a7eea3df87ad4d1829356fa6683b0f5eb" title="A partir d&#39;un string es classifica la informació i es crea una coordenada de la classe Coordenades." alt="" coords="233,56,412,99"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="185,57,217,61,217,66,185,62"/>
+<area shape="rect" id="Node000003" href="$class_node_aixeta.html#a99b337749880eb596891234af8158b14" title="Identificador del node." alt="" coords="460,5,562,32"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="367,16,445,16,445,21,367,21"/>
+</map>

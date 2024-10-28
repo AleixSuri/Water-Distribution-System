@@ -1,0 +1,5 @@
+<map id="Terminal.Terminal" name="Terminal.Terminal">
+<area shape="rect" id="Node000001" title="Crea un node Terminal amb els paràmetres passats." alt="" coords="5,5,129,32"/>
+<area shape="rect" id="Node000002" href="$class_terminal.html#ad6574d187929c6244fb8c1dcfe506b6e" title="Demanda Punta." alt="" coords="177,5,338,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="129,16,161,16,161,21,129,21"/>
+</map>

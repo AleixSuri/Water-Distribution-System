@@ -1,0 +1,12 @@
+<map id="SimuladorModeText.buscarOrigen" name="SimuladorModeText.buscarOrigen">
+<area shape="rect" id="Node000001" title="Retorna el node Origen el qual li proporciona aigua al node aixeta entrat." alt="" coords="5,48,185,91"/>
+<area shape="poly" id="edge1_Node000001_Node000001" title=" " alt="" coords="57,48,56,38,62,29,75,23,95,21,116,24,129,30,127,35,115,29,95,27,77,29,65,33,61,39,62,47"/>
+<area shape="rect" id="Node000002" href="$class_xarxa.html#afe582745498e42a253c40f59f9b8c6ce" title="Entrades d&#39;un node." alt="" coords="238,31,346,57"/>
+<area shape="poly" id="edge2_Node000001_Node000002" title=" " alt="" coords="185,55,222,50,223,56,185,60"/>
+<area shape="rect" id="Node000005" href="$class_canonada.html#add5baf3adf35132bc328f7f45b0bf3a7" title="Node entrada." alt="" coords="233,81,351,108"/>
+<area shape="poly" id="edge5_Node000001_Node000005" title=" " alt="" coords="185,78,217,82,217,88,185,84"/>
+<area shape="rect" id="Node000003" href="$class_node_aixeta.html#a99b337749880eb596891234af8158b14" title="Identificador del node." alt="" coords="399,5,501,32"/>
+<area shape="poly" id="edge3_Node000002_Node000003" title=" " alt="" coords="345,33,383,27,384,32,346,38"/>
+<area shape="rect" id="Node000004" href="$class_xarxa.html#ac2fb01e420a9efe5d013da6c3d25e0b4" title="Node xarxa." alt="" coords="408,56,493,83"/>
+<area shape="poly" id="edge4_Node000002_Node000004" title=" " alt="" coords="346,50,393,58,392,63,345,55"/>
+</map>

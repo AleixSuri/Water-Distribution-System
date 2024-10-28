@@ -1,0 +1,7 @@
+<map id="Xarxa.connectarAmbCanonada" name="Xarxa.connectarAmbCanonada">
+<area shape="rect" id="Node000001" title="Connectar Canonada." alt="" coords="5,31,205,57"/>
+<area shape="rect" id="Node000002" href="$class_node_aixeta.html#a804fd738681b48f8bd30fa0054c826e5" title="Coordenades del node." alt="" coords="253,5,419,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="205,30,237,27,237,32,205,36"/>
+<area shape="rect" id="Node000003" href="$class_node_aixeta.html#a99b337749880eb596891234af8158b14" title="Identificador del node." alt="" coords="285,56,387,83"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="205,52,270,59,269,65,205,58"/>
+</map>

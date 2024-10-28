@@ -1,0 +1,59 @@
+<map id="SimuladorModeText.lecturaCabalMinim" name="SimuladorModeText.lecturaCabalMinim">
+<area shape="rect" id="Node000001" title="Llegeix el node Origen entrat pel reader i el percentatge de cabal. A partir d&#39;aquestes dades busca e..." alt="" coords="5,480,185,522"/>
+<area shape="rect" id="Node000002" href="$class_gestor_xarxes.html#ad6c1adeced5adf43b6ac8be94abf68a0" title="Retorna el cabal mínim que hi hauria d’haver entre tots els nodes d’origen de la component connexa de..." alt="" coords="233,374,402,401"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="137,477,274,406,277,411,140,481"/>
+<area shape="rect" id="Node000017" href="$class_simulador_mode_text.html#a899cb533ef8b47e755e07c89a79a0ec7" title="Es llegeix l&#39;id del node i si es troba dins la xarxa i pertany a la classe Origen,..." alt="" coords="696,568,863,610"/>
+<area shape="poly" id="edge33_Node000001_Node000017" title=" " alt="" coords="186,515,233,524,341,544,450,561,570,573,680,581,680,586,569,578,450,566,341,549,232,529,185,520"/>
+<area shape="rect" id="Node000018" href="$class_gestor_xarxes.html#a51fa1439ecaabee3627f77eed9122ad3" title="Retornarà true si el sub graf creat a partir del node origen té cicles. Altrament retornarà false." alt="" coords="242,488,393,514"/>
+<area shape="poly" id="edge35_Node000001_Node000018" title=" " alt="" coords="185,498,227,498,227,504,185,504"/>
+<area shape="rect" id="Node000003" href="$class_node_aixeta.html#abc42af0213d387ddd4c03edec5770c62" title="Estat de l&#39;aixeta." alt="" coords="1355,197,1522,224"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="402,373,793,316,1307,233,1353,224,1354,230,1308,238,794,321,403,378"/>
+<area shape="rect" id="Node000004" href="$class_xarxa.html#adaa9748254ce3c69078fb310c26240ad" title="Cabal teòric." alt="" coords="501,172,589,198"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="332,372,516,207,519,211,336,376"/>
+<area shape="rect" id="Node000008" href="$class_xarxa.html#adcd8f7fb8f883a1d958b709bd4254ec3" title="Demanda teòrica." alt="" coords="1184,45,1294,72"/>
+<area shape="poly" id="edge31_Node000002_Node000008" title=" " alt="" coords="320,373,333,330,358,271,396,209,420,181,448,157,492,130,538,107,635,71,737,48,838,35,936,31,1026,32,1169,45,1169,50,1026,38,936,36,839,41,738,53,637,76,540,112,495,135,452,162,424,185,400,212,363,274,338,332,325,375"/>
+<area shape="rect" id="Node000010" href="$class_xarxa.html#ac2fb01e420a9efe5d013da6c3d25e0b4" title="Node xarxa." alt="" coords="1578,349,1664,376"/>
+<area shape="poly" id="edge32_Node000002_Node000010" title=" " alt="" coords="403,392,576,404,778,410,1240,410,1329,406,1417,397,1562,372,1563,377,1418,402,1329,412,1241,416,778,416,575,409,402,398"/>
+<area shape="rect" id="Node000015" href="$class_xarxa.html#ab7f455b274d613eef981f2189562901e" title="Crear SubGraf." alt="" coords="479,450,612,477"/>
+<area shape="poly" id="edge26_Node000002_Node000015" title=" " alt="" coords="361,399,489,442,487,447,359,404"/>
+<area shape="rect" id="Node000005" href="$class_xarxa.html#a2e7fcf2e1eb1a7ea77f2d40b8ac51495" title="Cabal canonada." alt="" coords="688,172,871,198"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="590,189,673,191,673,196,589,195"/>
+<area shape="poly" id="edge22_Node000004_Node000008" title=" " alt="" coords="589,174,1168,68,1169,74,590,180"/>
+<area shape="rect" id="Node000009" href="$class_node_aixeta.html#a99b337749880eb596891234af8158b14" title="Identificador del node." alt="" coords="1570,96,1672,122"/>
+<area shape="poly" id="edge24_Node000004_Node000009" title=" " alt="" coords="574,169,690,120,773,89,869,59,974,33,1084,13,1196,4,1308,8,1417,21,1464,33,1523,53,1586,85,1584,89,1521,58,1463,38,1416,27,1307,13,1197,9,1085,19,975,38,871,64,775,94,692,125,576,173"/>
+<area shape="poly" id="edge25_Node000004_Node000010" title=" " alt="" coords="578,196,630,217,689,236,814,264,942,288,1192,323,1410,345,1563,356,1562,362,1409,351,1192,329,941,293,813,269,688,241,628,222,576,201"/>
+<area shape="rect" id="Node000012" href="$class_xarxa.html#afe582745498e42a253c40f59f9b8c6ce" title="Entrades d&#39;un node." alt="" coords="1385,248,1492,274"/>
+<area shape="poly" id="edge23_Node000004_Node000012" title=" " alt="" coords="590,191,689,208,881,230,1073,245,1369,257,1369,262,1072,250,881,235,688,213,589,196"/>
+<area shape="poly" id="edge5_Node000005_Node000004" title=" " alt="" coords="688,179,605,180,604,174,688,173"/>
+<area shape="rect" id="Node000006" href="$class_xarxa.html#a8e4fd4b92d7ed7b4dfa2721003bc1178" title="Demanda canonada." alt="" coords="919,146,1123,173"/>
+<area shape="poly" id="edge6_Node000005_Node000006" title=" " alt="" coords="871,173,903,169,903,175,871,178"/>
+<area shape="rect" id="Node000011" href="$class_xarxa.html#a02680efa33036bc4143db53170bd1e05" title="Sortides d&#39;un node." alt="" coords="1387,96,1490,122"/>
+<area shape="poly" id="edge21_Node000005_Node000011" title=" " alt="" coords="805,169,868,137,956,98,1061,59,1170,30,1239,20,1270,22,1308,30,1364,54,1410,84,1407,88,1361,59,1307,35,1269,27,1240,25,1172,35,1062,64,958,103,870,142,808,173"/>
+<area shape="rect" id="Node000014" href="$class_canonada.html#add5baf3adf35132bc328f7f45b0bf3a7" title="Node entrada." alt="" coords="962,197,1080,224"/>
+<area shape="poly" id="edge20_Node000005_Node000014" title=" " alt="" coords="871,192,946,200,946,205,871,197"/>
+<area shape="rect" id="Node000007" href="$class_canonada.html#a0615873ebdfdf3b6f8e42c7267942890" title="Capacitat." alt="" coords="1171,146,1307,173"/>
+<area shape="poly" id="edge7_Node000006_Node000007" title=" " alt="" coords="1123,157,1156,157,1156,162,1123,162"/>
+<area shape="poly" id="edge8_Node000006_Node000008" title=" " alt="" coords="1109,143,1122,137,1146,119,1170,100,1211,77,1213,82,1172,104,1149,124,1124,142,1112,148"/>
+<area shape="poly" id="edge16_Node000006_Node000012" title=" " alt="" coords="1083,143,1143,132,1209,123,1267,122,1291,125,1309,132,1322,143,1330,156,1336,182,1340,209,1346,221,1357,234,1372,243,1369,248,1354,238,1342,224,1335,210,1330,183,1325,158,1318,147,1306,136,1290,130,1267,127,1209,128,1144,137,1084,148"/>
+<area shape="rect" id="Node000013" href="$class_canonada.html#a50c5156883999228c31c34eff8a84db9" title="Node sortida." alt="" coords="1180,197,1298,224"/>
+<area shape="poly" id="edge19_Node000006_Node000013" title=" " alt="" coords="1082,171,1166,190,1164,196,1081,176"/>
+<area shape="poly" id="edge9_Node000008_Node000003" title=" " alt="" coords="1281,70,1309,88,1326,112,1333,134,1341,155,1357,176,1374,188,1371,192,1354,180,1336,158,1328,135,1321,114,1305,92,1278,74"/>
+<area shape="poly" id="edge10_Node000008_Node000006" title=" " alt="" coords="1185,73,1173,80,1149,100,1124,118,1059,143,1057,138,1122,113,1146,95,1169,76,1182,69"/>
+<area shape="poly" id="edge11_Node000008_Node000009" title=" " alt="" coords="1295,58,1400,65,1522,81,1558,89,1557,94,1521,86,1400,71,1295,63"/>
+<area shape="poly" id="edge12_Node000008_Node000010" title=" " alt="" coords="1259,70,1302,101,1356,132,1403,147,1443,151,1481,159,1501,168,1523,183,1557,218,1582,258,1601,299,1614,333,1609,335,1596,301,1578,261,1552,221,1520,187,1499,172,1479,164,1442,156,1402,152,1354,137,1299,105,1256,74"/>
+<area shape="poly" id="edge13_Node000008_Node000011" title=" " alt="" coords="1295,70,1372,89,1371,95,1294,75"/>
+<area shape="poly" id="edge14_Node000011_Node000009" title=" " alt="" coords="1490,106,1554,106,1554,112,1490,112"/>
+<area shape="poly" id="edge15_Node000011_Node000010" title=" " alt="" coords="1492,119,1523,139,1561,186,1588,239,1606,291,1617,333,1612,334,1601,292,1583,241,1556,189,1520,143,1489,124"/>
+<area shape="poly" id="edge17_Node000012_Node000009" title=" " alt="" coords="1492,247,1520,233,1546,211,1569,185,1603,134,1608,137,1573,188,1550,215,1523,238,1494,252"/>
+<area shape="poly" id="edge18_Node000012_Node000010" title=" " alt="" coords="1466,272,1583,339,1581,343,1463,277"/>
+<area shape="poly" id="edge30_Node000015_Node000009" title=" " alt="" coords="613,468,689,472,786,475,900,471,1024,460,1154,439,1283,404,1346,381,1407,353,1465,321,1520,284,1553,251,1579,211,1597,171,1609,136,1615,138,1602,173,1584,214,1557,254,1523,288,1468,326,1409,358,1348,386,1285,409,1155,444,1025,466,900,477,786,480,688,478,612,473"/>
+<area shape="rect" id="Node000016" href="$class_xarxa.html#ae077535225c5cb5787a5c3af7c5d93d2" title="Copiar graf." alt="" coords="965,525,1077,552"/>
+<area shape="poly" id="edge27_Node000015_Node000016" title=" " alt="" coords="613,471,950,524,949,530,612,477"/>
+<area shape="poly" id="edge29_Node000016_Node000010" title=" " alt="" coords="1077,531,1165,521,1278,503,1401,473,1462,453,1521,429,1558,408,1591,384,1594,388,1561,412,1523,434,1464,458,1402,478,1279,508,1166,527,1078,537"/>
+<area shape="poly" id="edge28_Node000016_Node000016" title=" " alt="" coords="984,526,977,516,982,506,997,500,1021,498,1047,501,1061,507,1058,512,1045,506,1021,504,998,506,986,510,983,516,988,523"/>
+<area shape="poly" id="edge34_Node000017_Node000010" title=" " alt="" coords="864,596,998,603,1080,602,1168,595,1259,583,1350,562,1438,531,1520,489,1548,467,1571,441,1604,388,1609,391,1575,444,1551,471,1523,494,1440,536,1352,567,1260,588,1169,601,1081,607,998,608,863,601"/>
+<area shape="poly" id="edge36_Node000018_Node000015" title=" " alt="" coords="393,486,463,474,464,480,393,491"/>
+<area shape="rect" id="Node000019" href="$class_gestor_xarxes.html#ab78893a7b542bbce4397af1ebd18562e" title="Algoritme cicles." alt="" coords="450,525,640,552"/>
+<area shape="poly" id="edge37_Node000018_Node000019" title=" " alt="" coords="393,511,445,519,444,524,393,516"/>
+<area shape="poly" id="edge38_Node000019_Node000019" title=" " alt="" coords="507,526,500,516,505,506,520,500,545,498,573,501,587,508,585,512,571,506,545,504,521,506,508,510,505,516,511,523"/>
+</map>

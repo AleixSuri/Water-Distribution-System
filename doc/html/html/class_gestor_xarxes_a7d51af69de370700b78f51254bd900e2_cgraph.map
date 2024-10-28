@@ -1,0 +1,20 @@
+<map id="GestorXarxes.aixetesTancar" name="GestorXarxes.aixetesTancar">
+<area shape="rect" id="Node000001" title="Retorna un set amb tots els nodes aixetes els quals estàn trencats o embossats (no passa aigua)" alt="" coords="5,56,190,83"/>
+<area shape="rect" id="Node000002" href="$class_node_aixeta.html#abc42af0213d387ddd4c03edec5770c62" title="Estat de l&#39;aixeta." alt="" coords="241,5,407,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="160,53,246,33,247,39,161,58"/>
+<area shape="rect" id="Node000003" href="$class_gestor_xarxes.html#ab71282c05543f6f16daa313ea20c44fb" title="Guarda a tancarAixetesFills tots els nodes fills trobats des del node aixeta." alt="" coords="238,131,410,157"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="141,81,267,123,266,128,140,86"/>
+<area shape="rect" id="Node000008" href="$class_xarxa.html#afe582745498e42a253c40f59f9b8c6ce" title="Entrades d&#39;un node." alt="" coords="464,56,571,83"/>
+<area shape="poly" id="edge8_Node000001_Node000008" title=" " alt="" coords="190,67,448,67,448,72,190,72"/>
+<area shape="poly" id="edge3_Node000003_Node000003" title=" " alt="" coords="291,132,285,122,289,112,302,106,324,104,347,107,359,113,357,118,345,112,324,109,304,111,293,116,290,121,295,129"/>
+<area shape="rect" id="Node000004" href="$class_canonada.html#a50c5156883999228c31c34eff8a84db9" title="Node sortida." alt="" coords="458,107,576,133"/>
+<area shape="poly" id="edge4_Node000003_Node000004" title=" " alt="" coords="410,131,442,127,443,132,411,136"/>
+<area shape="rect" id="Node000005" href="$class_xarxa.html#a02680efa33036bc4143db53170bd1e05" title="Sortides d&#39;un node." alt="" coords="466,157,569,184"/>
+<area shape="poly" id="edge5_Node000003_Node000005" title=" " alt="" coords="411,153,450,159,450,164,410,159"/>
+<area shape="rect" id="Node000006" href="$class_node_aixeta.html#a99b337749880eb596891234af8158b14" title="Identificador del node." alt="" coords="624,69,727,96"/>
+<area shape="poly" id="edge6_Node000005_Node000006" title=" " alt="" coords="551,154,575,143,641,103,643,107,578,148,554,159"/>
+<area shape="rect" id="Node000007" href="$class_xarxa.html#ac2fb01e420a9efe5d013da6c3d25e0b4" title="Node xarxa." alt="" coords="633,132,718,159"/>
+<area shape="poly" id="edge7_Node000005_Node000007" title=" " alt="" coords="569,160,617,152,618,157,570,165"/>
+<area shape="poly" id="edge9_Node000008_Node000006" title=" " alt="" coords="571,71,609,74,609,80,571,77"/>
+<area shape="poly" id="edge10_Node000008_Node000007" title=" " alt="" coords="552,81,577,92,636,122,634,127,575,97,550,86"/>
+</map>

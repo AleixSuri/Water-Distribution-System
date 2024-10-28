@@ -1,0 +1,9 @@
+<map id="Canonada.Canonada" name="Canonada.Canonada">
+<area shape="rect" id="Node000001" title="Crea una Canonada amb els paràmetres passats." alt="" coords="5,56,147,83"/>
+<area shape="rect" id="Node000002" href="$class_canonada.html#a0615873ebdfdf3b6f8e42c7267942890" title="Capacitat." alt="" coords="195,5,331,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="127,53,196,34,197,39,129,58"/>
+<area shape="rect" id="Node000003" href="$class_canonada.html#add5baf3adf35132bc328f7f45b0bf3a7" title="Node entrada." alt="" coords="204,56,322,83"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="147,67,188,67,188,72,147,72"/>
+<area shape="rect" id="Node000004" href="$class_canonada.html#a50c5156883999228c31c34eff8a84db9" title="Node sortida." alt="" coords="204,107,322,133"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="129,81,197,100,196,105,127,86"/>
+</map>

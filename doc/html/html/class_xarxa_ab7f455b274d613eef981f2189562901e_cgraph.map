@@ -1,0 +1,10 @@
+<map id="Xarxa.crearSubGraf" name="Xarxa.crearSubGraf">
+<area shape="rect" id="Node000001" title="Crear SubGraf." alt="" coords="5,55,139,81"/>
+<area shape="rect" id="Node000002" href="$class_xarxa.html#ae077535225c5cb5787a5c3af7c5d93d2" title="Copiar graf." alt="" coords="187,29,299,56"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="139,55,171,51,171,56,140,61"/>
+<area shape="rect" id="Node000004" href="$class_node_aixeta.html#a99b337749880eb596891234af8158b14" title="Identificador del node." alt="" coords="192,80,294,107"/>
+<area shape="poly" id="edge4_Node000001_Node000004" title=" " alt="" coords="140,75,177,81,176,86,139,81"/>
+<area shape="poly" id="edge2_Node000002_Node000002" title=" " alt="" coords="217,30,213,21,216,11,226,5,243,3,261,5,270,12,267,16,259,10,243,8,228,10,220,14,218,20,222,28"/>
+<area shape="rect" id="Node000003" href="$class_xarxa.html#ac2fb01e420a9efe5d013da6c3d25e0b4" title="Node xarxa." alt="" coords="347,29,432,56"/>
+<area shape="poly" id="edge3_Node000002_Node000003" title=" " alt="" coords="299,40,331,40,331,45,299,45"/>
+</map>

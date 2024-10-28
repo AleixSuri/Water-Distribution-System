@@ -1,0 +1,26 @@
+<map id="Xarxa.cabal" name="Xarxa.cabal">
+<area shape="rect" id="Node000001" title="Cabal teòric." alt="" coords="1037,113,1125,140"/>
+<area shape="rect" id="Node000002" href="$class_xarxa.html#af96338a999076f2e1f553344fe876eb7" title="Cabal Abonat." alt="" coords="413,12,542,39"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="1057,104,1026,76,988,53,930,34,869,21,807,13,746,9,633,11,543,19,543,13,633,5,747,4,808,8,870,16,931,29,990,48,1029,71,1060,100"/>
+<area shape="rect" id="Node000005" href="$class_gestor_xarxes.html#ad6c1adeced5adf43b6ac8be94abf68a0" title="Retorna el cabal mínim que hi hauria d’haver entre tots els nodes d’origen de la component connexa de..." alt="" coords="813,63,983,89"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="1021,113,948,92,949,87,1023,108"/>
+<area shape="rect" id="Node000007" href="$class_xarxa.html#a2e7fcf2e1eb1a7ea77f2d40b8ac51495" title="Cabal canonada." alt="" coords="807,113,989,140"/>
+<area shape="poly" id="edge7_Node000001_Node000007" title=" " alt="" coords="1021,138,990,138,990,133,1021,133"/>
+<area shape="rect" id="Node000008" href="$class_xarxa.html#a913586697079c9e6844de4c8c8bd0254" title="Enllaç d&#39;sprites." alt="" coords="615,129,759,156"/>
+<area shape="poly" id="edge12_Node000001_Node000008" title=" " alt="" coords="1025,147,989,155,929,160,868,161,759,154,759,149,868,155,929,155,989,149,1024,142"/>
+<area shape="rect" id="Node000010" href="$class_xarxa.html#af97bed7e986eb497a15edb3a30e31825" title="Establir cabal." alt="" coords="621,197,753,224"/>
+<area shape="poly" id="edge13_Node000001_Node000010" title=" " alt="" coords="1038,149,990,167,865,193,754,208,753,202,864,188,988,162,1036,144"/>
+<area shape="rect" id="Node000003" href="$class_simulador_mode_text.html#acf46c7460ef06bf77ae48ab3217c40f1" title="Processarà el fitxer de text, localitzant els nodes corresponents a la xarxa a partir dels seus ident..." alt="" coords="158,100,340,127"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="410,46,389,53,279,102,277,97,387,48,408,41"/>
+<area shape="rect" id="Node000004" href="$class_be_water.html#aa8aad185395e8f524e8b46d8317e5590" title=" " alt="" coords="5,100,110,127"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="142,116,110,116,110,111,142,111"/>
+<area shape="rect" id="Node000006" href="$class_simulador_mode_text.html#a53cfc639a48b4b17ce1dd460214a342a" title="Llegeix el node Origen entrat pel reader i el percentatge de cabal. A partir d&#39;aquestes dades busca e..." alt="" coords="388,63,567,105"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="798,81,568,85,568,80,798,75"/>
+<area shape="poly" id="edge6_Node000006_Node000003" title=" " alt="" coords="373,100,341,104,340,99,372,95"/>
+<area shape="poly" id="edge8_Node000007_Node000001" title=" " alt="" coords="1005,115,1037,116,1036,122,1005,121"/>
+<area shape="poly" id="edge9_Node000007_Node000008" title=" " alt="" coords="791,138,759,140,759,135,791,132"/>
+<area shape="rect" id="Node000009" href="$class_xarxa.html#a644452390beb298a9a47f5e074c9a353" title="Dibuixar." alt="" coords="427,129,529,156"/>
+<area shape="poly" id="edge10_Node000008_Node000009" title=" " alt="" coords="600,145,529,145,529,140,600,140"/>
+<area shape="poly" id="edge11_Node000009_Node000003" title=" " alt="" coords="411,137,340,128,341,122,412,132"/>
+<area shape="poly" id="edge14_Node000010_Node000003" title=" " alt="" coords="605,207,501,194,387,171,328,151,278,130,280,125,330,146,389,166,501,189,605,202"/>
+</map>

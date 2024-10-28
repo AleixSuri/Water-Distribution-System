@@ -1,0 +1,15 @@
+<map id="GestorXarxes.esConnex" name="GestorXarxes.esConnex">
+<area shape="rect" id="Node000001" title="Es Connex." alt="" coords="5,92,167,119"/>
+<area shape="rect" id="Node000002" href="$class_xarxa.html#ab7f455b274d613eef981f2189562901e" title="Crear SubGraf." alt="" coords="230,55,364,81"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="164,89,214,80,215,85,165,94"/>
+<area shape="rect" id="Node000006" href="$class_gestor_xarxes.html#a8dc25aca4b2f9592137eb651a6266b0d" title="Algoritme DFS connex." alt="" coords="215,129,379,156"/>
+<area shape="poly" id="edge6_Node000001_Node000006" title=" " alt="" coords="165,117,203,123,202,129,164,122"/>
+<area shape="rect" id="Node000003" href="$class_xarxa.html#ae077535225c5cb5787a5c3af7c5d93d2" title="Copiar graf." alt="" coords="427,29,539,56"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="364,56,412,50,412,55,364,62"/>
+<area shape="rect" id="Node000005" href="$class_node_aixeta.html#a99b337749880eb596891234af8158b14" title="Identificador del node." alt="" coords="432,80,534,107"/>
+<area shape="poly" id="edge5_Node000002_Node000005" title=" " alt="" coords="364,74,417,82,416,87,364,80"/>
+<area shape="poly" id="edge3_Node000003_Node000003" title=" " alt="" coords="457,30,453,21,456,11,466,5,483,3,501,5,511,12,508,16,499,10,483,8,468,10,460,14,458,20,462,28"/>
+<area shape="rect" id="Node000004" href="$class_xarxa.html#ac2fb01e420a9efe5d013da6c3d25e0b4" title="Node xarxa." alt="" coords="587,29,673,56"/>
+<area shape="poly" id="edge4_Node000003_Node000004" title=" " alt="" coords="540,40,571,40,571,45,540,45"/>
+<area shape="poly" id="edge7_Node000006_Node000006" title=" " alt="" coords="265,130,259,121,263,111,276,105,297,103,319,105,331,112,328,116,318,110,297,108,277,110,267,115,265,120,269,127"/>
+</map>

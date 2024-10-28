@@ -1,0 +1,9 @@
+<map id="NodeAixeta" name="NodeAixeta">
+<area shape="rect" id="Node000001" title="Node d&#39;una xarxa de distribució d&#39;aigua." alt="" coords="91,5,179,32"/>
+<area shape="rect" id="Node000002" href="$class_connexio.html" title="Node de connexió d&#39;una xarxa de distribució d&#39;aigua." alt="" coords="5,80,81,107"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="109,44,60,82,57,78,106,40"/>
+<area shape="rect" id="Node000003" href="$class_origen.html" title="Node origen d&#39;una xarxa de distribució d&#39;aigua." alt="" coords="105,80,165,107"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="138,48,138,80,132,80,132,48"/>
+<area shape="rect" id="Node000004" href="$class_terminal.html" title=" " alt="" coords="189,80,260,107"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="164,40,211,78,207,82,161,44"/>
+</map>

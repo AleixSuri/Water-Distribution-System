@@ -1,0 +1,549 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="ca">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.9.8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>BeWater: Fitxer de Codi C:/Users/aleix/projects/projPro/proj/ij/projecte-d7/src/GestorXarxes.java</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectlogo"><img alt="Logo" src="BeWater 256.jpg"/></td>
+  <td id="projectalign">
+   <div id="projectname">BeWater
+   </div>
+   <div id="projectbrief">Be water, my friend - Bruce Lee</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generat per Doxygen 1.9.8 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','Cerca');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(document).ready(function() { init_codefold(0); });
+/* @license-end */
+</script>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">Carregant...</div>
+<div class="SRStatus" id="Searching">Cercant...</div>
+<div class="SRStatus" id="NoMatches">Cap coincidència</div>
+</div>
+</div>
+</div>
+</div>
+
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="dir_a9ec1ef424966475f993eb98877e3088.html">projects</a></li><li class="navelem"><a class="el" href="dir_4374ec10bb8b689b9f22dbe1efcf4226.html">projPro</a></li><li class="navelem"><a class="el" href="dir_4cee7533d6ac52ab7beac8702175b066.html">proj</a></li><li class="navelem"><a class="el" href="dir_19bffe39a29d97ed29b4027eb3f50abf.html">ij</a></li><li class="navelem"><a class="el" href="dir_66105031ab273bbee99721911168572c.html">projecte-d7</a></li><li class="navelem"><a class="el" href="dir_dc8a444c4789af144b82fddff093f5ac.html">src</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="headertitle"><div class="title">GestorXarxes.java</div></div>
+</div><!--header-->
+<div class="contents">
+<a href="_gestor_xarxes_8java.html">Veure la documentació d'aquest fitxer.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span> </div>
+<div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span><span class="keyword">import</span> java.util.*;</div>
+<div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span><span class="keyword">import</span> org.graphstream.graph.*;</div>
+<div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span><span class="keyword">import</span> org.graphstream.graph.implementations.SingleGraph;</div>
+<div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span> </div>
+<div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span> </div>
+<div class="foldopen" id="foldopen00014" data-start="{" data-end="};">
+<div class="line"><a id="l00014" name="l00014"></a><span class="lineno"><a class="line" href="class_gestor_xarxes.html">   14</a></span><span class="keyword">public</span> <span class="keyword">abstract</span> <span class="keyword">class </span><a class="code hl_class" href="class_gestor_xarxes.html">GestorXarxes</a> {</div>
+<div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span> </div>
+<div class="foldopen" id="foldopen00020" data-start="{" data-end="}">
+<div class="line"><a id="l00020" name="l00020"></a><span class="lineno"><a class="line" href="class_gestor_xarxes.html#a51fa1439ecaabee3627f77eed9122ad3">   20</a></span>    <span class="keyword">public</span> <span class="keyword">static</span> <span class="keywordtype">boolean</span> <a class="code hl_function" href="class_gestor_xarxes.html#a51fa1439ecaabee3627f77eed9122ad3">teCicles</a>(<a class="code hl_class" href="class_xarxa.html">Xarxa</a> x, <a class="code hl_class" href="class_origen.html">Origen</a> nodeOrigen) {</div>
+<div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span>        <span class="comment">// subGraf a mirar si té cicles</span></div>
+<div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span>        Graph subGraf = x.<a class="code hl_function" href="class_xarxa.html#ab7f455b274d613eef981f2189562901e">crearSubGraf</a>(nodeOrigen);</div>
+<div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span>        <span class="comment">// conjunt per saber els nodes visitats</span></div>
+<div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span>        Set&lt;Node&gt; visitat = <span class="keyword">new</span> HashSet&lt;&gt;();</div>
+<div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span> </div>
+<div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span>        <span class="comment">// Recorre tots els nodes</span></div>
+<div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span>        <span class="keywordflow">for</span> (<a class="code hl_class" href="class_node.html">Node</a> node : subGraf) {</div>
+<div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span>            <span class="comment">// Per cada node netejar la llista</span></div>
+<div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span>            visitat.clear();</div>
+<div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span> </div>
+<div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span>            <span class="comment">// Si es troba cicles retornar true</span></div>
+<div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span>            <span class="keywordflow">if</span> (<a class="code hl_function" href="class_gestor_xarxes.html#ab78893a7b542bbce4397af1ebd18562e">recorregutCicle</a>(node, visitat)) {</div>
+<div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span>                <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span>            }</div>
+<div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span>        }</div>
+<div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span> </div>
+<div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span>        <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span>    }</div>
+</div>
+<div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span> </div>
+<div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span> </div>
+<div class="foldopen" id="foldopen00045" data-start="{" data-end="}">
+<div class="line"><a id="l00045" name="l00045"></a><span class="lineno"><a class="line" href="class_gestor_xarxes.html#ab78893a7b542bbce4397af1ebd18562e">   45</a></span>    <span class="keyword">private</span> <span class="keyword">static</span> <span class="keywordtype">boolean</span> <a class="code hl_function" href="class_gestor_xarxes.html#ab78893a7b542bbce4397af1ebd18562e">recorregutCicle</a>(<a class="code hl_class" href="class_node.html">Node</a> node, Set&lt;Node&gt; visitats) {</div>
+<div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span>        <span class="comment">// Si el node actual ja s&#39;ha visitat retorna true, hi ha un cicle</span></div>
+<div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span>        <span class="keywordflow">if</span> (visitats.contains(node)) {</div>
+<div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span>            <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span>        }</div>
+<div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span> </div>
+<div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span>        <span class="comment">// S&#39;afegeix node actual al conjunt de visitats</span></div>
+<div class="line"><a id="l00052" name="l00052"></a><span class="lineno">   52</span>        visitats.add(node);</div>
+<div class="line"><a id="l00053" name="l00053"></a><span class="lineno">   53</span> </div>
+<div class="line"><a id="l00054" name="l00054"></a><span class="lineno">   54</span>        <span class="comment">// Es recorre per totes les arestes que surten del node</span></div>
+<div class="line"><a id="l00055" name="l00055"></a><span class="lineno">   55</span>        Iterator&lt;Edge&gt; iterator = node.leavingEdges().iterator();</div>
+<div class="line"><a id="l00056" name="l00056"></a><span class="lineno">   56</span>        <span class="keywordflow">while</span> (iterator.hasNext()) {</div>
+<div class="line"><a id="l00057" name="l00057"></a><span class="lineno">   57</span>            <span class="comment">// S&#39;obté el node adjacent a l&#39;actual</span></div>
+<div class="line"><a id="l00058" name="l00058"></a><span class="lineno">   58</span>            <a class="code hl_class" href="class_node.html">Node</a> adjacent = iterator.next().getTargetNode();</div>
+<div class="line"><a id="l00059" name="l00059"></a><span class="lineno">   59</span> </div>
+<div class="line"><a id="l00060" name="l00060"></a><span class="lineno">   60</span>            <span class="comment">// Si hi ha cicles retorna true</span></div>
+<div class="line"><a id="l00061" name="l00061"></a><span class="lineno">   61</span>            <span class="keywordflow">if</span> (<a class="code hl_function" href="class_gestor_xarxes.html#ab78893a7b542bbce4397af1ebd18562e">recorregutCicle</a>(adjacent, visitats)) {</div>
+<div class="line"><a id="l00062" name="l00062"></a><span class="lineno">   62</span>                <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><a id="l00063" name="l00063"></a><span class="lineno">   63</span>            }</div>
+<div class="line"><a id="l00064" name="l00064"></a><span class="lineno">   64</span>        }</div>
+<div class="line"><a id="l00065" name="l00065"></a><span class="lineno">   65</span> </div>
+<div class="line"><a id="l00066" name="l00066"></a><span class="lineno">   66</span>        <span class="comment">// Es treu el node actual del conjunt de nodes visitats</span></div>
+<div class="line"><a id="l00067" name="l00067"></a><span class="lineno">   67</span>        visitats.remove(node);</div>
+<div class="line"><a id="l00068" name="l00068"></a><span class="lineno">   68</span>        <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><a id="l00069" name="l00069"></a><span class="lineno">   69</span>    }</div>
+</div>
+<div class="line"><a id="l00070" name="l00070"></a><span class="lineno">   70</span> </div>
+<div class="line"><a id="l00071" name="l00071"></a><span class="lineno">   71</span> </div>
+<div class="foldopen" id="foldopen00076" data-start="{" data-end="}">
+<div class="line"><a id="l00076" name="l00076"></a><span class="lineno"><a class="line" href="class_gestor_xarxes.html#aef6c5c914fde2624b680c0cc1775a403">   76</a></span>    <span class="keyword">public</span> <span class="keyword">static</span> <span class="keywordtype">boolean</span> <a class="code hl_function" href="class_gestor_xarxes.html#aef6c5c914fde2624b680c0cc1775a403">esArbre</a>(<a class="code hl_class" href="class_xarxa.html">Xarxa</a> x, <a class="code hl_class" href="class_origen.html">Origen</a> nodeOrigen)</div>
+<div class="line"><a id="l00077" name="l00077"></a><span class="lineno">   77</span>    {</div>
+<div class="line"><a id="l00078" name="l00078"></a><span class="lineno">   78</span>        <span class="keywordflow">return</span> !<a class="code hl_function" href="class_gestor_xarxes.html#a51fa1439ecaabee3627f77eed9122ad3">teCicles</a>(x, nodeOrigen) &amp;&amp; <a class="code hl_function" href="class_gestor_xarxes.html#a3ef76bc7aacab2d890734a3d13de7d92">esConnex</a>(x, nodeOrigen);</div>
+<div class="line"><a id="l00079" name="l00079"></a><span class="lineno">   79</span>    }</div>
+</div>
+<div class="line"><a id="l00080" name="l00080"></a><span class="lineno">   80</span> </div>
+<div class="line"><a id="l00081" name="l00081"></a><span class="lineno">   81</span> </div>
+<div class="foldopen" id="foldopen00086" data-start="{" data-end="}">
+<div class="line"><a id="l00086" name="l00086"></a><span class="lineno"><a class="line" href="class_gestor_xarxes.html#a3ef76bc7aacab2d890734a3d13de7d92">   86</a></span>    <span class="keyword">private</span> <span class="keyword">static</span> <span class="keywordtype">boolean</span> <a class="code hl_function" href="class_gestor_xarxes.html#a3ef76bc7aacab2d890734a3d13de7d92">esConnex</a>(<a class="code hl_class" href="class_xarxa.html">Xarxa</a> x, <a class="code hl_class" href="class_origen.html">Origen</a> nodeOrigen) {</div>
+<div class="line"><a id="l00087" name="l00087"></a><span class="lineno">   87</span>        Graph subGraf = x.<a class="code hl_function" href="class_xarxa.html#ab7f455b274d613eef981f2189562901e">crearSubGraf</a>(nodeOrigen);</div>
+<div class="line"><a id="l00088" name="l00088"></a><span class="lineno">   88</span> </div>
+<div class="line"><a id="l00089" name="l00089"></a><span class="lineno">   89</span>        Set&lt;Node&gt; visitats = <span class="keyword">new</span> HashSet&lt;&gt;();</div>
+<div class="line"><a id="l00090" name="l00090"></a><span class="lineno">   90</span>        <a class="code hl_function" href="class_gestor_xarxes.html#a8dc25aca4b2f9592137eb651a6266b0d">dfsConnex</a>(subGraf, subGraf.nodes().iterator().next(), visitats);</div>
+<div class="line"><a id="l00091" name="l00091"></a><span class="lineno">   91</span>        <span class="keywordflow">return</span> visitats.size() == subGraf.getNodeCount();</div>
+<div class="line"><a id="l00092" name="l00092"></a><span class="lineno">   92</span>    }</div>
+</div>
+<div class="line"><a id="l00093" name="l00093"></a><span class="lineno">   93</span> </div>
+<div class="line"><a id="l00094" name="l00094"></a><span class="lineno">   94</span> </div>
+<div class="foldopen" id="foldopen00099" data-start="{" data-end="}">
+<div class="line"><a id="l00099" name="l00099"></a><span class="lineno"><a class="line" href="class_gestor_xarxes.html#a8dc25aca4b2f9592137eb651a6266b0d">   99</a></span>    <span class="keyword">private</span> <span class="keyword">static</span> <span class="keywordtype">void</span> <a class="code hl_function" href="class_gestor_xarxes.html#a8dc25aca4b2f9592137eb651a6266b0d">dfsConnex</a>(Graph graf, <a class="code hl_class" href="class_node.html">Node</a> node, Set&lt;Node&gt; visitats)</div>
+<div class="line"><a id="l00100" name="l00100"></a><span class="lineno">  100</span>    {</div>
+<div class="line"><a id="l00101" name="l00101"></a><span class="lineno">  101</span>        visitats.add(node);</div>
+<div class="line"><a id="l00102" name="l00102"></a><span class="lineno">  102</span>        Iterator&lt;Edge&gt; iterator = node.leavingEdges().iterator();</div>
+<div class="line"><a id="l00103" name="l00103"></a><span class="lineno">  103</span>        <span class="keywordflow">while</span> (iterator.hasNext()) {</div>
+<div class="line"><a id="l00104" name="l00104"></a><span class="lineno">  104</span>            <a class="code hl_class" href="class_node.html">Node</a> adjacent = iterator.next().getOpposite(node);</div>
+<div class="line"><a id="l00105" name="l00105"></a><span class="lineno">  105</span>            <span class="keywordflow">if</span> (!visitats.contains(adjacent)) {</div>
+<div class="line"><a id="l00106" name="l00106"></a><span class="lineno">  106</span>                <a class="code hl_function" href="class_gestor_xarxes.html#a8dc25aca4b2f9592137eb651a6266b0d">dfsConnex</a>(graf, adjacent, visitats);</div>
+<div class="line"><a id="l00107" name="l00107"></a><span class="lineno">  107</span>            }</div>
+<div class="line"><a id="l00108" name="l00108"></a><span class="lineno">  108</span>        }</div>
+<div class="line"><a id="l00109" name="l00109"></a><span class="lineno">  109</span>    }</div>
+</div>
+<div class="line"><a id="l00110" name="l00110"></a><span class="lineno">  110</span> </div>
+<div class="line"><a id="l00111" name="l00111"></a><span class="lineno">  111</span> </div>
+<div class="foldopen" id="foldopen00118" data-start="{" data-end="}">
+<div class="line"><a id="l00118" name="l00118"></a><span class="lineno"><a class="line" href="class_gestor_xarxes.html#ad6c1adeced5adf43b6ac8be94abf68a0">  118</a></span>    <span class="keyword">public</span> <span class="keyword">static</span> <span class="keywordtype">float</span> <a class="code hl_function" href="class_gestor_xarxes.html#ad6c1adeced5adf43b6ac8be94abf68a0">cabalMinim</a>(<a class="code hl_class" href="class_xarxa.html">Xarxa</a> x, <a class="code hl_class" href="class_origen.html">Origen</a> nodeOrigen, <span class="keywordtype">float</span> percentatgeDemandaSatisfet)</div>
+<div class="line"><a id="l00119" name="l00119"></a><span class="lineno">  119</span>    {</div>
+<div class="line"><a id="l00120" name="l00120"></a><span class="lineno">  120</span>        <span class="keywordtype">float</span> cabalMin = 0;</div>
+<div class="line"><a id="l00121" name="l00121"></a><span class="lineno">  121</span> </div>
+<div class="line"><a id="l00122" name="l00122"></a><span class="lineno">  122</span>        Graph subGraf = x.<a class="code hl_function" href="class_xarxa.html#ab7f455b274d613eef981f2189562901e">crearSubGraf</a>(nodeOrigen);</div>
+<div class="line"><a id="l00123" name="l00123"></a><span class="lineno">  123</span>        <span class="keywordflow">for</span>(<a class="code hl_class" href="class_node.html">Node</a> node : subGraf.nodes().toList()){</div>
+<div class="line"><a id="l00124" name="l00124"></a><span class="lineno">  124</span>            <a class="code hl_class" href="class_node_aixeta.html">NodeAixeta</a> nodeAixeta = x.<a class="code hl_function" href="class_xarxa.html#ac2fb01e420a9efe5d013da6c3d25e0b4">node</a>(node.getId());</div>
+<div class="line"><a id="l00125" name="l00125"></a><span class="lineno">  125</span>            <span class="comment">//si terminal oberta i li arriba cabal(no hi ha aixetes tancades per sobre)</span></div>
+<div class="line"><a id="l00126" name="l00126"></a><span class="lineno">  126</span>            <span class="keywordflow">if</span>(nodeAixeta.<a class="code hl_function" href="class_node_aixeta.html#abc42af0213d387ddd4c03edec5770c62">aixetaOberta</a>() &amp;&amp; x.<a class="code hl_function" href="class_xarxa.html#adaa9748254ce3c69078fb310c26240ad">cabal</a>(nodeAixeta)&gt;0 &amp;&amp; nodeAixeta instanceof <a class="code hl_class" href="class_terminal.html">Terminal</a>) {</div>
+<div class="line"><a id="l00127" name="l00127"></a><span class="lineno">  127</span>                cabalMin += x.<a class="code hl_function" href="class_xarxa.html#adcd8f7fb8f883a1d958b709bd4254ec3">demanda</a>(nodeAixeta) * (percentatgeDemandaSatisfet/100);</div>
+<div class="line"><a id="l00128" name="l00128"></a><span class="lineno">  128</span>            }</div>
+<div class="line"><a id="l00129" name="l00129"></a><span class="lineno">  129</span>        }</div>
+<div class="line"><a id="l00130" name="l00130"></a><span class="lineno">  130</span> </div>
+<div class="line"><a id="l00131" name="l00131"></a><span class="lineno">  131</span>        <span class="keywordflow">return</span> cabalMin;</div>
+<div class="line"><a id="l00132" name="l00132"></a><span class="lineno">  132</span>    }</div>
+</div>
+<div class="line"><a id="l00133" name="l00133"></a><span class="lineno">  133</span> </div>
+<div class="line"><a id="l00134" name="l00134"></a><span class="lineno">  134</span> </div>
+<div class="foldopen" id="foldopen00141" data-start="{" data-end="}">
+<div class="line"><a id="l00141" name="l00141"></a><span class="lineno"><a class="line" href="class_gestor_xarxes.html#ae878c285c51f0a76a2abb8de5fb75cfb">  141</a></span>    <span class="keyword">public</span> <span class="keyword">static</span> Set&lt;Canonada&gt; <a class="code hl_function" href="class_gestor_xarxes.html#ae878c285c51f0a76a2abb8de5fb75cfb">excesCabal</a>(<a class="code hl_class" href="class_xarxa.html">Xarxa</a> x, <a class="code hl_class" href="class_origen.html">Origen</a> nodeOrigen, Set&lt;Canonada&gt; cjtCanonades)</div>
+<div class="line"><a id="l00142" name="l00142"></a><span class="lineno">  142</span>    {</div>
+<div class="line"><a id="l00143" name="l00143"></a><span class="lineno">  143</span>        Set&lt;Canonada&gt; cjtCanonadesCabal = <span class="keyword">new</span> HashSet&lt;&gt;(); <span class="comment">//guardar canonades amb excés</span></div>
+<div class="line"><a id="l00144" name="l00144"></a><span class="lineno">  144</span>        Set&lt;NodeAixeta&gt; nodeAixetaVisitar = <span class="keyword">new</span> HashSet&lt;&gt;(); <span class="comment">//nodes a visitar</span></div>
+<div class="line"><a id="l00145" name="l00145"></a><span class="lineno">  145</span>        nodeAixetaVisitar.add(nodeOrigen);</div>
+<div class="line"><a id="l00146" name="l00146"></a><span class="lineno">  146</span> </div>
+<div class="line"><a id="l00147" name="l00147"></a><span class="lineno">  147</span>        <span class="keywordflow">while</span>(!cjtCanonades.isEmpty() &amp;&amp; !nodeAixetaVisitar.isEmpty()){<span class="comment">//Mentre quedin nodes a visitar i no s&#39;hagin trobat les canonades</span></div>
+<div class="line"><a id="l00148" name="l00148"></a><span class="lineno">  148</span>            Iterator&lt;Canonada&gt; sortides = x.<a class="code hl_function" href="class_xarxa.html#a02680efa33036bc4143db53170bd1e05">sortides</a>(nodeAixetaVisitar.stream().findFirst().get());<span class="comment">//agafem el primer node</span></div>
+<div class="line"><a id="l00149" name="l00149"></a><span class="lineno">  149</span>            nodeAixetaVisitar.remove(nodeAixetaVisitar.stream().findFirst().get());</div>
+<div class="line"><a id="l00150" name="l00150"></a><span class="lineno">  150</span> </div>
+<div class="line"><a id="l00151" name="l00151"></a><span class="lineno">  151</span>            <span class="keywordflow">while</span>(sortides.hasNext() &amp;&amp; !cjtCanonades.isEmpty()){<span class="comment">//per totes les canonades d&#39;un node</span></div>
+<div class="line"><a id="l00152" name="l00152"></a><span class="lineno">  152</span>                <a class="code hl_class" href="class_canonada.html">Canonada</a> canonada = sortides.next();</div>
+<div class="line"><a id="l00153" name="l00153"></a><span class="lineno">  153</span> </div>
+<div class="line"><a id="l00154" name="l00154"></a><span class="lineno">  154</span>                <span class="keywordflow">if</span>(cjtCanonades.contains(canonada)){<span class="comment">//si trobem la canonada</span></div>
+<div class="line"><a id="l00155" name="l00155"></a><span class="lineno">  155</span>                    cjtCanonades.remove(canonada); <span class="comment">//ja no l&#39;hem de buscar més</span></div>
+<div class="line"><a id="l00156" name="l00156"></a><span class="lineno">  156</span> </div>
+<div class="line"><a id="l00157" name="l00157"></a><span class="lineno">  157</span>                    <span class="keywordflow">if</span>(canonada.<a class="code hl_function" href="class_canonada.html#a0615873ebdfdf3b6f8e42c7267942890">capacitat</a>() &lt; x.<a class="code hl_function" href="class_xarxa.html#adcd8f7fb8f883a1d958b709bd4254ec3">demanda</a>(canonada.<a class="code hl_function" href="class_canonada.html#a50c5156883999228c31c34eff8a84db9">node2</a>())){<span class="comment">//guardem si té excés</span></div>
+<div class="line"><a id="l00158" name="l00158"></a><span class="lineno">  158</span>                        cjtCanonadesCabal.add(canonada);</div>
+<div class="line"><a id="l00159" name="l00159"></a><span class="lineno">  159</span>                    }</div>
+<div class="line"><a id="l00160" name="l00160"></a><span class="lineno">  160</span>                }</div>
+<div class="line"><a id="l00161" name="l00161"></a><span class="lineno">  161</span>                <span class="keywordflow">if</span>(!(canonada.<a class="code hl_function" href="class_canonada.html#a50c5156883999228c31c34eff8a84db9">node2</a>() instanceof <a class="code hl_class" href="class_terminal.html">Terminal</a>)) {<span class="comment">//afegim node a visitar si no és terminal</span></div>
+<div class="line"><a id="l00162" name="l00162"></a><span class="lineno">  162</span>                    nodeAixetaVisitar.add(canonada.<a class="code hl_function" href="class_canonada.html#a50c5156883999228c31c34eff8a84db9">node2</a>());</div>
+<div class="line"><a id="l00163" name="l00163"></a><span class="lineno">  163</span>                }</div>
+<div class="line"><a id="l00164" name="l00164"></a><span class="lineno">  164</span>            }</div>
+<div class="line"><a id="l00165" name="l00165"></a><span class="lineno">  165</span>        }</div>
+<div class="line"><a id="l00166" name="l00166"></a><span class="lineno">  166</span>        <span class="keywordflow">return</span> cjtCanonadesCabal;</div>
+<div class="line"><a id="l00167" name="l00167"></a><span class="lineno">  167</span>    }</div>
+</div>
+<div class="line"><a id="l00168" name="l00168"></a><span class="lineno">  168</span> </div>
+<div class="line"><a id="l00169" name="l00169"></a><span class="lineno">  169</span> </div>
+<div class="foldopen" id="foldopen00175" data-start="{" data-end="}">
+<div class="line"><a id="l00175" name="l00175"></a><span class="lineno"><a class="line" href="class_gestor_xarxes.html#a7d51af69de370700b78f51254bd900e2">  175</a></span>    <span class="keyword">public</span> <span class="keyword">static</span> Set&lt;NodeAixeta&gt; <a class="code hl_function" href="class_gestor_xarxes.html#a7d51af69de370700b78f51254bd900e2">aixetesTancar</a>(<a class="code hl_class" href="class_xarxa.html">Xarxa</a> x, Map&lt;Terminal, Boolean&gt; aiguaArriba)</div>
+<div class="line"><a id="l00176" name="l00176"></a><span class="lineno">  176</span>    {</div>
+<div class="line"><a id="l00177" name="l00177"></a><span class="lineno">  177</span> </div>
+<div class="line"><a id="l00178" name="l00178"></a><span class="lineno">  178</span>        Set&lt;NodeAixeta&gt; tancarAixetes = <span class="keyword">new</span> HashSet&lt;&gt;();</div>
+<div class="line"><a id="l00179" name="l00179"></a><span class="lineno">  179</span>        <span class="comment">//Buscar aixetes trencades</span></div>
+<div class="line"><a id="l00180" name="l00180"></a><span class="lineno">  180</span>        <span class="keywordflow">for</span> (Map.Entry&lt;<a class="code hl_class" href="class_terminal.html">Terminal</a>, Boolean&gt; ItAiguaArriba : aiguaArriba.entrySet()) {</div>
+<div class="line"><a id="l00181" name="l00181"></a><span class="lineno">  181</span>            <a class="code hl_class" href="class_terminal.html">Terminal</a> terminal = ItAiguaArriba.getKey();</div>
+<div class="line"><a id="l00182" name="l00182"></a><span class="lineno">  182</span>            Boolean aiguaArribaValor = ItAiguaArriba.getValue();</div>
+<div class="line"><a id="l00183" name="l00183"></a><span class="lineno">  183</span> </div>
+<div class="line"><a id="l00184" name="l00184"></a><span class="lineno">  184</span>            <span class="keywordflow">if</span>(!aiguaArribaValor &amp;&amp; terminal.<a class="code hl_function" href="class_node_aixeta.html#abc42af0213d387ddd4c03edec5770c62">aixetaOberta</a>()) {<span class="comment">//si no arriba aigua</span></div>
+<div class="line"><a id="l00185" name="l00185"></a><span class="lineno">  185</span>                Iterator&lt;Canonada&gt; entradesT = x.<a class="code hl_function" href="class_xarxa.html#afe582745498e42a253c40f59f9b8c6ce">entrades</a>(terminal);</div>
+<div class="line"><a id="l00186" name="l00186"></a><span class="lineno">  186</span>                <span class="keywordflow">while</span> (entradesT.hasNext()) { <span class="comment">//mirem aixetes superiors</span></div>
+<div class="line"><a id="l00187" name="l00187"></a><span class="lineno">  187</span>                    tancarAixetes.add(entradesT.next().node1()); <span class="comment">//guardem aixeta trencada</span></div>
+<div class="line"><a id="l00188" name="l00188"></a><span class="lineno">  188</span>                }</div>
+<div class="line"><a id="l00189" name="l00189"></a><span class="lineno">  189</span>            }</div>
+<div class="line"><a id="l00190" name="l00190"></a><span class="lineno">  190</span> </div>
+<div class="line"><a id="l00191" name="l00191"></a><span class="lineno">  191</span>        }</div>
+<div class="line"><a id="l00192" name="l00192"></a><span class="lineno">  192</span>        <span class="comment">//buscar nodes fills que no estan trencats</span></div>
+<div class="line"><a id="l00193" name="l00193"></a><span class="lineno">  193</span>        Set&lt;NodeAixeta&gt; tancarAixetesFills = <span class="keyword">new</span> HashSet&lt;&gt;();<span class="comment">//set que serveix per saber els nodes fills</span></div>
+<div class="line"><a id="l00194" name="l00194"></a><span class="lineno">  194</span>        Iterator&lt;NodeAixeta&gt; iterator = tancarAixetes.iterator();</div>
+<div class="line"><a id="l00195" name="l00195"></a><span class="lineno">  195</span>        <span class="keywordflow">while</span> (iterator.hasNext()) {</div>
+<div class="line"><a id="l00196" name="l00196"></a><span class="lineno">  196</span>            <a class="code hl_class" href="class_node_aixeta.html">NodeAixeta</a> aixeta = iterator.next();</div>
+<div class="line"><a id="l00197" name="l00197"></a><span class="lineno">  197</span>            <a class="code hl_function" href="class_gestor_xarxes.html#ab71282c05543f6f16daa313ea20c44fb">eliminarFills</a>(tancarAixetes, aixeta, x,tancarAixetesFills);</div>
+<div class="line"><a id="l00198" name="l00198"></a><span class="lineno">  198</span>        }</div>
+<div class="line"><a id="l00199" name="l00199"></a><span class="lineno">  199</span>        <span class="comment">//treiem els nodes fills</span></div>
+<div class="line"><a id="l00200" name="l00200"></a><span class="lineno">  200</span>        tancarAixetes.removeAll(tancarAixetesFills);</div>
+<div class="line"><a id="l00201" name="l00201"></a><span class="lineno">  201</span>        <span class="keywordflow">return</span> tancarAixetes;</div>
+<div class="line"><a id="l00202" name="l00202"></a><span class="lineno">  202</span>    }</div>
+</div>
+<div class="line"><a id="l00203" name="l00203"></a><span class="lineno">  203</span> </div>
+<div class="foldopen" id="foldopen00208" data-start="{" data-end="}">
+<div class="line"><a id="l00208" name="l00208"></a><span class="lineno"><a class="line" href="class_gestor_xarxes.html#ab71282c05543f6f16daa313ea20c44fb">  208</a></span>    <span class="keyword">private</span> <span class="keyword">static</span> <span class="keywordtype">void</span> <a class="code hl_function" href="class_gestor_xarxes.html#ab71282c05543f6f16daa313ea20c44fb">eliminarFills</a>(Set&lt;NodeAixeta&gt; tancarAixetes, <a class="code hl_class" href="class_node_aixeta.html">NodeAixeta</a> aixeta, <a class="code hl_class" href="class_xarxa.html">Xarxa</a> x, Set&lt;NodeAixeta&gt; tancarAixetesFills) {</div>
+<div class="line"><a id="l00209" name="l00209"></a><span class="lineno">  209</span>        <span class="keywordflow">if</span>(aixeta instanceof <a class="code hl_class" href="class_connexio.html">Connexio</a>) {</div>
+<div class="line"><a id="l00210" name="l00210"></a><span class="lineno">  210</span>            Iterator&lt;Canonada&gt; sortides = x.<a class="code hl_function" href="class_xarxa.html#a02680efa33036bc4143db53170bd1e05">sortides</a>(aixeta);</div>
+<div class="line"><a id="l00211" name="l00211"></a><span class="lineno">  211</span>            <span class="keywordtype">boolean</span> acabar = <span class="keyword">false</span>;</div>
+<div class="line"><a id="l00212" name="l00212"></a><span class="lineno">  212</span>            <span class="keywordflow">while</span> (sortides.hasNext() &amp;&amp; !acabar) { <span class="comment">//mirem aixetes inferiors</span></div>
+<div class="line"><a id="l00213" name="l00213"></a><span class="lineno">  213</span>                <a class="code hl_class" href="class_canonada.html">Canonada</a> canonada = sortides.next();</div>
+<div class="line"><a id="l00214" name="l00214"></a><span class="lineno">  214</span>                <a class="code hl_class" href="class_node_aixeta.html">NodeAixeta</a> nodoNext = canonada.<a class="code hl_function" href="class_canonada.html#a50c5156883999228c31c34eff8a84db9">node2</a>();</div>
+<div class="line"><a id="l00215" name="l00215"></a><span class="lineno">  215</span>                <span class="keywordflow">if</span>(nodoNext instanceof <a class="code hl_class" href="class_connexio.html">Connexio</a>) {</div>
+<div class="line"><a id="l00216" name="l00216"></a><span class="lineno">  216</span>                    <span class="keywordflow">if</span> (tancarAixetes.contains(nodoNext)) {</div>
+<div class="line"><a id="l00217" name="l00217"></a><span class="lineno">  217</span>                        tancarAixetesFills.add(nodoNext);</div>
+<div class="line"><a id="l00218" name="l00218"></a><span class="lineno">  218</span>                    }</div>
+<div class="line"><a id="l00219" name="l00219"></a><span class="lineno">  219</span>                    <span class="keywordflow">if</span> (!tancarAixetes.isEmpty()) {</div>
+<div class="line"><a id="l00220" name="l00220"></a><span class="lineno">  220</span>                        <a class="code hl_function" href="class_gestor_xarxes.html#ab71282c05543f6f16daa313ea20c44fb">eliminarFills</a>(tancarAixetes, nodoNext, x,tancarAixetesFills);</div>
+<div class="line"><a id="l00221" name="l00221"></a><span class="lineno">  221</span>                    } <span class="keywordflow">else</span> {</div>
+<div class="line"><a id="l00222" name="l00222"></a><span class="lineno">  222</span>                        acabar = <span class="keyword">true</span>;</div>
+<div class="line"><a id="l00223" name="l00223"></a><span class="lineno">  223</span>                    }</div>
+<div class="line"><a id="l00224" name="l00224"></a><span class="lineno">  224</span>                }</div>
+<div class="line"><a id="l00225" name="l00225"></a><span class="lineno">  225</span>            }</div>
+<div class="line"><a id="l00226" name="l00226"></a><span class="lineno">  226</span>        }</div>
+<div class="line"><a id="l00227" name="l00227"></a><span class="lineno">  227</span>    }</div>
+</div>
+<div class="line"><a id="l00228" name="l00228"></a><span class="lineno">  228</span> </div>
+<div class="foldopen" id="foldopen00234" data-start="{" data-end="}">
+<div class="line"><a id="l00234" name="l00234"></a><span class="lineno"><a class="line" href="class_gestor_xarxes.html#ad9edd2ee02d5fd240f09950e41093bab">  234</a></span>    <span class="keyword">public</span> <span class="keyword">static</span> List&lt;NodeAixeta&gt; <a class="code hl_function" href="class_gestor_xarxes.html#ad9edd2ee02d5fd240f09950e41093bab">nodesOrdenats</a>(<a class="code hl_class" href="class_coordenades.html">Coordenades</a> c, Set&lt;NodeAixeta&gt; cjtNodes)</div>
+<div class="line"><a id="l00235" name="l00235"></a><span class="lineno">  235</span>    {</div>
+<div class="line"><a id="l00236" name="l00236"></a><span class="lineno">  236</span>        List&lt;NodeAixeta&gt; llistaOrdenats = <span class="keyword">new</span> LinkedList&lt;NodeAixeta&gt;();</div>
+<div class="line"><a id="l00237" name="l00237"></a><span class="lineno">  237</span>        <span class="keywordflow">for</span> (<a class="code hl_class" href="class_node_aixeta.html">NodeAixeta</a> nodeSet : cjtNodes) { <span class="comment">//per cada node del set introduir-lo a la llista creada</span></div>
+<div class="line"><a id="l00238" name="l00238"></a><span class="lineno">  238</span>            <span class="keywordtype">double</span> distancia = c.<a class="code hl_function" href="class_coordenades.html#af0623aa8643efc99b90f77622392d6a5">distancia</a>(nodeSet.coordenades());</div>
+<div class="line"><a id="l00239" name="l00239"></a><span class="lineno">  239</span>            <span class="keywordtype">boolean</span> trobat = <span class="keyword">false</span>;</div>
+<div class="line"><a id="l00240" name="l00240"></a><span class="lineno">  240</span> </div>
+<div class="line"><a id="l00241" name="l00241"></a><span class="lineno">  241</span>            <span class="comment">// Itera sobre la llista ordenada per trobar posició pel nou node</span></div>
+<div class="line"><a id="l00242" name="l00242"></a><span class="lineno">  242</span>            ListIterator&lt;NodeAixeta&gt; iterador = llistaOrdenats.listIterator();</div>
+<div class="line"><a id="l00243" name="l00243"></a><span class="lineno">  243</span>            <span class="keywordflow">while</span> (iterador.hasNext() &amp;&amp; !trobat) {</div>
+<div class="line"><a id="l00244" name="l00244"></a><span class="lineno">  244</span>                <a class="code hl_class" href="class_node_aixeta.html">NodeAixeta</a> node = iterador.next();</div>
+<div class="line"><a id="l00245" name="l00245"></a><span class="lineno">  245</span>                <span class="keywordflow">if</span> ((distancia &lt; c.<a class="code hl_function" href="class_coordenades.html#af0623aa8643efc99b90f77622392d6a5">distancia</a>(node.<a class="code hl_function" href="class_node_aixeta.html#a804fd738681b48f8bd30fa0054c826e5">coordenades</a>())) || (distancia == c.<a class="code hl_function" href="class_coordenades.html#af0623aa8643efc99b90f77622392d6a5">distancia</a>(node.<a class="code hl_function" href="class_node_aixeta.html#a804fd738681b48f8bd30fa0054c826e5">coordenades</a>()) &amp;&amp; nodeSet.idPetit(node))) {</div>
+<div class="line"><a id="l00246" name="l00246"></a><span class="lineno">  246</span>                    <span class="comment">//Afegir el node</span></div>
+<div class="line"><a id="l00247" name="l00247"></a><span class="lineno">  247</span>                    iterador.previous();</div>
+<div class="line"><a id="l00248" name="l00248"></a><span class="lineno">  248</span>                    iterador.add(nodeSet);</div>
+<div class="line"><a id="l00249" name="l00249"></a><span class="lineno">  249</span>                    trobat = <span class="keyword">true</span>; <span class="comment">//Sortir del while</span></div>
+<div class="line"><a id="l00250" name="l00250"></a><span class="lineno">  250</span>                }</div>
+<div class="line"><a id="l00251" name="l00251"></a><span class="lineno">  251</span> </div>
+<div class="line"><a id="l00252" name="l00252"></a><span class="lineno">  252</span>            }</div>
+<div class="line"><a id="l00253" name="l00253"></a><span class="lineno">  253</span>            <span class="keywordflow">if</span> (!trobat) {</div>
+<div class="line"><a id="l00254" name="l00254"></a><span class="lineno">  254</span>                llistaOrdenats.add(nodeSet);</div>
+<div class="line"><a id="l00255" name="l00255"></a><span class="lineno">  255</span>            }</div>
+<div class="line"><a id="l00256" name="l00256"></a><span class="lineno">  256</span>        }</div>
+<div class="line"><a id="l00257" name="l00257"></a><span class="lineno">  257</span>        <span class="keywordflow">return</span> llistaOrdenats;</div>
+<div class="line"><a id="l00258" name="l00258"></a><span class="lineno">  258</span> </div>
+<div class="line"><a id="l00259" name="l00259"></a><span class="lineno">  259</span>    }</div>
+</div>
+<div class="line"><a id="l00260" name="l00260"></a><span class="lineno">  260</span> </div>
+<div class="line"><a id="l00261" name="l00261"></a><span class="lineno">  261</span> </div>
+<div class="foldopen" id="foldopen00266" data-start="{" data-end="}">
+<div class="line"><a id="l00266" name="l00266"></a><span class="lineno"><a class="line" href="class_gestor_xarxes.html#a06132634b519e01136ad0f55d2664e93">  266</a></span>    <span class="keyword">public</span> <span class="keyword">static</span> <span class="keywordtype">void</span> <a class="code hl_function" href="class_gestor_xarxes.html#a06132634b519e01136ad0f55d2664e93">fluxMaxim</a>(<a class="code hl_class" href="class_xarxa.html">Xarxa</a> x, <a class="code hl_class" href="class_origen.html">Origen</a> nodeOrigen) {</div>
+<div class="line"><a id="l00267" name="l00267"></a><span class="lineno">  267</span> </div>
+<div class="line"><a id="l00268" name="l00268"></a><span class="lineno">  268</span>        Graph subGraf = x.<a class="code hl_function" href="class_xarxa.html#ab7f455b274d613eef981f2189562901e">crearSubGraf</a>(nodeOrigen);</div>
+<div class="line"><a id="l00269" name="l00269"></a><span class="lineno">  269</span>        Graph subGrafMaxFlow = <a class="code hl_function" href="class_gestor_xarxes.html#aa37ac2ac3dfd37f5738ec6a7f6b1a7ee">crearMaxFlow</a>(subGraf,nodeOrigen.<a class="code hl_function" href="class_node_aixeta.html#a99b337749880eb596891234af8158b14">id</a>());</div>
+<div class="line"><a id="l00270" name="l00270"></a><span class="lineno">  270</span> </div>
+<div class="line"><a id="l00271" name="l00271"></a><span class="lineno">  271</span>        <span class="keywordtype">float</span> cabalTotal = 0; <span class="comment">//cabal maxim al qual es pot arribar en una línia</span></div>
+<div class="line"><a id="l00272" name="l00272"></a><span class="lineno">  272</span>        <span class="keywordtype">float</span> cabalPossible = 0 ;</div>
+<div class="line"><a id="l00273" name="l00273"></a><span class="lineno">  273</span>        <span class="keywordtype">float</span> <a class="code hl_function" href="class_gestor_xarxes.html#a06132634b519e01136ad0f55d2664e93">fluxMaxim</a> = 0; <span class="comment">//flux màxim</span></div>
+<div class="line"><a id="l00274" name="l00274"></a><span class="lineno">  274</span>        <span class="comment">//Per cada camí del node Origen</span></div>
+<div class="line"><a id="l00275" name="l00275"></a><span class="lineno">  275</span>        <a class="code hl_class" href="class_node.html">Node</a> node = subGrafMaxFlow.getNode(nodeOrigen.<a class="code hl_function" href="class_node_aixeta.html#a99b337749880eb596891234af8158b14">id</a>());</div>
+<div class="line"><a id="l00276" name="l00276"></a><span class="lineno">  276</span>        <span class="keywordflow">for</span>(Edge edge : node.edges().toList()){</div>
+<div class="line"><a id="l00277" name="l00277"></a><span class="lineno">  277</span>            <a class="code hl_class" href="class_canonada.html">Canonada</a> canonada = (<a class="code hl_class" href="class_canonada.html">Canonada</a>) edge.getAttribute(<span class="stringliteral">&quot;canonada&quot;</span>);</div>
+<div class="line"><a id="l00278" name="l00278"></a><span class="lineno">  278</span> </div>
+<div class="line"><a id="l00279" name="l00279"></a><span class="lineno">  279</span>            cabalPossible = canonada.<a class="code hl_function" href="class_canonada.html#a0615873ebdfdf3b6f8e42c7267942890">capacitat</a>();</div>
+<div class="line"><a id="l00280" name="l00280"></a><span class="lineno">  280</span>            cabalTotal = <a class="code hl_function" href="class_gestor_xarxes.html#ac679c9ad0c436c0342f761d3f167bff7">buscarCabalMaxim</a>(canonada.<a class="code hl_function" href="class_canonada.html#a50c5156883999228c31c34eff8a84db9">node2</a>(), cabalPossible, subGrafMaxFlow);</div>
+<div class="line"><a id="l00281" name="l00281"></a><span class="lineno">  281</span>            <a class="code hl_function" href="class_gestor_xarxes.html#a06132634b519e01136ad0f55d2664e93">fluxMaxim</a> += cabalTotal;</div>
+<div class="line"><a id="l00282" name="l00282"></a><span class="lineno">  282</span>            edge.setAttribute(<span class="stringliteral">&quot;ui.label&quot;</span>,cabalTotal + <span class="stringliteral">&quot;/&quot;</span> + canonada.<a class="code hl_function" href="class_canonada.html#a0615873ebdfdf3b6f8e42c7267942890">capacitat</a>());</div>
+<div class="line"><a id="l00283" name="l00283"></a><span class="lineno">  283</span>        }</div>
+<div class="line"><a id="l00284" name="l00284"></a><span class="lineno">  284</span>        <span class="comment">//dibuixar subgraf</span></div>
+<div class="line"><a id="l00285" name="l00285"></a><span class="lineno">  285</span>        subGrafMaxFlow.setAttribute(<span class="stringliteral">&quot;ui.quality&quot;</span>);</div>
+<div class="line"><a id="l00286" name="l00286"></a><span class="lineno">  286</span>        subGrafMaxFlow.setAttribute(<span class="stringliteral">&quot;ui.antialias&quot;</span>);</div>
+<div class="line"><a id="l00287" name="l00287"></a><span class="lineno">  287</span>        subGrafMaxFlow.setAttribute(<span class="stringliteral">&quot;ui.stylesheet&quot;</span>, <span class="stringliteral">&quot;url(&#39;file:src/estil.css&#39;)&quot;</span>);</div>
+<div class="line"><a id="l00288" name="l00288"></a><span class="lineno">  288</span>        subGrafMaxFlow.display();</div>
+<div class="line"><a id="l00289" name="l00289"></a><span class="lineno">  289</span>        System.out.println(<span class="stringliteral">&quot;Flux màxim\n&quot;</span> + <a class="code hl_function" href="class_gestor_xarxes.html#a06132634b519e01136ad0f55d2664e93">fluxMaxim</a>);</div>
+<div class="line"><a id="l00290" name="l00290"></a><span class="lineno">  290</span>    }</div>
+</div>
+<div class="line"><a id="l00291" name="l00291"></a><span class="lineno">  291</span> </div>
+<div class="foldopen" id="foldopen00296" data-start="{" data-end="}">
+<div class="line"><a id="l00296" name="l00296"></a><span class="lineno"><a class="line" href="class_gestor_xarxes.html#aa37ac2ac3dfd37f5738ec6a7f6b1a7ee">  296</a></span>    <span class="keyword">private</span> <span class="keyword">static</span> Graph <a class="code hl_function" href="class_gestor_xarxes.html#aa37ac2ac3dfd37f5738ec6a7f6b1a7ee">crearMaxFlow</a>(Graph graph,String idOrigen) {</div>
+<div class="line"><a id="l00297" name="l00297"></a><span class="lineno">  297</span>        <span class="comment">//inicialitzacions</span></div>
+<div class="line"><a id="l00298" name="l00298"></a><span class="lineno">  298</span>        Graph maxFlow = <span class="keyword">new</span> SingleGraph(<span class="stringliteral">&quot;MaxFlow&quot;</span>);</div>
+<div class="line"><a id="l00299" name="l00299"></a><span class="lineno">  299</span>        <span class="keywordtype">float</span> cabalOrigen = 0;</div>
+<div class="line"><a id="l00300" name="l00300"></a><span class="lineno">  300</span>        <a class="code hl_class" href="class_coordenades.html">Coordenades</a> cordOrigen = <span class="keyword">null</span>;</div>
+<div class="line"><a id="l00301" name="l00301"></a><span class="lineno">  301</span>        <span class="keywordtype">float</span> demandaActualTerminal = 0;</div>
+<div class="line"><a id="l00302" name="l00302"></a><span class="lineno">  302</span>        <span class="keywordtype">float</span> demandaPuntaTerminal = 0;</div>
+<div class="line"><a id="l00303" name="l00303"></a><span class="lineno">  303</span>        String idTerminal = <span class="stringliteral">&quot;&quot;</span>;</div>
+<div class="line"><a id="l00304" name="l00304"></a><span class="lineno">  304</span>        <a class="code hl_class" href="class_coordenades.html">Coordenades</a> cordTerminal = <span class="keyword">null</span>;</div>
+<div class="line"><a id="l00305" name="l00305"></a><span class="lineno">  305</span> </div>
+<div class="line"><a id="l00306" name="l00306"></a><span class="lineno">  306</span>        <span class="comment">//Recorregut per juntar nodes Origens i Terminals</span></div>
+<div class="line"><a id="l00307" name="l00307"></a><span class="lineno">  307</span>        <span class="keywordflow">for</span>(<a class="code hl_class" href="class_node.html">Node</a> node : graph.nodes().toList()) {</div>
+<div class="line"><a id="l00308" name="l00308"></a><span class="lineno">  308</span>            <a class="code hl_class" href="class_node_aixeta.html">NodeAixeta</a> nodeAixeta = (<a class="code hl_class" href="class_node_aixeta.html">NodeAixeta</a>) graph.getNode(node.getId()).getAttribute(<span class="stringliteral">&quot;aixeta&quot;</span>);</div>
+<div class="line"><a id="l00309" name="l00309"></a><span class="lineno">  309</span> </div>
+<div class="line"><a id="l00310" name="l00310"></a><span class="lineno">  310</span>            <span class="keywordflow">if</span>(nodeAixeta instanceof <a class="code hl_class" href="class_origen.html">Origen</a> origen){</div>
+<div class="line"><a id="l00311" name="l00311"></a><span class="lineno">  311</span>                cabalOrigen += origen.cabal();</div>
+<div class="line"><a id="l00312" name="l00312"></a><span class="lineno">  312</span>                cordOrigen = origen.coordenades();</div>
+<div class="line"><a id="l00313" name="l00313"></a><span class="lineno">  313</span>            }</div>
+<div class="line"><a id="l00314" name="l00314"></a><span class="lineno">  314</span>            <span class="keywordflow">else</span> <span class="keywordflow">if</span>(nodeAixeta instanceof <a class="code hl_class" href="class_terminal.html">Terminal</a> terminal){</div>
+<div class="line"><a id="l00315" name="l00315"></a><span class="lineno">  315</span>                demandaActualTerminal += terminal.demandaActual();</div>
+<div class="line"><a id="l00316" name="l00316"></a><span class="lineno">  316</span>                demandaPuntaTerminal += terminal.demandaPunta();</div>
+<div class="line"><a id="l00317" name="l00317"></a><span class="lineno">  317</span>                idTerminal = terminal.id();</div>
+<div class="line"><a id="l00318" name="l00318"></a><span class="lineno">  318</span>                cordTerminal = terminal.coordenades();</div>
+<div class="line"><a id="l00319" name="l00319"></a><span class="lineno">  319</span>            }</div>
+<div class="line"><a id="l00320" name="l00320"></a><span class="lineno">  320</span>            <span class="keywordflow">else</span>{</div>
+<div class="line"><a id="l00321" name="l00321"></a><span class="lineno">  321</span>                <a class="code hl_class" href="class_node.html">Node</a> n = maxFlow.addNode(nodeAixeta.<a class="code hl_function" href="class_node_aixeta.html#a99b337749880eb596891234af8158b14">id</a>());</div>
+<div class="line"><a id="l00322" name="l00322"></a><span class="lineno">  322</span>                n.setAttribute(<span class="stringliteral">&quot;aixeta&quot;</span>, nodeAixeta);</div>
+<div class="line"><a id="l00323" name="l00323"></a><span class="lineno">  323</span>                n.setAttribute(<span class="stringliteral">&quot;ui.class&quot;</span>, <span class="stringliteral">&quot;connexio&quot;</span>);</div>
+<div class="line"><a id="l00324" name="l00324"></a><span class="lineno">  324</span>            }</div>
+<div class="line"><a id="l00325" name="l00325"></a><span class="lineno">  325</span>        }</div>
+<div class="line"><a id="l00326" name="l00326"></a><span class="lineno">  326</span> </div>
+<div class="line"><a id="l00327" name="l00327"></a><span class="lineno">  327</span>        <span class="comment">//Crear nova xarxa MaxFlow</span></div>
+<div class="line"><a id="l00328" name="l00328"></a><span class="lineno">  328</span>        <span class="comment">//Crear Origen general</span></div>
+<div class="line"><a id="l00329" name="l00329"></a><span class="lineno">  329</span>        <a class="code hl_class" href="class_origen.html">Origen</a> unioOrigen= <span class="keyword">new</span> <a class="code hl_class" href="class_origen.html">Origen</a>(idOrigen,cordOrigen);</div>
+<div class="line"><a id="l00330" name="l00330"></a><span class="lineno">  330</span>        unioOrigen.<a class="code hl_function" href="class_origen.html#ae368d55fb365f672fdda2f9b384b88f2">establirCabal</a>(cabalOrigen);</div>
+<div class="line"><a id="l00331" name="l00331"></a><span class="lineno">  331</span>        <a class="code hl_class" href="class_node.html">Node</a> nodeOrigenGeneral = maxFlow.addNode(unioOrigen.<a class="code hl_function" href="class_node_aixeta.html#a99b337749880eb596891234af8158b14">id</a>());</div>
+<div class="line"><a id="l00332" name="l00332"></a><span class="lineno">  332</span>        nodeOrigenGeneral.setAttribute(<span class="stringliteral">&quot;aixeta&quot;</span>, unioOrigen);</div>
+<div class="line"><a id="l00333" name="l00333"></a><span class="lineno">  333</span>        nodeOrigenGeneral.setAttribute(<span class="stringliteral">&quot;ui.class&quot;</span>, <span class="stringliteral">&quot;origen&quot;</span>);</div>
+<div class="line"><a id="l00334" name="l00334"></a><span class="lineno">  334</span> </div>
+<div class="line"><a id="l00335" name="l00335"></a><span class="lineno">  335</span>        <span class="comment">//Crear Terminal general</span></div>
+<div class="line"><a id="l00336" name="l00336"></a><span class="lineno">  336</span>        <a class="code hl_class" href="class_terminal.html">Terminal</a> unioTerminal = <span class="keyword">new</span> <a class="code hl_class" href="class_terminal.html">Terminal</a>(idTerminal,cordTerminal,demandaPuntaTerminal);</div>
+<div class="line"><a id="l00337" name="l00337"></a><span class="lineno">  337</span>        unioTerminal.<a class="code hl_function" href="class_terminal.html#a7ed45a824a9fd4bc12cc23cde658e726">establirDemandaActual</a>(demandaActualTerminal);</div>
+<div class="line"><a id="l00338" name="l00338"></a><span class="lineno">  338</span>        <a class="code hl_class" href="class_node.html">Node</a> nodeTerminalGeneral = maxFlow.addNode(unioTerminal.<a class="code hl_function" href="class_node_aixeta.html#a99b337749880eb596891234af8158b14">id</a>());</div>
+<div class="line"><a id="l00339" name="l00339"></a><span class="lineno">  339</span>        nodeTerminalGeneral.setAttribute(<span class="stringliteral">&quot;aixeta&quot;</span>, unioTerminal);</div>
+<div class="line"><a id="l00340" name="l00340"></a><span class="lineno">  340</span>        nodeTerminalGeneral.setAttribute(<span class="stringliteral">&quot;ui.class&quot;</span>, <span class="stringliteral">&quot;terminal&quot;</span>);</div>
+<div class="line"><a id="l00341" name="l00341"></a><span class="lineno">  341</span> </div>
+<div class="line"><a id="l00342" name="l00342"></a><span class="lineno">  342</span>        Set&lt;String&gt; SetIdOrigens = <span class="keyword">new</span> HashSet&lt;&gt;(); <span class="comment">//set de connexions amb nodes origens fets (per no repetir)</span></div>
+<div class="line"><a id="l00343" name="l00343"></a><span class="lineno">  343</span>        <span class="comment">//enllaçar nodes</span></div>
+<div class="line"><a id="l00344" name="l00344"></a><span class="lineno">  344</span>        <span class="keywordflow">for</span>(<a class="code hl_class" href="class_node.html">Node</a> node : maxFlow.nodes().toList()) {</div>
+<div class="line"><a id="l00345" name="l00345"></a><span class="lineno">  345</span>            <a class="code hl_class" href="class_node.html">Node</a> nodeGraph = graph.getNode(node.getId());</div>
+<div class="line"><a id="l00346" name="l00346"></a><span class="lineno">  346</span> </div>
+<div class="line"><a id="l00347" name="l00347"></a><span class="lineno">  347</span>            <span class="keywordflow">for</span>(Edge edge : nodeGraph.edges().toList()) {</div>
+<div class="line"><a id="l00348" name="l00348"></a><span class="lineno">  348</span>                <a class="code hl_class" href="class_canonada.html">Canonada</a> canonada = (<a class="code hl_class" href="class_canonada.html">Canonada</a>) edge.getAttribute(<span class="stringliteral">&quot;canonada&quot;</span>);</div>
+<div class="line"><a id="l00349" name="l00349"></a><span class="lineno">  349</span> </div>
+<div class="line"><a id="l00350" name="l00350"></a><span class="lineno">  350</span>                <a class="code hl_class" href="class_node.html">Node</a> node2Graph = graph.getNode(canonada.<a class="code hl_function" href="class_canonada.html#a50c5156883999228c31c34eff8a84db9">node2</a>().<a class="code hl_function" href="class_node_aixeta.html#a99b337749880eb596891234af8158b14">id</a>());</div>
+<div class="line"><a id="l00351" name="l00351"></a><span class="lineno">  351</span>                <a class="code hl_class" href="class_node.html">Node</a> node1Graph = graph.getNode(canonada.<a class="code hl_function" href="class_canonada.html#add5baf3adf35132bc328f7f45b0bf3a7">node1</a>().<a class="code hl_function" href="class_node_aixeta.html#a99b337749880eb596891234af8158b14">id</a>());</div>
+<div class="line"><a id="l00352" name="l00352"></a><span class="lineno">  352</span>                <a class="code hl_class" href="class_node.html">Node</a> node2Max = maxFlow.getNode(canonada.<a class="code hl_function" href="class_canonada.html#a50c5156883999228c31c34eff8a84db9">node2</a>().<a class="code hl_function" href="class_node_aixeta.html#a99b337749880eb596891234af8158b14">id</a>());</div>
+<div class="line"><a id="l00353" name="l00353"></a><span class="lineno">  353</span>                <a class="code hl_class" href="class_node.html">Node</a> node1Max = maxFlow.getNode(canonada.<a class="code hl_function" href="class_canonada.html#add5baf3adf35132bc328f7f45b0bf3a7">node1</a>().<a class="code hl_function" href="class_node_aixeta.html#a99b337749880eb596891234af8158b14">id</a>());</div>
+<div class="line"><a id="l00354" name="l00354"></a><span class="lineno">  354</span>                String idCanonada;</div>
+<div class="line"><a id="l00355" name="l00355"></a><span class="lineno">  355</span>                Edge e = <span class="keyword">null</span>;</div>
+<div class="line"><a id="l00356" name="l00356"></a><span class="lineno">  356</span>                <a class="code hl_class" href="class_canonada.html">Canonada</a> pipe;</div>
+<div class="line"><a id="l00357" name="l00357"></a><span class="lineno">  357</span> </div>
+<div class="line"><a id="l00358" name="l00358"></a><span class="lineno">  358</span>                <span class="keywordflow">if</span> (node1Graph.getAttribute(<span class="stringliteral">&quot;ui.class&quot;</span>).toString().contains(<span class="stringliteral">&quot;origen&quot;</span>)) { <span class="comment">//si està connectat amb origen</span></div>
+<div class="line"><a id="l00359" name="l00359"></a><span class="lineno">  359</span>                    <span class="keywordflow">if</span>(node2Graph.getAttribute(<span class="stringliteral">&quot;ui.class&quot;</span>).toString().contains(<span class="stringliteral">&quot;terminal&quot;</span>)){ <span class="comment">//si hi ha connexió origen i terminal</span></div>
+<div class="line"><a id="l00360" name="l00360"></a><span class="lineno">  360</span>                        <span class="keywordflow">if</span>(!nodeOrigenGeneral.hasEdgeBetween(nodeTerminalGeneral)) {<span class="comment">//no s&#39;ha fet la connexió</span></div>
+<div class="line"><a id="l00361" name="l00361"></a><span class="lineno">  361</span>                            SetIdOrigens.add(canonada.<a class="code hl_function" href="class_canonada.html#a50c5156883999228c31c34eff8a84db9">node2</a>().<a class="code hl_function" href="class_node_aixeta.html#a99b337749880eb596891234af8158b14">id</a>()); <span class="comment">//afegim al set de ja connectats</span></div>
+<div class="line"><a id="l00362" name="l00362"></a><span class="lineno">  362</span>                            pipe = <span class="keyword">new</span> <a class="code hl_class" href="class_canonada.html">Canonada</a>(unioOrigen, unioTerminal, canonada.<a class="code hl_function" href="class_canonada.html#a0615873ebdfdf3b6f8e42c7267942890">capacitat</a>());</div>
+<div class="line"><a id="l00363" name="l00363"></a><span class="lineno">  363</span> </div>
+<div class="line"><a id="l00364" name="l00364"></a><span class="lineno">  364</span>                            <a class="code hl_function" href="class_gestor_xarxes.html#a177558746736df4eb42f9aff43e1c6ea">crearPipe</a>(maxFlow,unioOrigen,unioTerminal,pipe);</div>
+<div class="line"><a id="l00365" name="l00365"></a><span class="lineno">  365</span>                        }</div>
+<div class="line"><a id="l00366" name="l00366"></a><span class="lineno">  366</span>                        <span class="keywordflow">else</span> <span class="keywordflow">if</span>(!(SetIdOrigens.contains(canonada.<a class="code hl_function" href="class_canonada.html#a50c5156883999228c31c34eff8a84db9">node2</a>().<a class="code hl_function" href="class_node_aixeta.html#a99b337749880eb596891234af8158b14">id</a>()))){</div>
+<div class="line"><a id="l00367" name="l00367"></a><span class="lineno">  367</span>                            SetIdOrigens.add(canonada.<a class="code hl_function" href="class_canonada.html#a50c5156883999228c31c34eff8a84db9">node2</a>().<a class="code hl_function" href="class_node_aixeta.html#a99b337749880eb596891234af8158b14">id</a>()); <span class="comment">//afegim al set de ja connectats</span></div>
+<div class="line"><a id="l00368" name="l00368"></a><span class="lineno">  368</span> </div>
+<div class="line"><a id="l00369" name="l00369"></a><span class="lineno">  369</span>                            Edge edgeEliminar = nodeOrigenGeneral.getEdgeBetween(nodeTerminalGeneral);</div>
+<div class="line"><a id="l00370" name="l00370"></a><span class="lineno">  370</span>                            <a class="code hl_class" href="class_canonada.html">Canonada</a> canonadaEliminar = (<a class="code hl_class" href="class_canonada.html">Canonada</a>) edgeEliminar.getAttribute(<span class="stringliteral">&quot;canonada&quot;</span>);</div>
+<div class="line"><a id="l00371" name="l00371"></a><span class="lineno">  371</span>                            pipe = <span class="keyword">new</span> <a class="code hl_class" href="class_canonada.html">Canonada</a>(unioOrigen,unioTerminal,canonada.<a class="code hl_function" href="class_canonada.html#a0615873ebdfdf3b6f8e42c7267942890">capacitat</a>()+canonadaEliminar.<a class="code hl_function" href="class_canonada.html#a0615873ebdfdf3b6f8e42c7267942890">capacitat</a>());</div>
+<div class="line"><a id="l00372" name="l00372"></a><span class="lineno">  372</span>                            maxFlow.removeEdge(edgeEliminar);<span class="comment">//eliminem antiga connexió</span></div>
+<div class="line"><a id="l00373" name="l00373"></a><span class="lineno">  373</span> </div>
+<div class="line"><a id="l00374" name="l00374"></a><span class="lineno">  374</span>                            <a class="code hl_function" href="class_gestor_xarxes.html#a177558746736df4eb42f9aff43e1c6ea">crearPipe</a>(maxFlow,unioOrigen,unioTerminal,pipe);<span class="comment">//creem nova connexió general</span></div>
+<div class="line"><a id="l00375" name="l00375"></a><span class="lineno">  375</span>                        }</div>
+<div class="line"><a id="l00376" name="l00376"></a><span class="lineno">  376</span>                    }</div>
+<div class="line"><a id="l00377" name="l00377"></a><span class="lineno">  377</span>                    <span class="keywordflow">else</span> {<span class="comment">//no son origen + terminal</span></div>
+<div class="line"><a id="l00378" name="l00378"></a><span class="lineno">  378</span>                        <span class="keywordflow">if</span> (!node2Max.hasEdgeBetween(nodeOrigenGeneral)) { <span class="comment">//no s&#39;ha fet connexió</span></div>
+<div class="line"><a id="l00379" name="l00379"></a><span class="lineno">  379</span>                            SetIdOrigens.add(canonada.<a class="code hl_function" href="class_canonada.html#a50c5156883999228c31c34eff8a84db9">node2</a>().<a class="code hl_function" href="class_node_aixeta.html#a99b337749880eb596891234af8158b14">id</a>()); <span class="comment">//afegim al set de ja connectats</span></div>
+<div class="line"><a id="l00380" name="l00380"></a><span class="lineno">  380</span> </div>
+<div class="line"><a id="l00381" name="l00381"></a><span class="lineno">  381</span>                            pipe = <span class="keyword">new</span> <a class="code hl_class" href="class_canonada.html">Canonada</a>(unioOrigen, canonada.<a class="code hl_function" href="class_canonada.html#a50c5156883999228c31c34eff8a84db9">node2</a>(), canonada.<a class="code hl_function" href="class_canonada.html#a0615873ebdfdf3b6f8e42c7267942890">capacitat</a>());</div>
+<div class="line"><a id="l00382" name="l00382"></a><span class="lineno">  382</span>                            <a class="code hl_function" href="class_gestor_xarxes.html#a177558746736df4eb42f9aff43e1c6ea">crearPipe</a>(maxFlow,unioOrigen,canonada.<a class="code hl_function" href="class_canonada.html#a50c5156883999228c31c34eff8a84db9">node2</a>(),pipe);<span class="comment">//creem nova connexió general</span></div>
+<div class="line"><a id="l00383" name="l00383"></a><span class="lineno">  383</span>                        }</div>
+<div class="line"><a id="l00384" name="l00384"></a><span class="lineno">  384</span>                        <span class="keywordflow">else</span> <span class="keywordflow">if</span>(!(SetIdOrigens.contains(canonada.<a class="code hl_function" href="class_canonada.html#a50c5156883999228c31c34eff8a84db9">node2</a>().<a class="code hl_function" href="class_node_aixeta.html#a99b337749880eb596891234af8158b14">id</a>()))){</div>
+<div class="line"><a id="l00385" name="l00385"></a><span class="lineno">  385</span>                            SetIdOrigens.add(canonada.<a class="code hl_function" href="class_canonada.html#a50c5156883999228c31c34eff8a84db9">node2</a>().<a class="code hl_function" href="class_node_aixeta.html#a99b337749880eb596891234af8158b14">id</a>()); <span class="comment">//afegim al set de ja connectats</span></div>
+<div class="line"><a id="l00386" name="l00386"></a><span class="lineno">  386</span> </div>
+<div class="line"><a id="l00387" name="l00387"></a><span class="lineno">  387</span>                            Edge edgeEliminar = node2Max.getEdgeBetween(nodeOrigenGeneral);</div>
+<div class="line"><a id="l00388" name="l00388"></a><span class="lineno">  388</span>                            <a class="code hl_class" href="class_canonada.html">Canonada</a> canonadaEliminar = (<a class="code hl_class" href="class_canonada.html">Canonada</a>) edgeEliminar.getAttribute(<span class="stringliteral">&quot;canonada&quot;</span>);</div>
+<div class="line"><a id="l00389" name="l00389"></a><span class="lineno">  389</span>                            pipe = <span class="keyword">new</span> <a class="code hl_class" href="class_canonada.html">Canonada</a>(unioOrigen,canonada.<a class="code hl_function" href="class_canonada.html#a50c5156883999228c31c34eff8a84db9">node2</a>(),canonada.<a class="code hl_function" href="class_canonada.html#a0615873ebdfdf3b6f8e42c7267942890">capacitat</a>()+canonadaEliminar.<a class="code hl_function" href="class_canonada.html#a0615873ebdfdf3b6f8e42c7267942890">capacitat</a>());</div>
+<div class="line"><a id="l00390" name="l00390"></a><span class="lineno">  390</span>                            maxFlow.removeEdge(edgeEliminar);<span class="comment">//eliminem antiga connexió</span></div>
+<div class="line"><a id="l00391" name="l00391"></a><span class="lineno">  391</span> </div>
+<div class="line"><a id="l00392" name="l00392"></a><span class="lineno">  392</span>                            <a class="code hl_function" href="class_gestor_xarxes.html#a177558746736df4eb42f9aff43e1c6ea">crearPipe</a>(maxFlow,unioOrigen,canonada.<a class="code hl_function" href="class_canonada.html#a50c5156883999228c31c34eff8a84db9">node2</a>(),pipe);<span class="comment">//creem nova connexió general</span></div>
+<div class="line"><a id="l00393" name="l00393"></a><span class="lineno">  393</span>                        }</div>
+<div class="line"><a id="l00394" name="l00394"></a><span class="lineno">  394</span>                    }</div>
+<div class="line"><a id="l00395" name="l00395"></a><span class="lineno">  395</span>                }</div>
+<div class="line"><a id="l00396" name="l00396"></a><span class="lineno">  396</span>                <span class="keywordflow">else</span> <span class="keywordflow">if</span>(node2Graph.getAttribute(<span class="stringliteral">&quot;ui.class&quot;</span>).toString().contains(<span class="stringliteral">&quot;terminal&quot;</span>)){<span class="comment">//si està connectat amb terminal</span></div>
+<div class="line"><a id="l00397" name="l00397"></a><span class="lineno">  397</span>                    <span class="comment">//no cal mirar si node1 és origen perquè ja hagués entrat al primer if</span></div>
+<div class="line"><a id="l00398" name="l00398"></a><span class="lineno">  398</span>                    <span class="keywordflow">if</span>(!node1Max.hasEdgeBetween(nodeTerminalGeneral)) {</div>
+<div class="line"><a id="l00399" name="l00399"></a><span class="lineno">  399</span>                        pipe = <span class="keyword">new</span> <a class="code hl_class" href="class_canonada.html">Canonada</a>(canonada.<a class="code hl_function" href="class_canonada.html#add5baf3adf35132bc328f7f45b0bf3a7">node1</a>(), unioTerminal, canonada.<a class="code hl_function" href="class_canonada.html#a0615873ebdfdf3b6f8e42c7267942890">capacitat</a>());</div>
+<div class="line"><a id="l00400" name="l00400"></a><span class="lineno">  400</span>                        <a class="code hl_function" href="class_gestor_xarxes.html#a177558746736df4eb42f9aff43e1c6ea">crearPipe</a>(maxFlow,canonada.<a class="code hl_function" href="class_canonada.html#add5baf3adf35132bc328f7f45b0bf3a7">node1</a>(),unioTerminal,pipe);<span class="comment">//creem pipe</span></div>
+<div class="line"><a id="l00401" name="l00401"></a><span class="lineno">  401</span>                    }</div>
+<div class="line"><a id="l00402" name="l00402"></a><span class="lineno">  402</span> </div>
+<div class="line"><a id="l00403" name="l00403"></a><span class="lineno">  403</span>                }</div>
+<div class="line"><a id="l00404" name="l00404"></a><span class="lineno">  404</span>                <span class="keywordflow">else</span>{<span class="comment">//si son dos connexions</span></div>
+<div class="line"><a id="l00405" name="l00405"></a><span class="lineno">  405</span>                    <span class="keywordflow">if</span>(!(node1Max.hasEdgeBetween(node2Max))) {</div>
+<div class="line"><a id="l00406" name="l00406"></a><span class="lineno">  406</span>                        pipe = <span class="keyword">new</span> <a class="code hl_class" href="class_canonada.html">Canonada</a>(canonada.<a class="code hl_function" href="class_canonada.html#add5baf3adf35132bc328f7f45b0bf3a7">node1</a>(), canonada.<a class="code hl_function" href="class_canonada.html#a50c5156883999228c31c34eff8a84db9">node2</a>(), canonada.<a class="code hl_function" href="class_canonada.html#a0615873ebdfdf3b6f8e42c7267942890">capacitat</a>());</div>
+<div class="line"><a id="l00407" name="l00407"></a><span class="lineno">  407</span>                        <a class="code hl_function" href="class_gestor_xarxes.html#a177558746736df4eb42f9aff43e1c6ea">crearPipe</a>(maxFlow,canonada.<a class="code hl_function" href="class_canonada.html#add5baf3adf35132bc328f7f45b0bf3a7">node1</a>(),canonada.<a class="code hl_function" href="class_canonada.html#a50c5156883999228c31c34eff8a84db9">node2</a>(),pipe);<span class="comment">//creem pipe</span></div>
+<div class="line"><a id="l00408" name="l00408"></a><span class="lineno">  408</span>                    }</div>
+<div class="line"><a id="l00409" name="l00409"></a><span class="lineno">  409</span>                }</div>
+<div class="line"><a id="l00410" name="l00410"></a><span class="lineno">  410</span>            }</div>
+<div class="line"><a id="l00411" name="l00411"></a><span class="lineno">  411</span> </div>
+<div class="line"><a id="l00412" name="l00412"></a><span class="lineno">  412</span>        }</div>
+<div class="line"><a id="l00413" name="l00413"></a><span class="lineno">  413</span>        <span class="keywordflow">return</span> maxFlow;</div>
+<div class="line"><a id="l00414" name="l00414"></a><span class="lineno">  414</span>    }</div>
+</div>
+<div class="line"><a id="l00415" name="l00415"></a><span class="lineno">  415</span> </div>
+<div class="foldopen" id="foldopen00420" data-start="{" data-end="}">
+<div class="line"><a id="l00420" name="l00420"></a><span class="lineno"><a class="line" href="class_gestor_xarxes.html#a177558746736df4eb42f9aff43e1c6ea">  420</a></span>    <span class="keyword">private</span> <span class="keyword">static</span> <span class="keywordtype">void</span> <a class="code hl_function" href="class_gestor_xarxes.html#a177558746736df4eb42f9aff43e1c6ea">crearPipe</a>(Graph maxFlow, <a class="code hl_class" href="class_node_aixeta.html">NodeAixeta</a> node1, <a class="code hl_class" href="class_node_aixeta.html">NodeAixeta</a> node2, <a class="code hl_class" href="class_canonada.html">Canonada</a> pipe){</div>
+<div class="line"><a id="l00421" name="l00421"></a><span class="lineno">  421</span>        String idCanonada = node1.<a class="code hl_function" href="class_node_aixeta.html#a99b337749880eb596891234af8158b14">id</a>() + <span class="stringliteral">&quot;-&quot;</span> + node2.<a class="code hl_function" href="class_node_aixeta.html#a99b337749880eb596891234af8158b14">id</a>();</div>
+<div class="line"><a id="l00422" name="l00422"></a><span class="lineno">  422</span>        Edge e = maxFlow.addEdge(idCanonada, node1.<a class="code hl_function" href="class_node_aixeta.html#a99b337749880eb596891234af8158b14">id</a>(), node2.<a class="code hl_function" href="class_node_aixeta.html#a99b337749880eb596891234af8158b14">id</a>(), <span class="keyword">true</span>);</div>
+<div class="line"><a id="l00423" name="l00423"></a><span class="lineno">  423</span>        e.setAttribute(<span class="stringliteral">&quot;canonada&quot;</span>, pipe);</div>
+<div class="line"><a id="l00424" name="l00424"></a><span class="lineno">  424</span>    }</div>
+</div>
+<div class="line"><a id="l00425" name="l00425"></a><span class="lineno">  425</span> </div>
+<div class="foldopen" id="foldopen00431" data-start="{" data-end="}">
+<div class="line"><a id="l00431" name="l00431"></a><span class="lineno"><a class="line" href="class_gestor_xarxes.html#ac679c9ad0c436c0342f761d3f167bff7">  431</a></span>    <span class="keyword">private</span> <span class="keyword">static</span> <span class="keywordtype">float</span> <a class="code hl_function" href="class_gestor_xarxes.html#ac679c9ad0c436c0342f761d3f167bff7">buscarCabalMaxim</a>(<a class="code hl_class" href="class_node_aixeta.html">NodeAixeta</a> nodeAixeta,<span class="keywordtype">float</span> cabalPossible, Graph graph) {</div>
+<div class="line"><a id="l00432" name="l00432"></a><span class="lineno">  432</span>        <span class="keywordtype">float</span> cabalTotal = 0;</div>
+<div class="line"><a id="l00433" name="l00433"></a><span class="lineno">  433</span>        <span class="keywordflow">if</span>(nodeAixeta instanceof <a class="code hl_class" href="class_terminal.html">Terminal</a> terminal){</div>
+<div class="line"><a id="l00434" name="l00434"></a><span class="lineno">  434</span>            cabalTotal = cabalPossible;</div>
+<div class="line"><a id="l00435" name="l00435"></a><span class="lineno">  435</span>        }</div>
+<div class="line"><a id="l00436" name="l00436"></a><span class="lineno">  436</span>        <span class="keywordflow">else</span>{</div>
+<div class="line"><a id="l00437" name="l00437"></a><span class="lineno">  437</span>            <span class="comment">//per tots els edges sortida del node</span></div>
+<div class="line"><a id="l00438" name="l00438"></a><span class="lineno">  438</span>            <a class="code hl_class" href="class_node.html">Node</a> nodeIterador = graph.getNode(nodeAixeta.<a class="code hl_function" href="class_node_aixeta.html#a99b337749880eb596891234af8158b14">id</a>());</div>
+<div class="line"><a id="l00439" name="l00439"></a><span class="lineno">  439</span>            Iterator&lt;Edge&gt; edgeIterator = nodeIterador.leavingEdges().iterator();</div>
+<div class="line"><a id="l00440" name="l00440"></a><span class="lineno">  440</span>            <span class="keywordflow">while</span> (edgeIterator.hasNext()) {</div>
+<div class="line"><a id="l00441" name="l00441"></a><span class="lineno">  441</span>                Edge aresta = edgeIterator.next();</div>
+<div class="line"><a id="l00442" name="l00442"></a><span class="lineno">  442</span>                <a class="code hl_class" href="class_canonada.html">Canonada</a> canonada = (<a class="code hl_class" href="class_canonada.html">Canonada</a>) aresta.getAttribute(<span class="stringliteral">&quot;canonada&quot;</span>);</div>
+<div class="line"><a id="l00443" name="l00443"></a><span class="lineno">  443</span>                <span class="comment">//comprovar si cabalPossible és més petit i cridar funció recursiva</span></div>
+<div class="line"><a id="l00444" name="l00444"></a><span class="lineno">  444</span>                <span class="keywordtype">float</span> cabalCanonada = 0;</div>
+<div class="line"><a id="l00445" name="l00445"></a><span class="lineno">  445</span>                <span class="keywordflow">if</span> (cabalPossible &gt; canonada.<a class="code hl_function" href="class_canonada.html#a0615873ebdfdf3b6f8e42c7267942890">capacitat</a>()) {</div>
+<div class="line"><a id="l00446" name="l00446"></a><span class="lineno">  446</span>                    cabalCanonada = <a class="code hl_function" href="class_gestor_xarxes.html#ac679c9ad0c436c0342f761d3f167bff7">buscarCabalMaxim</a>(canonada.<a class="code hl_function" href="class_canonada.html#a50c5156883999228c31c34eff8a84db9">node2</a>(), canonada.<a class="code hl_function" href="class_canonada.html#a0615873ebdfdf3b6f8e42c7267942890">capacitat</a>(), graph);</div>
+<div class="line"><a id="l00447" name="l00447"></a><span class="lineno">  447</span>                }</div>
+<div class="line"><a id="l00448" name="l00448"></a><span class="lineno">  448</span>                <span class="keywordflow">else</span> cabalCanonada = <a class="code hl_function" href="class_gestor_xarxes.html#ac679c9ad0c436c0342f761d3f167bff7">buscarCabalMaxim</a>(canonada.<a class="code hl_function" href="class_canonada.html#a50c5156883999228c31c34eff8a84db9">node2</a>(), cabalPossible, graph);</div>
+<div class="line"><a id="l00449" name="l00449"></a><span class="lineno">  449</span> </div>
+<div class="line"><a id="l00450" name="l00450"></a><span class="lineno">  450</span>                cabalTotal += cabalCanonada;</div>
+<div class="line"><a id="l00451" name="l00451"></a><span class="lineno">  451</span>                cabalPossible -= cabalCanonada;</div>
+<div class="line"><a id="l00452" name="l00452"></a><span class="lineno">  452</span>                <span class="comment">//guardar cabal a dibuix</span></div>
+<div class="line"><a id="l00453" name="l00453"></a><span class="lineno">  453</span>                aresta.setAttribute(<span class="stringliteral">&quot;ui.label&quot;</span>,cabalCanonada + <span class="stringliteral">&quot;/&quot;</span> + canonada.<a class="code hl_function" href="class_canonada.html#a0615873ebdfdf3b6f8e42c7267942890">capacitat</a>());</div>
+<div class="line"><a id="l00454" name="l00454"></a><span class="lineno">  454</span> </div>
+<div class="line"><a id="l00455" name="l00455"></a><span class="lineno">  455</span>            }</div>
+<div class="line"><a id="l00456" name="l00456"></a><span class="lineno">  456</span>        }</div>
+<div class="line"><a id="l00457" name="l00457"></a><span class="lineno">  457</span>        <span class="keywordflow">return</span> cabalTotal;</div>
+<div class="line"><a id="l00458" name="l00458"></a><span class="lineno">  458</span>    }</div>
+</div>
+<div class="line"><a id="l00459" name="l00459"></a><span class="lineno">  459</span>}</div>
+</div>
+<div class="ttc" id="aclass_canonada_html"><div class="ttname"><a href="class_canonada.html">Canonada</a></div><div class="ttdoc">Canonada de la xarxa de distribució d'aigua.</div><div class="ttdef"><b>Definition</b> <a href="_canonada_8java_source.html#l00012">Canonada.java:12</a></div></div>
+<div class="ttc" id="aclass_canonada_html_a0615873ebdfdf3b6f8e42c7267942890"><div class="ttname"><a href="class_canonada.html#a0615873ebdfdf3b6f8e42c7267942890">Canonada.capacitat</a></div><div class="ttdeci">float capacitat()</div><div class="ttdoc">Capacitat.</div><div class="ttdef"><b>Definition</b> <a href="_canonada_8java_source.html#l00051">Canonada.java:51</a></div></div>
+<div class="ttc" id="aclass_canonada_html_a50c5156883999228c31c34eff8a84db9"><div class="ttname"><a href="class_canonada.html#a50c5156883999228c31c34eff8a84db9">Canonada.node2</a></div><div class="ttdeci">NodeAixeta node2()</div><div class="ttdoc">Node sortida.</div><div class="ttdef"><b>Definition</b> <a href="_canonada_8java_source.html#l00042">Canonada.java:42</a></div></div>
+<div class="ttc" id="aclass_canonada_html_add5baf3adf35132bc328f7f45b0bf3a7"><div class="ttname"><a href="class_canonada.html#add5baf3adf35132bc328f7f45b0bf3a7">Canonada.node1</a></div><div class="ttdeci">NodeAixeta node1()</div><div class="ttdoc">Node entrada.</div><div class="ttdef"><b>Definition</b> <a href="_canonada_8java_source.html#l00033">Canonada.java:33</a></div></div>
+<div class="ttc" id="aclass_connexio_html"><div class="ttname"><a href="class_connexio.html">Connexio</a></div><div class="ttdoc">Node de connexió d'una xarxa de distribució d'aigua.</div><div class="ttdef"><b>Definition</b> <a href="_connexio_8java_source.html#l00012">Connexio.java:12</a></div></div>
+<div class="ttc" id="aclass_coordenades_html"><div class="ttname"><a href="class_coordenades.html">Coordenades</a></div><div class="ttdoc">Coordenades geogràfiques (latitud, longitud)</div><div class="ttdef"><b>Definition</b> <a href="_coordenades_8java_source.html#l00013">Coordenades.java:13</a></div></div>
+<div class="ttc" id="aclass_coordenades_html_af0623aa8643efc99b90f77622392d6a5"><div class="ttname"><a href="class_coordenades.html#af0623aa8643efc99b90f77622392d6a5">Coordenades.distancia</a></div><div class="ttdeci">double distancia(Coordenades c)</div><div class="ttdoc">Distancia entre coordenades.</div><div class="ttdef"><b>Definition</b> <a href="_coordenades_8java_source.html#l00074">Coordenades.java:74</a></div></div>
+<div class="ttc" id="aclass_gestor_xarxes_html"><div class="ttname"><a href="class_gestor_xarxes.html">GestorXarxes</a></div><div class="ttdoc">Mòdul funcional amb funcions per a la gestió de xarxes de distribució d'aigua.</div><div class="ttdef"><b>Definition</b> <a href="_gestor_xarxes_8java_source.html#l00014">GestorXarxes.java:14</a></div></div>
+<div class="ttc" id="aclass_gestor_xarxes_html_a06132634b519e01136ad0f55d2664e93"><div class="ttname"><a href="class_gestor_xarxes.html#a06132634b519e01136ad0f55d2664e93">GestorXarxes.fluxMaxim</a></div><div class="ttdeci">static void fluxMaxim(Xarxa x, Origen nodeOrigen)</div><div class="ttdoc">Dibuixa la xarxa x amb tots els cabals i capacitats de cada canonada i node juntament amb l'estat del...</div><div class="ttdef"><b>Definition</b> <a href="_gestor_xarxes_8java_source.html#l00266">GestorXarxes.java:266</a></div></div>
+<div class="ttc" id="aclass_gestor_xarxes_html_a177558746736df4eb42f9aff43e1c6ea"><div class="ttname"><a href="class_gestor_xarxes.html#a177558746736df4eb42f9aff43e1c6ea">GestorXarxes.crearPipe</a></div><div class="ttdeci">static void crearPipe(Graph maxFlow, NodeAixeta node1, NodeAixeta node2, Canonada pipe)</div><div class="ttdoc">Crea una pipe en el graph maxFlow.</div><div class="ttdef"><b>Definition</b> <a href="_gestor_xarxes_8java_source.html#l00420">GestorXarxes.java:420</a></div></div>
+<div class="ttc" id="aclass_gestor_xarxes_html_a3ef76bc7aacab2d890734a3d13de7d92"><div class="ttname"><a href="class_gestor_xarxes.html#a3ef76bc7aacab2d890734a3d13de7d92">GestorXarxes.esConnex</a></div><div class="ttdeci">static boolean esConnex(Xarxa x, Origen nodeOrigen)</div><div class="ttdoc">Es Connex.</div><div class="ttdef"><b>Definition</b> <a href="_gestor_xarxes_8java_source.html#l00086">GestorXarxes.java:86</a></div></div>
+<div class="ttc" id="aclass_gestor_xarxes_html_a51fa1439ecaabee3627f77eed9122ad3"><div class="ttname"><a href="class_gestor_xarxes.html#a51fa1439ecaabee3627f77eed9122ad3">GestorXarxes.teCicles</a></div><div class="ttdeci">static boolean teCicles(Xarxa x, Origen nodeOrigen)</div><div class="ttdoc">Retornarà true si el sub graf creat a partir del node origen té cicles. Altrament retornarà false.</div><div class="ttdef"><b>Definition</b> <a href="_gestor_xarxes_8java_source.html#l00020">GestorXarxes.java:20</a></div></div>
+<div class="ttc" id="aclass_gestor_xarxes_html_a7d51af69de370700b78f51254bd900e2"><div class="ttname"><a href="class_gestor_xarxes.html#a7d51af69de370700b78f51254bd900e2">GestorXarxes.aixetesTancar</a></div><div class="ttdeci">static Set&lt; NodeAixeta &gt; aixetesTancar(Xarxa x, Map&lt; Terminal, Boolean &gt; aiguaArriba)</div><div class="ttdoc">Retorna un set amb tots els nodes aixetes els quals estàn trencats o embossats (no passa aigua)</div><div class="ttdef"><b>Definition</b> <a href="_gestor_xarxes_8java_source.html#l00175">GestorXarxes.java:175</a></div></div>
+<div class="ttc" id="aclass_gestor_xarxes_html_a8dc25aca4b2f9592137eb651a6266b0d"><div class="ttname"><a href="class_gestor_xarxes.html#a8dc25aca4b2f9592137eb651a6266b0d">GestorXarxes.dfsConnex</a></div><div class="ttdeci">static void dfsConnex(Graph graf, Node node, Set&lt; Node &gt; visitats)</div><div class="ttdoc">Algoritme DFS connex.</div><div class="ttdef"><b>Definition</b> <a href="_gestor_xarxes_8java_source.html#l00099">GestorXarxes.java:99</a></div></div>
+<div class="ttc" id="aclass_gestor_xarxes_html_aa37ac2ac3dfd37f5738ec6a7f6b1a7ee"><div class="ttname"><a href="class_gestor_xarxes.html#aa37ac2ac3dfd37f5738ec6a7f6b1a7ee">GestorXarxes.crearMaxFlow</a></div><div class="ttdeci">static Graph crearMaxFlow(Graph graph, String idOrigen)</div><div class="ttdoc">Crea un nou graf amb un sol node origen i un sol node terminal a partir del graf graph.</div><div class="ttdef"><b>Definition</b> <a href="_gestor_xarxes_8java_source.html#l00296">GestorXarxes.java:296</a></div></div>
+<div class="ttc" id="aclass_gestor_xarxes_html_ab71282c05543f6f16daa313ea20c44fb"><div class="ttname"><a href="class_gestor_xarxes.html#ab71282c05543f6f16daa313ea20c44fb">GestorXarxes.eliminarFills</a></div><div class="ttdeci">static void eliminarFills(Set&lt; NodeAixeta &gt; tancarAixetes, NodeAixeta aixeta, Xarxa x, Set&lt; NodeAixeta &gt; tancarAixetesFills)</div><div class="ttdoc">Guarda a tancarAixetesFills tots els nodes fills trobats des del node aixeta.</div><div class="ttdef"><b>Definition</b> <a href="_gestor_xarxes_8java_source.html#l00208">GestorXarxes.java:208</a></div></div>
+<div class="ttc" id="aclass_gestor_xarxes_html_ab78893a7b542bbce4397af1ebd18562e"><div class="ttname"><a href="class_gestor_xarxes.html#ab78893a7b542bbce4397af1ebd18562e">GestorXarxes.recorregutCicle</a></div><div class="ttdeci">static boolean recorregutCicle(Node node, Set&lt; Node &gt; visitats)</div><div class="ttdoc">Algoritme cicles.</div><div class="ttdef"><b>Definition</b> <a href="_gestor_xarxes_8java_source.html#l00045">GestorXarxes.java:45</a></div></div>
+<div class="ttc" id="aclass_gestor_xarxes_html_ac679c9ad0c436c0342f761d3f167bff7"><div class="ttname"><a href="class_gestor_xarxes.html#ac679c9ad0c436c0342f761d3f167bff7">GestorXarxes.buscarCabalMaxim</a></div><div class="ttdeci">static float buscarCabalMaxim(NodeAixeta nodeAixeta, float cabalPossible, Graph graph)</div><div class="ttdoc">Retorna el flux màxim que pot donar el nodeAixeta. Com a màxim serà cabalPossible.</div><div class="ttdef"><b>Definition</b> <a href="_gestor_xarxes_8java_source.html#l00431">GestorXarxes.java:431</a></div></div>
+<div class="ttc" id="aclass_gestor_xarxes_html_ad6c1adeced5adf43b6ac8be94abf68a0"><div class="ttname"><a href="class_gestor_xarxes.html#ad6c1adeced5adf43b6ac8be94abf68a0">GestorXarxes.cabalMinim</a></div><div class="ttdeci">static float cabalMinim(Xarxa x, Origen nodeOrigen, float percentatgeDemandaSatisfet)</div><div class="ttdoc">Retorna el cabal mínim que hi hauria d’haver entre tots els nodes d’origen de la component connexa de...</div><div class="ttdef"><b>Definition</b> <a href="_gestor_xarxes_8java_source.html#l00118">GestorXarxes.java:118</a></div></div>
+<div class="ttc" id="aclass_gestor_xarxes_html_ad9edd2ee02d5fd240f09950e41093bab"><div class="ttname"><a href="class_gestor_xarxes.html#ad9edd2ee02d5fd240f09950e41093bab">GestorXarxes.nodesOrdenats</a></div><div class="ttdeci">static List&lt; NodeAixeta &gt; nodesOrdenats(Coordenades c, Set&lt; NodeAixeta &gt; cjtNodes)</div><div class="ttdoc">Retorna una llista amb tots els nodes de cjtNodes ordenats.</div><div class="ttdef"><b>Definition</b> <a href="_gestor_xarxes_8java_source.html#l00234">GestorXarxes.java:234</a></div></div>
+<div class="ttc" id="aclass_gestor_xarxes_html_ae878c285c51f0a76a2abb8de5fb75cfb"><div class="ttname"><a href="class_gestor_xarxes.html#ae878c285c51f0a76a2abb8de5fb75cfb">GestorXarxes.excesCabal</a></div><div class="ttdeci">static Set&lt; Canonada &gt; excesCabal(Xarxa x, Origen nodeOrigen, Set&lt; Canonada &gt; cjtCanonades)</div><div class="ttdoc">Retorna un set amb totes les canonades les quals tenen una demanda més gran que la seva capacitat màx...</div><div class="ttdef"><b>Definition</b> <a href="_gestor_xarxes_8java_source.html#l00141">GestorXarxes.java:141</a></div></div>
+<div class="ttc" id="aclass_gestor_xarxes_html_aef6c5c914fde2624b680c0cc1775a403"><div class="ttname"><a href="class_gestor_xarxes.html#aef6c5c914fde2624b680c0cc1775a403">GestorXarxes.esArbre</a></div><div class="ttdeci">static boolean esArbre(Xarxa x, Origen nodeOrigen)</div><div class="ttdoc">Retornarà true si el sub graf creat a partir del node Origen no té cicles i és connex.</div><div class="ttdef"><b>Definition</b> <a href="_gestor_xarxes_8java_source.html#l00076">GestorXarxes.java:76</a></div></div>
+<div class="ttc" id="aclass_node_aixeta_html"><div class="ttname"><a href="class_node_aixeta.html">NodeAixeta</a></div><div class="ttdoc">Node d'una xarxa de distribució d'aigua.</div><div class="ttdef"><b>Definition</b> <a href="_node_aixeta_8java_source.html#l00012">NodeAixeta.java:12</a></div></div>
+<div class="ttc" id="aclass_node_aixeta_html_a804fd738681b48f8bd30fa0054c826e5"><div class="ttname"><a href="class_node_aixeta.html#a804fd738681b48f8bd30fa0054c826e5">NodeAixeta.coordenades</a></div><div class="ttdeci">Coordenades coordenades()</div><div class="ttdoc">Coordenades del node.</div><div class="ttdef"><b>Definition</b> <a href="_node_aixeta_8java_source.html#l00039">NodeAixeta.java:39</a></div></div>
+<div class="ttc" id="aclass_node_aixeta_html_a99b337749880eb596891234af8158b14"><div class="ttname"><a href="class_node_aixeta.html#a99b337749880eb596891234af8158b14">NodeAixeta.id</a></div><div class="ttdeci">String id()</div><div class="ttdoc">Identificador del node.</div><div class="ttdef"><b>Definition</b> <a href="_node_aixeta_8java_source.html#l00031">NodeAixeta.java:31</a></div></div>
+<div class="ttc" id="aclass_node_aixeta_html_abc42af0213d387ddd4c03edec5770c62"><div class="ttname"><a href="class_node_aixeta.html#abc42af0213d387ddd4c03edec5770c62">NodeAixeta.aixetaOberta</a></div><div class="ttdeci">boolean aixetaOberta()</div><div class="ttdoc">Estat de l'aixeta.</div><div class="ttdef"><b>Definition</b> <a href="_node_aixeta_8java_source.html#l00047">NodeAixeta.java:47</a></div></div>
+<div class="ttc" id="aclass_node_html"><div class="ttname"><a href="class_node.html">Node</a></div><div class="ttdoc">Node Terminal d'una Xarxa de distribució d'aigua.</div></div>
+<div class="ttc" id="aclass_origen_html"><div class="ttname"><a href="class_origen.html">Origen</a></div><div class="ttdoc">Node origen d'una xarxa de distribució d'aigua.</div><div class="ttdef"><b>Definition</b> <a href="_origen_8java_source.html#l00012">Origen.java:12</a></div></div>
+<div class="ttc" id="aclass_origen_html_ae368d55fb365f672fdda2f9b384b88f2"><div class="ttname"><a href="class_origen.html#ae368d55fb365f672fdda2f9b384b88f2">Origen.establirCabal</a></div><div class="ttdeci">void establirCabal(float cabal)</div><div class="ttdoc">Establir Cabal.</div><div class="ttdef"><b>Definition</b> <a href="_origen_8java_source.html#l00040">Origen.java:40</a></div></div>
+<div class="ttc" id="aclass_terminal_html"><div class="ttname"><a href="class_terminal.html">Terminal</a></div><div class="ttdef"><b>Definition</b> <a href="_terminal_8java_source.html#l00013">Terminal.java:13</a></div></div>
+<div class="ttc" id="aclass_terminal_html_a7ed45a824a9fd4bc12cc23cde658e726"><div class="ttname"><a href="class_terminal.html#a7ed45a824a9fd4bc12cc23cde658e726">Terminal.establirDemandaActual</a></div><div class="ttdeci">void establirDemandaActual(float demanda)</div><div class="ttdoc">Estableix la demanda actual.</div><div class="ttdef"><b>Definition</b> <a href="_terminal_8java_source.html#l00048">Terminal.java:48</a></div></div>
+<div class="ttc" id="aclass_xarxa_html"><div class="ttname"><a href="class_xarxa.html">Xarxa</a></div><div class="ttdoc">Xarxa de distribució d'aigua, no necessàriament connexa (graf dirigit de Node)</div><div class="ttdef"><b>Definition</b> <a href="_xarxa_8java_source.html#l00019">Xarxa.java:19</a></div></div>
+<div class="ttc" id="aclass_xarxa_html_a02680efa33036bc4143db53170bd1e05"><div class="ttname"><a href="class_xarxa.html#a02680efa33036bc4143db53170bd1e05">Xarxa.sortides</a></div><div class="ttdeci">Iterator&lt; Canonada &gt; sortides(NodeAixeta node)</div><div class="ttdoc">Sortides d'un node.</div><div class="ttdef"><b>Definition</b> <a href="_xarxa_8java_source.html#l00053">Xarxa.java:53</a></div></div>
+<div class="ttc" id="aclass_xarxa_html_ab7f455b274d613eef981f2189562901e"><div class="ttname"><a href="class_xarxa.html#ab7f455b274d613eef981f2189562901e">Xarxa.crearSubGraf</a></div><div class="ttdeci">Graph crearSubGraf(Origen nodeXarxa)</div><div class="ttdoc">Crear SubGraf.</div><div class="ttdef"><b>Definition</b> <a href="_xarxa_8java_source.html#l00541">Xarxa.java:541</a></div></div>
+<div class="ttc" id="aclass_xarxa_html_ac2fb01e420a9efe5d013da6c3d25e0b4"><div class="ttname"><a href="class_xarxa.html#ac2fb01e420a9efe5d013da6c3d25e0b4">Xarxa.node</a></div><div class="ttdeci">NodeAixeta node(String id)</div><div class="ttdoc">Node xarxa.</div><div class="ttdef"><b>Definition</b> <a href="_xarxa_8java_source.html#l00043">Xarxa.java:43</a></div></div>
+<div class="ttc" id="aclass_xarxa_html_adaa9748254ce3c69078fb310c26240ad"><div class="ttname"><a href="class_xarxa.html#adaa9748254ce3c69078fb310c26240ad">Xarxa.cabal</a></div><div class="ttdeci">float cabal(NodeAixeta node)</div><div class="ttdoc">Cabal teòric.</div><div class="ttdef"><b>Definition</b> <a href="_xarxa_8java_source.html#l00360">Xarxa.java:360</a></div></div>
+<div class="ttc" id="aclass_xarxa_html_adcd8f7fb8f883a1d958b709bd4254ec3"><div class="ttname"><a href="class_xarxa.html#adcd8f7fb8f883a1d958b709bd4254ec3">Xarxa.demanda</a></div><div class="ttdeci">float demanda(NodeAixeta node)</div><div class="ttdoc">Demanda teòrica.</div><div class="ttdef"><b>Definition</b> <a href="_xarxa_8java_source.html#l00418">Xarxa.java:418</a></div></div>
+<div class="ttc" id="aclass_xarxa_html_afe582745498e42a253c40f59f9b8c6ce"><div class="ttname"><a href="class_xarxa.html#afe582745498e42a253c40f59f9b8c6ce">Xarxa.entrades</a></div><div class="ttdeci">Iterator&lt; Canonada &gt; entrades(NodeAixeta node)</div><div class="ttdoc">Entrades d'un node.</div><div class="ttdef"><b>Definition</b> <a href="_xarxa_8java_source.html#l00075">Xarxa.java:75</a></div></div>
+</div><!-- fragment --></div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Generat per&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
+</small></address>
+</body>
+</html>

@@ -1,0 +1,12 @@
+<map id="GestorXarxes.eliminarFills" name="GestorXarxes.eliminarFills">
+<area shape="rect" id="Node000001" title="Guarda a tancarAixetesFills tots els nodes fills trobats des del node aixeta." alt="" coords="848,29,1020,56"/>
+<area shape="poly" id="edge5_Node000001_Node000001" title=" " alt="" coords="973,17,959,10,934,8,910,10,897,15,894,20,900,27,896,30,889,21,894,11,909,5,934,3,961,5,975,12"/>
+<area shape="rect" id="Node000002" href="$class_gestor_xarxes.html#a7d51af69de370700b78f51254bd900e2" title="Retorna un set amb tots els nodes aixetes els quals estàn trencats o embossats (no passa aigua)" alt="" coords="615,29,800,56"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="832,45,800,45,800,40,832,40"/>
+<area shape="rect" id="Node000003" href="$class_simulador_mode_text.html#a79ed3bf06a954d297b850b01f084740a" title="Va llegint i guardant terminals fins a trobar un nou case o fi de fitxer. Després crida GestorXarxes ..." alt="" coords="388,21,567,64"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="600,45,568,45,568,40,600,40"/>
+<area shape="rect" id="Node000004" href="$class_simulador_mode_text.html#acf46c7460ef06bf77ae48ab3217c40f1" title="Processarà el fitxer de text, localitzant els nodes corresponents a la xarxa a partir dels seus ident..." alt="" coords="158,29,340,56"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="373,45,341,45,341,40,373,40"/>
+<area shape="rect" id="Node000005" href="$class_be_water.html#aa8aad185395e8f524e8b46d8317e5590" title=" " alt="" coords="5,29,110,56"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="142,45,110,45,110,40,142,40"/>
+</map>

@@ -1,0 +1,5 @@
+<map id="Xarxa.abonar" name="Xarxa.abonar">
+<area shape="rect" id="Node000001" title="Abonar client." alt="" coords="5,5,102,32"/>
+<area shape="rect" id="Node000002" href="$class_node_aixeta.html#a99b337749880eb596891234af8158b14" title="Identificador del node." alt="" coords="150,5,252,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="102,16,134,16,134,21,102,21"/>
+</map>

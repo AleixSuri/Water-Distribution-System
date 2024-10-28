@@ -1,0 +1,7 @@
+<map id="Xarxa.entrades" name="Xarxa.entrades">
+<area shape="rect" id="Node000001" title="Entrades d&#39;un node." alt="" coords="5,31,113,57"/>
+<area shape="rect" id="Node000002" href="$class_node_aixeta.html#a99b337749880eb596891234af8158b14" title="Identificador del node." alt="" coords="161,5,263,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="113,32,145,27,146,32,114,38"/>
+<area shape="rect" id="Node000003" href="$class_xarxa.html#ac2fb01e420a9efe5d013da6c3d25e0b4" title="Node xarxa." alt="" coords="169,56,255,83"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="114,50,154,57,153,62,113,56"/>
+</map>

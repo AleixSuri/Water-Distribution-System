@@ -1,0 +1,12 @@
+<map id="GestorXarxes.eliminarFills" name="GestorXarxes.eliminarFills">
+<area shape="rect" id="Node000001" title="Guarda a tancarAixetesFills tots els nodes fills trobats des del node aixeta." alt="" coords="5,31,178,57"/>
+<area shape="poly" id="edge1_Node000001_Node000001" title=" " alt="" coords="59,32,53,22,57,12,70,6,92,4,115,7,127,13,124,18,113,12,91,9,71,11,61,16,58,21,63,29"/>
+<area shape="rect" id="Node000002" href="$class_canonada.html#a50c5156883999228c31c34eff8a84db9" title="Node sortida." alt="" coords="226,5,344,32"/>
+<area shape="poly" id="edge2_Node000001_Node000002" title=" " alt="" coords="178,30,210,26,210,31,178,35"/>
+<area shape="rect" id="Node000003" href="$class_xarxa.html#a02680efa33036bc4143db53170bd1e05" title="Sortides d&#39;un node." alt="" coords="233,56,337,83"/>
+<area shape="poly" id="edge3_Node000001_Node000003" title=" " alt="" coords="178,53,218,58,217,63,178,58"/>
+<area shape="rect" id="Node000004" href="$class_node_aixeta.html#a99b337749880eb596891234af8158b14" title="Identificador del node." alt="" coords="392,31,494,57"/>
+<area shape="poly" id="edge4_Node000003_Node000004" title=" " alt="" coords="337,58,377,52,378,57,338,64"/>
+<area shape="rect" id="Node000005" href="$class_xarxa.html#ac2fb01e420a9efe5d013da6c3d25e0b4" title="Node xarxa." alt="" coords="401,81,486,108"/>
+<area shape="poly" id="edge5_Node000003_Node000005" title=" " alt="" coords="338,75,385,83,385,88,337,80"/>
+</map>

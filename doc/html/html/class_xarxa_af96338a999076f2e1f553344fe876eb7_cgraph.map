@@ -1,0 +1,38 @@
+<map id="Xarxa.cabalAbonat" name="Xarxa.cabalAbonat">
+<area shape="rect" id="Node000001" title="Cabal Abonat." alt="" coords="5,195,135,221"/>
+<area shape="rect" id="Node000002" href="$class_xarxa.html#adaa9748254ce3c69078fb310c26240ad" title="Cabal teòric." alt="" coords="183,195,271,221"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="135,205,167,205,167,211,135,211"/>
+<area shape="rect" id="Node000003" href="$class_xarxa.html#a2e7fcf2e1eb1a7ea77f2d40b8ac51495" title="Cabal canonada." alt="" coords="319,195,501,221"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="272,213,303,214,303,220,271,218"/>
+<area shape="rect" id="Node000006" href="$class_xarxa.html#adcd8f7fb8f883a1d958b709bd4254ec3" title="Demanda teòrica." alt="" coords="815,296,925,323"/>
+<area shape="poly" id="edge20_Node000002_Node000006" title=" " alt="" coords="272,218,320,231,434,260,550,281,682,296,799,304,799,309,681,301,549,287,433,265,318,236,271,223"/>
+<area shape="rect" id="Node000008" href="$class_node_aixeta.html#a99b337749880eb596891234af8158b14" title="Identificador del node." alt="" coords="1200,119,1303,145"/>
+<area shape="poly" id="edge22_Node000002_Node000008" title=" " alt="" coords="242,192,303,143,400,80,458,51,520,26,584,9,650,3,871,3,921,6,971,14,1068,42,1152,77,1215,108,1212,113,1149,82,1066,47,970,19,921,11,871,8,650,8,585,14,521,31,460,55,403,85,307,147,245,196"/>
+<area shape="rect" id="Node000009" href="$class_xarxa.html#ac2fb01e420a9efe5d013da6c3d25e0b4" title="Node xarxa." alt="" coords="1209,220,1294,247"/>
+<area shape="poly" id="edge23_Node000002_Node000009" title=" " alt="" coords="243,220,276,250,320,279,408,319,479,343,554,354,650,357,871,357,952,358,1016,354,1077,341,1151,312,1193,286,1227,256,1230,260,1196,290,1154,317,1078,346,1016,360,952,363,871,363,650,363,553,360,478,348,406,324,318,284,273,254,239,224"/>
+<area shape="rect" id="Node000011" href="$class_xarxa.html#afe582745498e42a253c40f59f9b8c6ce" title="Entrades d&#39;un node." alt="" coords="1016,93,1123,120"/>
+<area shape="poly" id="edge21_Node000002_Node000011" title=" " alt="" coords="271,192,318,180,511,149,703,127,872,114,1000,107,1000,112,873,119,703,133,512,154,320,185,272,197"/>
+<area shape="poly" id="edge3_Node000003_Node000002" title=" " alt="" coords="318,202,287,202,287,197,318,196"/>
+<area shape="rect" id="Node000004" href="$class_xarxa.html#a8e4fd4b92d7ed7b4dfa2721003bc1178" title="Demanda canonada." alt="" coords="549,245,754,272"/>
+<area shape="poly" id="edge4_Node000003_Node000004" title=" " alt="" coords="478,219,570,239,569,244,477,225"/>
+<area shape="rect" id="Node000010" href="$class_xarxa.html#a02680efa33036bc4143db53170bd1e05" title="Sortides d&#39;un node." alt="" coords="1018,144,1121,171"/>
+<area shape="poly" id="edge19_Node000003_Node000010" title=" " alt="" coords="477,191,549,180,674,168,799,161,1002,155,1002,160,799,166,675,174,550,185,478,197"/>
+<area shape="rect" id="Node000013" href="$class_canonada.html#add5baf3adf35132bc328f7f45b0bf3a7" title="Node entrada." alt="" coords="592,195,711,221"/>
+<area shape="poly" id="edge18_Node000003_Node000013" title=" " alt="" coords="502,205,577,205,577,211,502,211"/>
+<area shape="rect" id="Node000005" href="$class_canonada.html#a0615873ebdfdf3b6f8e42c7267942890" title="Capacitat." alt="" coords="802,195,938,221"/>
+<area shape="poly" id="edge5_Node000004_Node000005" title=" " alt="" coords="712,242,794,223,795,228,713,247"/>
+<area shape="poly" id="edge6_Node000004_Node000006" title=" " alt="" coords="685,270,800,299,799,304,684,275"/>
+<area shape="poly" id="edge14_Node000004_Node000011" title=" " alt="" coords="727,242,752,231,767,219,776,207,785,193,800,180,850,155,902,136,1000,113,1001,118,904,141,852,160,803,185,789,197,780,210,771,223,755,236,730,247"/>
+<area shape="rect" id="Node000012" href="$class_canonada.html#a50c5156883999228c31c34eff8a84db9" title="Node sortida." alt="" coords="811,245,929,272"/>
+<area shape="poly" id="edge17_Node000004_Node000012" title=" " alt="" coords="754,256,795,256,795,261,754,261"/>
+<area shape="poly" id="edge8_Node000006_Node000004" title=" " alt="" coords="836,298,765,279,766,274,838,293"/>
+<area shape="rect" id="Node000007" href="$class_node_aixeta.html#abc42af0213d387ddd4c03edec5770c62" title="Estat de l&#39;aixeta." alt="" coords="986,245,1152,272"/>
+<area shape="poly" id="edge7_Node000006_Node000007" title=" " alt="" coords="925,293,998,274,1000,279,926,298"/>
+<area shape="poly" id="edge9_Node000006_Node000008" title=" " alt="" coords="915,293,936,282,951,269,960,257,969,244,985,231,1029,210,1066,201,1105,195,1151,180,1212,151,1214,156,1153,185,1106,200,1067,206,1031,215,987,236,973,248,964,260,955,273,940,286,918,298"/>
+<area shape="poly" id="edge10_Node000006_Node000009" title=" " alt="" coords="925,308,1031,303,1092,295,1152,281,1185,269,1215,253,1218,257,1187,273,1153,287,1093,300,1032,308,925,313"/>
+<area shape="poly" id="edge11_Node000006_Node000010" title=" " alt="" coords="919,293,936,282,953,259,959,236,966,212,984,187,1002,175,1005,179,988,191,971,214,965,237,958,262,940,286,922,298"/>
+<area shape="poly" id="edge12_Node000010_Node000008" title=" " alt="" coords="1121,148,1185,139,1185,144,1121,153"/>
+<area shape="poly" id="edge13_Node000010_Node000009" title=" " alt="" coords="1104,169,1204,211,1202,216,1102,174"/>
+<area shape="poly" id="edge15_Node000011_Node000008" title=" " alt="" coords="1124,111,1185,120,1185,125,1123,117"/>
+<area shape="poly" id="edge16_Node000011_Node000009" title=" " alt="" coords="1124,116,1154,130,1199,166,1233,205,1229,209,1195,170,1151,134,1122,121"/>
+</map>

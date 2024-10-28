@@ -1,0 +1,5 @@
+<map id="SimuladorModeText.llegirNodeOrigen" name="SimuladorModeText.llegirNodeOrigen">
+<area shape="rect" id="Node000001" title="Es llegeix l&#39;id del node i si es troba dins la xarxa i pertany a la classe Origen,..." alt="" coords="5,5,173,48"/>
+<area shape="rect" id="Node000002" href="$class_xarxa.html#ac2fb01e420a9efe5d013da6c3d25e0b4" title="Node xarxa." alt="" coords="221,13,306,40"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="173,24,205,24,205,29,173,29"/>
+</map>

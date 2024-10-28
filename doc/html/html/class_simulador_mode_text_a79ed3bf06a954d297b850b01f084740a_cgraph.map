@@ -1,0 +1,51 @@
+<map id="SimuladorModeText.lecturaSituacio" name="SimuladorModeText.lecturaSituacio">
+<area shape="rect" id="Node000001" title="Va llegint i guardant terminals fins a trobar un nou case o fi de fitxer. Després crida GestorXarxes ..." alt="" coords="5,217,185,260"/>
+<area shape="rect" id="Node000002" href="$class_gestor_xarxes.html#a7d51af69de370700b78f51254bd900e2" title="Retorna un set amb tots els nodes aixetes els quals estàn trencats o embossats (no passa aigua)" alt="" coords="235,225,419,252"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="185,236,219,236,219,241,185,241"/>
+<area shape="rect" id="Node000008" href="$class_xarxa.html#ac2fb01e420a9efe5d013da6c3d25e0b4" title="Node xarxa." alt="" coords="1088,149,1173,176"/>
+<area shape="poly" id="edge30_Node000001_Node000008" title=" " alt="" coords="103,215,122,179,149,134,186,90,231,53,275,30,314,15,350,7,386,4,460,6,554,9,786,9,833,13,881,23,926,39,970,57,1046,99,1101,137,1098,142,1043,104,967,62,924,44,879,28,833,18,786,14,554,14,460,11,386,9,351,12,316,21,277,35,234,58,190,93,154,137,126,181,108,218"/>
+<area shape="rect" id="Node000010" href="$class_simulador_mode_text.html#af0c3d4719a4f75625520c2bd1f3bf613" title="Retorna el node Origen el qual li proporciona aigua al node aixeta entrat." alt="" coords="237,92,417,134"/>
+<area shape="poly" id="edge12_Node000001_Node000010" title=" " alt="" coords="135,214,271,140,273,145,138,219"/>
+<area shape="rect" id="Node000012" href="$class_simulador_mode_text.html#ad0bc9e5e1e2a78d8a894576c1f3f42bb" title="Funció que serveix per indicar si si la línia indica que hi ha un canvi de case." alt="" coords="233,352,421,394"/>
+<area shape="poly" id="edge16_Node000001_Node000012" title=" " alt="" coords="123,258,172,298,234,337,244,343,242,347,231,342,169,302,119,262"/>
+<area shape="rect" id="Node000013" href="$class_gestor_xarxes.html#aef6c5c914fde2624b680c0cc1775a403" title="Retornarà true si el sub graf creat a partir del node Origen no té cicles i és connex." alt="" coords="253,301,401,328"/>
+<area shape="poly" id="edge17_Node000001_Node000013" title=" " alt="" coords="163,258,270,293,269,298,162,263"/>
+<area shape="rect" id="Node000003" href="$class_node_aixeta.html#abc42af0213d387ddd4c03edec5770c62" title="Estat de l&#39;aixeta." alt="" coords="472,276,638,302"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="391,250,478,269,476,274,390,255"/>
+<area shape="rect" id="Node000004" href="$class_gestor_xarxes.html#ab71282c05543f6f16daa313ea20c44fb" title="Guarda a tancarAixetesFills tots els nodes fills trobats des del node aixeta." alt="" coords="469,225,641,252"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="419,236,453,236,453,241,419,241"/>
+<area shape="rect" id="Node000009" href="$class_xarxa.html#afe582745498e42a253c40f59f9b8c6ce" title="Entrades d&#39;un node." alt="" coords="731,124,838,150"/>
+<area shape="poly" id="edge9_Node000002_Node000009" title=" " alt="" coords="361,222,411,204,468,186,599,159,715,142,716,147,600,165,470,192,413,209,363,227"/>
+<area shape="poly" id="edge4_Node000004_Node000004" title=" " alt="" coords="517,226,510,216,515,207,530,200,555,198,583,201,597,208,595,213,581,206,555,204,531,206,518,210,515,216,521,223"/>
+<area shape="rect" id="Node000005" href="$class_canonada.html#a50c5156883999228c31c34eff8a84db9" title="Node sortida." alt="" coords="725,225,844,252"/>
+<area shape="poly" id="edge5_Node000004_Node000005" title=" " alt="" coords="642,236,709,236,709,241,642,241"/>
+<area shape="rect" id="Node000006" href="$class_xarxa.html#a02680efa33036bc4143db53170bd1e05" title="Sortides d&#39;un node." alt="" coords="733,174,836,201"/>
+<area shape="poly" id="edge6_Node000004_Node000006" title=" " alt="" coords="618,222,717,200,718,205,620,227"/>
+<area shape="rect" id="Node000007" href="$class_node_aixeta.html#a99b337749880eb596891234af8158b14" title="Identificador del node." alt="" coords="933,225,1035,252"/>
+<area shape="poly" id="edge7_Node000006_Node000007" title=" " alt="" coords="837,198,918,219,917,224,836,203"/>
+<area shape="poly" id="edge8_Node000006_Node000008" title=" " alt="" coords="836,181,1072,164,1073,169,837,187"/>
+<area shape="poly" id="edge10_Node000009_Node000007" title=" " alt="" coords="840,145,881,160,923,185,958,213,955,217,920,190,879,165,838,150"/>
+<area shape="poly" id="edge11_Node000009_Node000008" title=" " alt="" coords="839,138,1040,153,1072,155,1072,161,1040,158,838,144"/>
+<area shape="poly" id="edge14_Node000010_Node000009" title=" " alt="" coords="417,92,525,80,584,79,642,85,693,98,740,115,738,120,692,103,641,90,583,85,525,85,417,97"/>
+<area shape="poly" id="edge13_Node000010_Node000010" title=" " alt="" coords="283,92,282,82,289,73,304,67,327,65,351,67,366,74,364,79,350,73,327,70,305,72,292,77,287,83,289,91"/>
+<area shape="rect" id="Node000011" href="$class_canonada.html#add5baf3adf35132bc328f7f45b0bf3a7" title="Node entrada." alt="" coords="496,100,614,126"/>
+<area shape="poly" id="edge15_Node000010_Node000011" title=" " alt="" coords="417,110,480,110,480,116,417,116"/>
+<area shape="rect" id="Node000014" href="$class_gestor_xarxes.html#a3ef76bc7aacab2d890734a3d13de7d92" title="Es Connex." alt="" coords="475,326,636,353"/>
+<area shape="poly" id="edge18_Node000013_Node000014" title=" " alt="" coords="402,320,459,326,458,332,401,325"/>
+<area shape="rect" id="Node000018" href="$class_gestor_xarxes.html#a51fa1439ecaabee3627f77eed9122ad3" title="Retornarà true si el sub graf creat a partir del node origen té cicles. Altrament retornarà false." alt="" coords="480,377,630,404"/>
+<area shape="poly" id="edge26_Node000013_Node000018" title=" " alt="" coords="388,326,422,337,470,363,488,369,486,374,468,367,420,342,386,331"/>
+<area shape="rect" id="Node000015" href="$class_xarxa.html#ab7f455b274d613eef981f2189562901e" title="Crear SubGraf." alt="" coords="718,350,851,377"/>
+<area shape="poly" id="edge19_Node000014_Node000015" title=" " alt="" coords="637,346,702,352,702,358,636,351"/>
+<area shape="rect" id="Node000017" href="$class_gestor_xarxes.html#a8dc25aca4b2f9592137eb651a6266b0d" title="Algoritme DFS connex." alt="" coords="702,300,867,326"/>
+<area shape="poly" id="edge24_Node000014_Node000017" title=" " alt="" coords="636,328,686,322,687,327,637,333"/>
+<area shape="poly" id="edge23_Node000015_Node000007" title=" " alt="" coords="851,348,878,336,893,325,903,314,926,287,954,260,958,264,930,291,907,318,897,329,881,341,853,353"/>
+<area shape="rect" id="Node000016" href="$class_xarxa.html#ae077535225c5cb5787a5c3af7c5d93d2" title="Copiar graf." alt="" coords="928,325,1040,352"/>
+<area shape="poly" id="edge20_Node000015_Node000016" title=" " alt="" coords="851,353,912,345,913,350,852,358"/>
+<area shape="poly" id="edge22_Node000016_Node000008" title=" " alt="" coords="994,323,1107,186,1111,189,999,326"/>
+<area shape="poly" id="edge21_Node000016_Node000016" title=" " alt="" coords="958,326,954,316,957,307,967,301,984,298,1002,301,1011,308,1008,312,1000,306,984,304,969,306,961,310,959,316,963,323"/>
+<area shape="poly" id="edge25_Node000017_Node000017" title=" " alt="" coords="751,301,745,291,749,281,762,275,785,273,808,276,821,282,819,287,807,281,784,278,764,280,752,285,750,291,755,298"/>
+<area shape="poly" id="edge27_Node000018_Node000015" title=" " alt="" coords="630,379,702,371,703,376,631,384"/>
+<area shape="rect" id="Node000019" href="$class_gestor_xarxes.html#ab78893a7b542bbce4397af1ebd18562e" title="Algoritme cicles." alt="" coords="689,425,880,452"/>
+<area shape="poly" id="edge28_Node000018_Node000019" title=" " alt="" coords="623,402,703,419,702,424,622,407"/>
+<area shape="poly" id="edge29_Node000019_Node000019" title=" " alt="" coords="751,426,745,416,749,407,762,401,785,398,808,401,821,407,819,412,807,406,784,404,764,406,752,410,750,416,755,423"/>
+</map>

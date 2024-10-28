@@ -1,0 +1,124 @@
+<map id="Xarxa.node" name="Xarxa.node">
+<area shape="rect" id="Node000001" title="Node xarxa." alt="" coords="1773,732,1858,759"/>
+<area shape="rect" id="Node000002" href="$class_xarxa.html#adaa9748254ce3c69078fb310c26240ad" title="Cabal teòric." alt="" coords="1131,509,1219,536"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="1803,718,1774,656,1752,625,1723,598,1661,562,1593,537,1522,520,1451,512,1382,508,1319,510,1220,518,1220,513,1318,504,1382,503,1451,506,1523,515,1595,532,1663,557,1727,594,1756,621,1779,654,1808,716"/>
+<area shape="rect" id="Node000006" href="$class_gestor_xarxes.html#ad6c1adeced5adf43b6ac8be94abf68a0" title="Retorna el cabal mínim que hi hauria d’haver entre tots els nodes d’origen de la component connexa de..." alt="" coords="849,363,1019,389"/>
+<area shape="poly" id="edge16_Node000001_Node000006" title=" " alt="" coords="1810,717,1804,664,1790,596,1764,526,1746,493,1723,463,1697,437,1672,417,1648,403,1623,394,1568,381,1497,368,1433,358,1368,351,1237,349,1117,355,1019,366,1019,361,1117,350,1237,343,1368,346,1434,352,1498,363,1569,375,1625,389,1650,399,1675,413,1700,433,1727,460,1750,490,1769,523,1795,595,1810,663,1816,716"/>
+<area shape="rect" id="Node000009" href="$class_xarxa.html#a913586697079c9e6844de4c8c8bd0254" title="Enllaç d&#39;sprites." alt="" coords="633,657,777,684"/>
+<area shape="poly" id="edge50_Node000001_Node000009" title=" " alt="" coords="1757,744,1725,741,777,678,777,673,1725,736,1757,738"/>
+<area shape="rect" id="Node000010" href="$class_xarxa.html#a644452390beb298a9a47f5e074c9a353" title="Dibuixar." alt="" coords="427,708,529,735"/>
+<area shape="poly" id="edge49_Node000001_Node000010" title=" " alt="" coords="1777,769,1655,825,1578,853,1498,873,1408,877,1266,874,1072,865,1059,855,1052,843,1046,818,1041,794,1034,784,1024,774,985,757,930,744,864,734,791,728,646,722,529,723,529,717,646,717,792,722,865,729,931,738,986,752,1026,770,1038,780,1046,792,1051,817,1057,841,1063,851,1074,860,1266,869,1408,872,1497,868,1576,848,1653,820,1774,764"/>
+<area shape="rect" id="Node000012" href="$class_xarxa.html#ae077535225c5cb5787a5c3af7c5d93d2" title="Copiar graf." alt="" coords="1579,256,1692,283"/>
+<area shape="poly" id="edge17_Node000001_Node000012" title=" " alt="" coords="1810,717,1801,624,1784,500,1758,381,1742,335,1723,303,1708,291,1691,282,1693,277,1711,286,1727,300,1747,333,1763,380,1789,499,1806,623,1815,716"/>
+<area shape="rect" id="Node000016" href="$class_simulador_mode_text.html#a79ed3bf06a954d297b850b01f084740a" title="Va llegint i guardant terminals fins a trobar un nou case o fi de fitxer. Després crida GestorXarxes ..." alt="" coords="388,885,567,928"/>
+<area shape="poly" id="edge64_Node000001_Node000016" title=" " alt="" coords="1816,774,1810,822,1795,880,1769,937,1750,963,1727,985,1686,1010,1649,1024,1614,1029,1579,1028,1504,1016,1461,1010,1413,1008,932,1008,842,1006,772,999,702,985,615,963,526,931,528,926,616,957,704,980,773,994,842,1001,933,1003,1413,1003,1462,1005,1505,1011,1580,1023,1614,1024,1648,1019,1684,1005,1723,981,1746,960,1764,935,1790,878,1804,821,1810,774"/>
+<area shape="rect" id="Node000019" href="$class_simulador_mode_text.html#a53f4b8fe49e91f63d2979b9829277423" title="Va llegint terminals i es van guardant tots els que tenen excés amb la crida de la funció de GestorXa..." alt="" coords="615,144,795,187"/>
+<area shape="poly" id="edge61_Node000001_Node000019" title=" " alt="" coords="1810,717,1801,610,1784,464,1758,320,1741,262,1723,221,1660,128,1629,92,1596,62,1560,38,1519,21,1471,11,1413,8,1174,8,1078,12,1005,24,933,48,844,84,785,114,737,146,734,141,783,109,842,79,931,43,1003,19,1078,7,1174,3,1413,3,1471,6,1521,16,1563,33,1600,57,1633,88,1664,125,1727,219,1746,261,1763,319,1789,463,1806,609,1815,716"/>
+<area shape="rect" id="Node000021" href="$class_xarxa.html#adcd8f7fb8f883a1d958b709bd4254ec3" title="Demanda teòrica." alt="" coords="1356,560,1467,587"/>
+<area shape="poly" id="edge38_Node000001_Node000021" title=" " alt="" coords="1796,721,1765,681,1746,662,1724,646,1659,616,1589,596,1523,584,1466,578,1467,573,1524,579,1590,591,1660,611,1726,642,1749,658,1769,678,1800,717"/>
+<area shape="rect" id="Node000026" href="$class_xarxa.html#afe582745498e42a253c40f59f9b8c6ce" title="Entrades d&#39;un node." alt="" coords="1358,757,1465,784"/>
+<area shape="poly" id="edge51_Node000001_Node000026" title=" " alt="" coords="1757,752,1465,770,1465,765,1757,746"/>
+<area shape="rect" id="Node000029" href="$class_simulador_mode_text.html#af4c662e40a59d5df8334cf2db36e1b59" title="Va llegint i guardant nodes aixetes fins a trobar un nou case o fi de fitxer. Després crida GestorXar..." alt="" coords="1546,1061,1725,1104"/>
+<area shape="poly" id="edge62_Node000001_Node000029" title=" " alt="" coords="1814,775,1806,826,1790,891,1765,961,1748,994,1727,1026,1707,1046,1683,1063,1680,1059,1703,1042,1723,1022,1743,992,1760,959,1785,889,1801,824,1809,774"/>
+<area shape="rect" id="Node000030" href="$class_simulador_mode_text.html#ae97cd19816f6da55cab3f115fcaf6bc2" title="Es llegeix l&#39;id del node i si es troba dins la xarxa es retorna el node que concorda amb aquell id...." alt="" coords="621,1144,789,1187"/>
+<area shape="poly" id="edge65_Node000001_Node000030" title=" " alt="" coords="1814,775,1804,855,1787,958,1761,1055,1745,1093,1727,1118,1689,1147,1653,1165,1618,1174,1583,1177,1506,1170,1413,1164,1174,1164,789,1167,789,1162,1174,1159,1413,1159,1506,1165,1583,1171,1617,1169,1651,1160,1686,1143,1723,1114,1741,1090,1756,1053,1782,957,1799,854,1809,774"/>
+<area shape="rect" id="Node000032" href="$class_simulador_mode_text.html#a899cb533ef8b47e755e07c89a79a0ec7" title="Es llegeix l&#39;id del node i si es troba dins la xarxa i pertany a la classe Origen,..." alt="" coords="850,413,1018,456"/>
+<area shape="poly" id="edge69_Node000001_Node000032" title=" " alt="" coords="1807,718,1797,679,1781,632,1757,584,1723,543,1644,478,1570,431,1499,400,1426,381,1350,374,1268,376,1177,385,1073,399,1000,415,999,410,1073,393,1176,380,1268,371,1351,369,1427,376,1500,395,1573,427,1647,474,1727,539,1761,581,1786,630,1803,677,1812,716"/>
+<area shape="rect" id="Node000033" href="$class_simulador_mode_text.html#a6a8dfa931db64cd319cc4b58dc6715f6" title="Es llegeix l&#39;id del node i si es troba dins la xarxa i pertany a la classe Terminal es retorna el nod..." alt="" coords="1092,925,1259,968"/>
+<area shape="poly" id="edge72_Node000001_Node000033" title=" " alt="" coords="1811,774,1801,809,1784,848,1760,886,1727,917,1670,946,1609,967,1546,979,1482,985,1419,985,1360,982,1259,968,1260,963,1361,976,1420,980,1482,980,1545,974,1608,962,1668,942,1723,912,1756,883,1779,846,1796,807,1806,773"/>
+<area shape="rect" id="Node000034" href="$class_xarxa.html#aa13943fb4c8f5517ef5a411e8d13babb" title="Obrir aixeta." alt="" coords="418,1255,537,1281"/>
+<area shape="poly" id="edge75_Node000001_Node000034" title=" " alt="" coords="1815,774,1807,867,1791,989,1780,1050,1765,1106,1748,1151,1727,1182,1690,1212,1654,1231,1619,1241,1584,1244,1506,1239,1413,1233,933,1233,823,1236,715,1244,538,1263,538,1257,714,1239,823,1231,932,1228,1413,1228,1507,1234,1584,1239,1618,1236,1652,1226,1687,1208,1723,1178,1743,1149,1760,1104,1774,1049,1786,988,1802,866,1810,774"/>
+<area shape="rect" id="Node000035" href="$class_xarxa.html#a02680efa33036bc4143db53170bd1e05" title="Sortides d&#39;un node." alt="" coords="1584,656,1687,683"/>
+<area shape="poly" id="edge77_Node000001_Node000035" title=" " alt="" coords="1774,727,1724,704,1677,686,1679,681,1726,699,1776,722"/>
+<area shape="rect" id="Node000037" href="$class_xarxa.html#a659f7ccc5cae7e406a7ee0b1a07f693b" title="Tancar aixeta." alt="" coords="1570,1280,1701,1307"/>
+<area shape="poly" id="edge84_Node000001_Node000037" title=" " alt="" coords="1815,774,1807,878,1791,1019,1779,1091,1765,1157,1747,1212,1727,1251,1708,1269,1685,1282,1682,1277,1705,1265,1723,1248,1742,1210,1759,1155,1774,1090,1785,1018,1802,877,1810,774"/>
+<area shape="rect" id="Node000003" href="$class_xarxa.html#af96338a999076f2e1f553344fe876eb7" title="Cabal Abonat." alt="" coords="640,563,770,589"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="1116,532,770,571,770,566,1115,527"/>
+<area shape="poly" id="edge5_Node000002_Node000006" title=" " alt="" coords="1115,515,1092,506,1071,493,1053,470,1047,447,1040,424,1023,403,1005,392,1007,388,1027,399,1045,422,1052,445,1058,467,1075,489,1095,501,1117,510"/>
+<area shape="rect" id="Node000008" href="$class_xarxa.html#a2e7fcf2e1eb1a7ea77f2d40b8ac51495" title="Cabal canonada." alt="" coords="843,632,1025,659"/>
+<area shape="poly" id="edge8_Node000002_Node000008" title=" " alt="" coords="1122,543,1097,551,1075,562,1059,577,1051,593,1043,610,1027,627,1017,634,1014,629,1023,623,1038,607,1046,591,1055,574,1071,558,1095,546,1120,538"/>
+<area shape="poly" id="edge13_Node000002_Node000009" title=" " alt="" coords="1117,538,1074,551,1026,569,935,596,843,623,742,659,740,654,842,617,933,591,1024,564,1072,545,1115,533"/>
+<area shape="rect" id="Node000011" href="$class_xarxa.html#af97bed7e986eb497a15edb3a30e31825" title="Establir cabal." alt="" coords="412,512,544,539"/>
+<area shape="poly" id="edge14_Node000002_Node000011" title=" " alt="" coords="1115,526,544,528,544,522,1115,520"/>
+<area shape="rect" id="Node000004" href="$class_simulador_mode_text.html#acf46c7460ef06bf77ae48ab3217c40f1" title="Processarà el fitxer de text, localitzant els nodes corresponents a la xarxa a partir dels seus ident..." alt="" coords="158,759,340,785"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="648,597,528,641,389,698,326,731,274,760,272,756,324,726,387,694,526,636,646,592"/>
+<area shape="rect" id="Node000005" href="$class_be_water.html#aa8aad185395e8f524e8b46d8317e5590" title=" " alt="" coords="5,759,110,785"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="142,775,110,775,110,769,142,769"/>
+<area shape="rect" id="Node000007" href="$class_simulador_mode_text.html#a53cfc639a48b4b17ce1dd460214a342a" title="Llegeix el node Origen entrat pel reader i el percentatge de cabal. A partir d&#39;aquestes dades busca e..." alt="" coords="615,363,795,405"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="834,382,795,384,795,378,834,377"/>
+<area shape="poly" id="edge7_Node000007_Node000004" title=" " alt="" coords="600,374,547,375,491,382,438,399,390,426,352,463,322,507,299,555,281,605,261,696,254,758,248,758,255,695,276,603,294,553,317,504,348,460,386,422,436,394,490,377,546,370,600,369"/>
+<area shape="poly" id="edge9_Node000008_Node000002" title=" " alt="" coords="972,624,998,614,1023,599,1038,583,1046,567,1055,550,1071,534,1100,520,1130,513,1131,519,1102,525,1075,538,1059,553,1051,569,1043,586,1027,603,1001,618,974,629"/>
+<area shape="poly" id="edge10_Node000008_Node000009" title=" " alt="" coords="828,660,778,665,777,660,827,654"/>
+<area shape="poly" id="edge11_Node000009_Node000010" title=" " alt="" coords="627,691,530,713,529,707,626,685"/>
+<area shape="poly" id="edge12_Node000010_Node000004" title=" " alt="" coords="412,738,313,761,312,755,411,733"/>
+<area shape="poly" id="edge15_Node000011_Node000004" title=" " alt="" coords="442,550,390,591,349,636,312,684,261,760,256,757,307,681,344,633,386,587,439,545"/>
+<area shape="poly" id="edge18_Node000012_Node000012" title=" " alt="" coords="1666,243,1655,237,1635,235,1617,237,1607,241,1604,247,1609,254,1604,257,1599,247,1603,238,1615,231,1635,229,1657,232,1669,238"/>
+<area shape="rect" id="Node000013" href="$class_xarxa.html#ab7f455b274d613eef981f2189562901e" title="Crear SubGraf." alt="" coords="1109,256,1242,283"/>
+<area shape="poly" id="edge19_Node000012_Node000013" title=" " alt="" coords="1564,272,1242,272,1242,267,1564,267"/>
+<area shape="poly" id="edge20_Node000013_Node000006" title=" " alt="" coords="1102,291,1074,304,1060,314,1051,324,1041,335,1026,346,986,364,984,360,1024,342,1038,331,1047,321,1057,310,1072,299,1100,286"/>
+<area shape="poly" id="edge21_Node000013_Node000010" title=" " alt="" coords="1097,289,1025,303,933,308,812,311,751,314,696,322,650,334,617,353,597,375,586,396,581,418,580,441,581,492,578,520,570,552,528,643,490,709,485,706,523,640,565,550,573,519,576,492,575,441,576,418,581,395,593,372,614,349,648,329,695,316,751,309,812,305,932,303,1025,297,1096,284"/>
+<area shape="rect" id="Node000014" href="$class_gestor_xarxes.html#a3ef76bc7aacab2d890734a3d13de7d92" title="Es Connex." alt="" coords="853,261,1015,288"/>
+<area shape="poly" id="edge22_Node000013_Node000014" title=" " alt="" coords="1093,274,1015,276,1015,270,1093,268"/>
+<area shape="rect" id="Node000017" href="$class_gestor_xarxes.html#a06132634b519e01136ad0f55d2664e93" title="Dibuixa la xarxa x amb tots els cabals i capacitats de cada canonada i node juntament amb l&#39;estat del..." alt="" coords="397,75,559,101"/>
+<area shape="poly" id="edge27_Node000013_Node000017" title=" " alt="" coords="1160,243,1139,204,1110,159,1071,116,1048,98,1024,84,959,59,890,45,819,39,750,40,683,46,623,55,527,77,526,71,622,50,683,41,749,35,819,34,890,40,960,54,1026,79,1051,94,1075,113,1114,156,1144,202,1164,241"/>
+<area shape="rect" id="Node000018" href="$class_gestor_xarxes.html#a51fa1439ecaabee3627f77eed9122ad3" title="Retornarà true si el sub graf creat a partir del node origen té cicles. Altrament retornarà false." alt="" coords="859,211,1009,237"/>
+<area shape="poly" id="edge30_Node000013_Node000018" title=" " alt="" coords="1093,257,1008,241,1009,235,1094,251"/>
+<area shape="rect" id="Node000020" href="$class_simulador_mode_text.html#a10bc7c5e97dd276c1461be0ffbbd08d3" title="Busca i retorna l&#39;aresta que uneix els dos nodes (nodeAixeta1 i nodeAixeta2)" alt="" coords="847,93,1021,136"/>
+<area shape="poly" id="edge36_Node000013_Node000020" title=" " alt="" coords="1146,248,1091,203,1024,157,989,139,991,134,1026,152,1094,199,1149,244"/>
+<area shape="rect" id="Node000015" href="$class_gestor_xarxes.html#aef6c5c914fde2624b680c0cc1775a403" title="Retornarà true si el sub graf creat a partir del node Origen no té cicles i és connex." alt="" coords="631,261,779,288"/>
+<area shape="poly" id="edge23_Node000014_Node000015" title=" " alt="" coords="837,277,780,277,780,272,837,272"/>
+<area shape="poly" id="edge26_Node000015_Node000004" title=" " alt="" coords="616,286,559,297,499,316,441,343,414,361,390,382,352,428,321,480,298,535,281,591,260,692,253,759,248,758,255,691,275,590,293,533,317,477,347,425,386,378,411,357,438,339,497,311,558,292,615,280"/>
+<area shape="poly" id="edge24_Node000015_Node000016" title=" " alt="" coords="669,299,641,322,618,352,594,406,583,455,580,500,583,544,589,636,584,688,570,747,554,788,534,826,497,887,492,884,530,823,549,785,565,746,579,687,583,636,578,544,575,500,578,454,589,405,613,349,637,318,665,295"/>
+<area shape="poly" id="edge25_Node000016_Node000004" title=" " alt="" coords="409,881,387,869,319,826,267,788,270,784,322,822,389,864,411,876"/>
+<area shape="poly" id="edge29_Node000017_Node000004" title=" " alt="" coords="435,112,411,129,390,152,344,235,310,325,285,417,269,507,259,591,254,663,252,758,247,758,248,663,253,590,264,506,280,416,305,323,340,233,386,149,407,126,432,107"/>
+<area shape="poly" id="edge28_Node000017_Node000017" title=" " alt="" coords="517,62,504,56,478,53,454,55,441,60,438,65,444,73,439,76,432,66,437,56,453,50,478,48,505,51,519,57"/>
+<area shape="poly" id="edge35_Node000018_Node000004" title=" " alt="" coords="843,214,738,209,678,211,616,218,554,231,494,252,439,281,390,321,347,374,314,435,290,500,273,565,262,627,256,682,253,758,247,758,251,682,257,626,268,564,285,498,309,433,343,371,386,317,436,277,492,247,552,226,615,213,677,206,738,203,843,208"/>
+<area shape="poly" id="edge32_Node000018_Node000007" title=" " alt="" coords="854,246,844,252,829,263,819,274,797,302,732,364,728,360,793,298,815,271,825,259,841,247,852,241"/>
+<area shape="poly" id="edge31_Node000018_Node000015" title=" " alt="" coords="856,244,769,263,768,258,855,239"/>
+<area shape="poly" id="edge33_Node000018_Node000019" title=" " alt="" coords="864,209,790,190,792,185,865,204"/>
+<area shape="poly" id="edge34_Node000019_Node000004" title=" " alt="" coords="600,153,546,153,490,160,436,177,412,191,390,207,374,225,360,249,334,314,311,394,293,481,266,649,254,758,249,758,261,649,287,480,306,393,329,312,355,247,370,222,386,203,409,186,434,172,489,155,546,148,600,148"/>
+<area shape="poly" id="edge37_Node000020_Node000019" title=" " alt="" coords="833,140,796,148,794,143,831,135"/>
+<area shape="poly" id="edge39_Node000021_Node000002" title=" " alt="" coords="1341,561,1219,535,1220,529,1342,556"/>
+<area shape="poly" id="edge40_Node000021_Node000006" title=" " alt="" coords="1376,553,1330,526,1276,500,1220,484,1173,478,1127,471,1101,463,1072,449,1056,438,1047,426,1038,414,1024,404,998,392,1000,387,1026,399,1042,411,1051,422,1060,434,1074,444,1103,458,1128,466,1174,473,1221,478,1278,495,1332,521,1379,549"/>
+<area shape="rect" id="Node000022" href="$class_xarxa.html#a8e4fd4b92d7ed7b4dfa2721003bc1178" title="Demanda canonada." alt="" coords="1073,611,1277,637"/>
+<area shape="poly" id="edge41_Node000021_Node000022" title=" " alt="" coords="1362,594,1278,614,1277,608,1361,589"/>
+<area shape="rect" id="Node000023" href="$class_xarxa.html#a3ec71c5575218566f9f71416407191be" title="Establir demanda." alt="" coords="1098,560,1252,587"/>
+<area shape="poly" id="edge44_Node000021_Node000023" title=" " alt="" coords="1341,576,1253,576,1253,571,1341,571"/>
+<area shape="rect" id="Node000025" href="$class_gestor_xarxes.html#ae878c285c51f0a76a2abb8de5fb75cfb" title="Retorna un set amb totes les canonades les quals tenen una demanda més gran que la seva capacitat màx..." alt="" coords="1090,408,1261,435"/>
+<area shape="poly" id="edge47_Node000021_Node000025" title=" " alt="" coords="1387,550,1339,502,1308,477,1276,456,1234,438,1236,433,1279,451,1312,473,1342,498,1390,546"/>
+<area shape="poly" id="edge42_Node000022_Node000008" title=" " alt="" coords="1058,637,1026,640,1025,635,1057,632"/>
+<area shape="poly" id="edge43_Node000022_Node000021" title=" " alt="" coords="1224,603,1355,575,1357,580,1225,609"/>
+<area shape="rect" id="Node000024" href="$class_simulador_mode_text.html#a07543c3110baefcac39a689d38abc182" title="Llegeix un node Terminal i la seva demanda i ho actualitza a la xarxa cridant la funció establirDeman..." alt="" coords="844,784,1024,827"/>
+<area shape="poly" id="edge45_Node000023_Node000024" title=" " alt="" coords="1085,595,1075,601,952,785,947,782,1071,597,1082,590"/>
+<area shape="poly" id="edge46_Node000024_Node000004" title=" " alt="" coords="829,803,340,779,341,774,829,798"/>
+<area shape="poly" id="edge48_Node000025_Node000019" title=" " alt="" coords="1149,398,1111,352,1071,296,1058,267,1052,243,1043,221,1023,201,998,186,970,174,910,159,851,154,795,156,795,150,851,149,911,154,971,169,1000,181,1027,197,1048,218,1057,241,1063,266,1075,293,1115,349,1153,395"/>
+<area shape="poly" id="edge59_Node000026_Node000002" title=" " alt="" coords="1395,745,1338,637,1305,584,1276,550,1249,536,1219,529,1221,523,1251,531,1279,546,1309,580,1343,634,1400,742"/>
+<area shape="poly" id="edge60_Node000026_Node000022" title=" " alt="" coords="1374,751,1197,640,1200,636,1377,747"/>
+<area shape="rect" id="Node000027" href="$class_gestor_xarxes.html#a7d51af69de370700b78f51254bd900e2" title="Retorna un set amb tots els nodes aixetes els quals estàn trencats o embossats (no passa aigua)" alt="" coords="1083,824,1267,851"/>
+<area shape="poly" id="edge52_Node000026_Node000027" title=" " alt="" coords="1347,791,1226,826,1225,821,1346,786"/>
+<area shape="rect" id="Node000028" href="$class_simulador_mode_text.html#af0c3d4719a4f75625520c2bd1f3bf613" title="Retorna el node Origen el qual li proporciona aigua al node aixeta entrat." alt="" coords="844,875,1024,917"/>
+<area shape="poly" id="edge54_Node000026_Node000028" title=" " alt="" coords="1342,773,1215,783,1144,795,1074,814,971,876,968,872,1072,810,1143,790,1215,778,1342,768"/>
+<area shape="poly" id="edge53_Node000027_Node000016" title=" " alt="" coords="1148,863,1094,901,1061,919,1026,932,966,945,903,953,841,956,779,956,663,945,568,930,568,925,664,940,779,950,841,951,903,948,965,940,1024,927,1059,914,1091,896,1145,858"/>
+<area shape="poly" id="edge58_Node000028_Node000004" title=" " alt="" coords="828,880,326,789,327,783,829,874"/>
+<area shape="poly" id="edge57_Node000028_Node000016" title=" " alt="" coords="829,901,568,907,568,902,829,896"/>
+<area shape="poly" id="edge56_Node000028_Node000019" title=" " alt="" coords="867,868,852,855,840,840,829,816,821,786,812,716,810,634,812,546,814,376,808,304,801,275,792,251,768,216,738,189,741,185,772,213,797,248,806,274,813,304,819,375,817,546,815,634,817,716,826,785,834,814,845,837,856,852,870,864"/>
+<area shape="poly" id="edge55_Node000028_Node000028" title=" " alt="" coords="971,862,957,856,934,853,912,855,899,860,894,866,896,874,890,875,889,865,896,856,911,850,934,848,958,850,973,857"/>
+<area shape="poly" id="edge63_Node000029_Node000004" title=" " alt="" coords="1530,1094,1364,1104,1177,1109,933,1109,772,1113,705,1114,643,1112,583,1102,523,1083,458,1053,386,1007,358,983,332,954,293,891,266,830,251,787,256,785,271,828,297,888,337,951,361,979,390,1003,460,1048,525,1078,585,1097,644,1106,705,1109,772,1108,932,1104,1176,1104,1364,1099,1530,1089"/>
+<area shape="poly" id="edge68_Node000030_Node000004" title=" " alt="" coords="606,1178,551,1176,494,1168,437,1150,411,1137,386,1121,348,1083,318,1038,294,990,277,940,256,848,248,786,254,785,261,847,282,938,299,987,322,1036,352,1079,390,1117,413,1133,439,1146,495,1163,552,1171,606,1172"/>
+<area shape="rect" id="Node000031" href="$class_simulador_mode_text.html#ac18ef739cf6737e14ef5fde680ad8e5f" title="Llegeix l&#39;id de dos nodes i crida la funció connectar de la classe xarxa per crear una canonada entre..." alt="" coords="388,1188,567,1231"/>
+<area shape="poly" id="edge66_Node000030_Node000031" title=" " alt="" coords="607,1187,568,1195,567,1189,606,1182"/>
+<area shape="poly" id="edge67_Node000031_Node000004" title=" " alt="" coords="397,1181,386,1171,349,1122,319,1068,296,1011,278,955,257,853,248,786,254,786,262,852,283,953,301,1010,324,1066,353,1120,390,1168,401,1177"/>
+<area shape="poly" id="edge71_Node000032_Node000004" title=" " alt="" coords="835,438,717,443,587,453,469,472,423,486,389,502,358,530,331,563,309,600,291,638,267,709,255,759,250,758,262,707,286,636,304,597,326,560,354,526,387,498,421,481,468,467,586,448,717,437,835,433"/>
+<area shape="poly" id="edge70_Node000032_Node000007" title=" " alt="" coords="834,415,794,406,796,401,835,410"/>
+<area shape="poly" id="edge74_Node000033_Node000004" title=" " alt="" coords="1080,975,938,1002,852,1012,760,1017,664,1014,568,1003,475,979,430,963,387,942,362,927,339,907,301,863,272,820,254,787,259,784,277,817,305,860,343,903,365,922,389,938,432,958,477,974,569,997,665,1009,760,1011,852,1006,937,996,1079,970"/>
+<area shape="poly" id="edge73_Node000033_Node000024" title=" " alt="" coords="1088,920,1071,909,1055,891,1047,874,1039,857,1023,841,1005,829,1008,825,1027,837,1043,854,1051,871,1060,888,1075,905,1091,916"/>
+<area shape="poly" id="edge76_Node000034_Node000004" title=" " alt="" coords="402,1256,386,1245,341,1188,307,1124,282,1056,265,988,255,923,249,865,247,786,252,786,255,865,260,922,270,987,287,1055,312,1122,345,1186,390,1241,405,1252"/>
+<area shape="poly" id="edge78_Node000035_Node000008" title=" " alt="" coords="1568,670,1025,651,1026,646,1568,664"/>
+<area shape="poly" id="edge79_Node000035_Node000021" title=" " alt="" coords="1587,652,1444,590,1446,585,1589,647"/>
+<area shape="poly" id="edge83_Node000035_Node000025" title=" " alt="" coords="1609,646,1559,599,1496,550,1427,512,1354,480,1228,438,1230,433,1356,475,1429,507,1499,546,1563,595,1613,642"/>
+<area shape="rect" id="Node000036" href="$class_gestor_xarxes.html#ab71282c05543f6f16daa313ea20c44fb" title="Guarda a tancarAixetesFills tots els nodes fills trobats des del node aixeta." alt="" coords="1325,832,1498,859"/>
+<area shape="poly" id="edge80_Node000035_Node000036" title=" " alt="" coords="1613,696,1563,745,1499,798,1442,834,1439,829,1496,794,1559,741,1609,692"/>
+<area shape="poly" id="edge81_Node000036_Node000027" title=" " alt="" coords="1310,845,1268,843,1268,838,1310,839"/>
+<area shape="poly" id="edge82_Node000036_Node000036" title=" " alt="" coords="1450,819,1437,813,1411,811,1388,813,1375,817,1372,823,1378,830,1374,833,1367,823,1372,813,1387,807,1412,805,1438,808,1452,814"/>
+<area shape="poly" id="edge85_Node000037_Node000004" title=" " alt="" coords="1555,1303,1381,1315,1177,1321,704,1321,654,1324,611,1330,534,1343,498,1344,462,1338,426,1323,386,1295,371,1279,357,1256,331,1197,308,1123,290,1043,262,888,249,786,254,786,268,887,295,1042,314,1122,336,1195,361,1254,375,1276,390,1291,428,1318,464,1333,498,1338,533,1337,610,1325,654,1319,704,1316,1176,1316,1381,1310,1554,1298"/>
+</map>

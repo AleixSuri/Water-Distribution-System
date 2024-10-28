@@ -1,0 +1,12 @@
+<map id="Coordenades.getAlongitud" name="Coordenades.getAlongitud">
+<area shape="rect" id="Node000001" title="Longitud." alt="" coords="730,5,903,32"/>
+<area shape="rect" id="Node000002" href="$class_xarxa.html#a644452390beb298a9a47f5e074c9a353" title="Dibuixar." alt="" coords="388,5,490,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="714,21,491,21,491,16,714,16"/>
+<area shape="rect" id="Node000005" href="$class_xarxa.html#a913586697079c9e6844de4c8c8bd0254" title="Enllaç d&#39;sprites." alt="" coords="538,31,682,57"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="714,34,683,38,682,33,714,29"/>
+<area shape="rect" id="Node000003" href="$class_simulador_mode_text.html#acf46c7460ef06bf77ae48ab3217c40f1" title="Processarà el fitxer de text, localitzant els nodes corresponents a la xarxa a partir dels seus ident..." alt="" coords="158,5,340,32"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="372,21,340,21,340,16,372,16"/>
+<area shape="rect" id="Node000004" href="$class_be_water.html#aa8aad185395e8f524e8b46d8317e5590" title=" " alt="" coords="5,5,110,32"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="142,21,110,21,110,16,142,16"/>
+<area shape="poly" id="edge5_Node000005_Node000002" title=" " alt="" coords="523,34,490,29,491,24,523,28"/>
+</map>

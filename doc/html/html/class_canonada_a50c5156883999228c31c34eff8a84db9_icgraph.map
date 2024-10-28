@@ -1,0 +1,71 @@
+<map id="Canonada.node2" name="Canonada.node2">
+<area shape="rect" id="Node000001" title="Node sortida." alt="" coords="1547,292,1665,319"/>
+<area shape="rect" id="Node000002" href="$class_gestor_xarxes.html#ac679c9ad0c436c0342f761d3f167bff7" title="Retorna el flux màxim que pot donar el nodeAixeta. Com a màxim serà cabalPossible." alt="" coords="1309,124,1484,167"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="1586,280,1549,230,1525,204,1497,181,1477,170,1479,165,1500,177,1528,200,1553,226,1591,277"/>
+<area shape="rect" id="Node000003" href="$class_gestor_xarxes.html#a06132634b519e01136ad0f55d2664e93" title="Dibuixa la xarxa x amb tots els cabals i capacitats de cada canonada i node juntament amb l&#39;estat del..." alt="" coords="1073,70,1235,96"/>
+<area shape="poly" id="edge41_Node000001_Node000003" title=" " alt="" coords="1598,277,1587,233,1569,181,1539,130,1520,108,1497,91,1462,73,1424,61,1384,55,1344,53,1267,59,1204,72,1203,66,1267,54,1344,48,1384,50,1425,56,1464,68,1500,86,1524,105,1543,127,1573,179,1592,232,1603,276"/>
+<area shape="rect" id="Node000006" href="$class_xarxa.html#a8e4fd4b92d7ed7b4dfa2721003bc1178" title="Demanda canonada." alt="" coords="1294,242,1499,268"/>
+<area shape="poly" id="edge7_Node000001_Node000006" title=" " alt="" coords="1532,291,1454,271,1455,266,1533,285"/>
+<area shape="rect" id="Node000018" href="$class_gestor_xarxes.html#ae878c285c51f0a76a2abb8de5fb75cfb" title="Retorna un set amb totes les canonades les quals tenen una demanda més gran que la seva capacitat màx..." alt="" coords="843,292,1014,319"/>
+<area shape="poly" id="edge40_Node000001_Node000018" title=" " alt="" coords="1531,308,1014,308,1014,303,1531,303"/>
+<area shape="rect" id="Node000019" href="$class_simulador_mode_text.html#a53f4b8fe49e91f63d2979b9829277423" title="Va llegint terminals i es van guardant tots els que tenen excés amb la crida de la funció de GestorXa..." alt="" coords="615,340,795,383"/>
+<area shape="poly" id="edge42_Node000001_Node000019" title=" " alt="" coords="1531,313,795,359,795,353,1531,308"/>
+<area shape="rect" id="Node000020" href="$class_canonada.html#a69c7dc7cf5472597253baff435eef944" title="Crea una Canonada amb els paràmetres passats." alt="" coords="1326,519,1467,546"/>
+<area shape="poly" id="edge32_Node000001_Node000020" title=" " alt="" coords="1600,335,1587,374,1567,421,1539,469,1500,509,1469,525,1466,521,1497,505,1534,466,1563,419,1582,372,1595,333"/>
+<area shape="rect" id="Node000021" href="$class_gestor_xarxes.html#aa37ac2ac3dfd37f5738ec6a7f6b1a7ee" title="Crea un nou graf amb un sol node origen i un sol node terminal a partir del graf graph." alt="" coords="1304,191,1489,218"/>
+<area shape="poly" id="edge33_Node000001_Node000021" title=" " alt="" coords="1576,284,1540,257,1498,232,1467,221,1469,216,1500,227,1543,252,1579,280"/>
+<area shape="rect" id="Node000022" href="$class_gestor_xarxes.html#ab71282c05543f6f16daa313ea20c44fb" title="Guarda a tancarAixetesFills tots els nodes fills trobats des del node aixeta." alt="" coords="1310,468,1483,495"/>
+<area shape="poly" id="edge35_Node000001_Node000022" title=" " alt="" coords="1588,333,1550,380,1500,428,1465,452,1430,470,1428,465,1462,447,1497,424,1546,376,1584,330"/>
+<area shape="rect" id="Node000025" href="$class_simulador_mode_text.html#a10bc7c5e97dd276c1461be0ffbbd08d3" title="Busca i retorna l&#39;aresta que uneix els dos nodes (nodeAixeta1 i nodeAixeta2)" alt="" coords="1068,394,1241,436"/>
+<area shape="poly" id="edge43_Node000001_Node000025" title=" " alt="" coords="1579,331,1543,356,1500,377,1434,397,1365,409,1241,418,1241,413,1365,403,1432,391,1498,372,1540,352,1576,327"/>
+<area shape="poly" id="edge2_Node000002_Node000002" title=" " alt="" coords="1430,111,1418,105,1396,103,1377,105,1365,110,1360,116,1362,123,1357,124,1355,114,1362,105,1376,100,1397,98,1419,100,1433,106"/>
+<area shape="poly" id="edge3_Node000002_Node000003" title=" " alt="" coords="1296,122,1208,100,1210,94,1297,117"/>
+<area shape="poly" id="edge4_Node000003_Node000003" title=" " alt="" coords="1193,57,1180,51,1154,48,1130,50,1118,55,1115,60,1120,68,1116,71,1109,61,1114,51,1129,45,1154,43,1181,45,1195,52"/>
+<area shape="rect" id="Node000004" href="$class_simulador_mode_text.html#acf46c7460ef06bf77ae48ab3217c40f1" title="Processarà el fitxer de text, localitzant els nodes corresponents a la xarxa a partir dels seus ident..." alt="" coords="158,206,340,232"/>
+<area shape="poly" id="edge5_Node000003_Node000004" title=" " alt="" coords="1093,67,961,36,876,22,782,12,683,8,582,15,483,33,435,47,389,65,365,79,344,95,306,135,278,175,259,206,255,204,273,172,302,131,340,91,363,74,387,61,434,42,482,28,581,9,683,3,782,6,876,16,962,31,1095,62"/>
+<area shape="rect" id="Node000005" href="$class_be_water.html#aa8aad185395e8f524e8b46d8317e5590" title=" " alt="" coords="5,206,110,232"/>
+<area shape="poly" id="edge6_Node000004_Node000005" title=" " alt="" coords="142,222,110,222,110,216,142,216"/>
+<area shape="rect" id="Node000007" href="$class_xarxa.html#a2e7fcf2e1eb1a7ea77f2d40b8ac51495" title="Cabal canonada." alt="" coords="1063,140,1245,167"/>
+<area shape="poly" id="edge8_Node000006_Node000007" title=" " alt="" coords="1314,239,1293,232,1228,201,1175,170,1178,165,1230,196,1295,227,1316,234"/>
+<area shape="rect" id="Node000015" href="$class_xarxa.html#adcd8f7fb8f883a1d958b709bd4254ec3" title="Demanda teòrica." alt="" coords="1099,242,1209,268"/>
+<area shape="poly" id="edge22_Node000006_Node000015" title=" " alt="" coords="1278,267,1210,265,1210,260,1279,261"/>
+<area shape="rect" id="Node000008" href="$class_xarxa.html#adaa9748254ce3c69078fb310c26240ad" title="Cabal teòric." alt="" coords="884,140,973,167"/>
+<area shape="poly" id="edge9_Node000007_Node000008" title=" " alt="" coords="1048,165,973,164,973,158,1048,160"/>
+<area shape="rect" id="Node000012" href="$class_xarxa.html#a913586697079c9e6844de4c8c8bd0254" title="Enllaç d&#39;sprites." alt="" coords="633,75,777,102"/>
+<area shape="poly" id="edge21_Node000007_Node000012" title=" " alt="" coords="1065,140,1014,131,776,99,777,94,1014,126,1066,134"/>
+<area shape="poly" id="edge15_Node000008_Node000007" title=" " alt="" coords="988,143,1063,142,1063,147,988,148"/>
+<area shape="rect" id="Node000009" href="$class_xarxa.html#af96338a999076f2e1f553344fe876eb7" title="Cabal Abonat." alt="" coords="413,176,542,203"/>
+<area shape="poly" id="edge10_Node000008_Node000009" title=" " alt="" coords="870,161,795,167,543,187,542,182,794,162,869,156"/>
+<area shape="rect" id="Node000010" href="$class_gestor_xarxes.html#ad6c1adeced5adf43b6ac8be94abf68a0" title="Retorna el cabal mínim que hi hauria d’haver entre tots els nodes d’origen de la component connexa de..." alt="" coords="620,227,790,254"/>
+<area shape="poly" id="edge12_Node000008_Node000010" title=" " alt="" coords="875,175,844,188,796,211,748,229,746,224,794,206,842,183,873,170"/>
+<area shape="poly" id="edge16_Node000008_Node000012" title=" " alt="" coords="868,138,794,116,755,105,756,100,795,111,870,133"/>
+<area shape="rect" id="Node000014" href="$class_xarxa.html#af97bed7e986eb497a15edb3a30e31825" title="Establir cabal." alt="" coords="639,126,771,152"/>
+<area shape="poly" id="edge19_Node000008_Node000014" title=" " alt="" coords="869,152,771,146,772,141,869,147"/>
+<area shape="poly" id="edge11_Node000009_Node000004" title=" " alt="" coords="398,202,341,210,340,205,397,197"/>
+<area shape="rect" id="Node000011" href="$class_simulador_mode_text.html#a53cfc639a48b4b17ce1dd460214a342a" title="Llegeix el node Origen entrat pel reader i el percentatge de cabal. A partir d&#39;aquestes dades busca e..." alt="" coords="388,227,567,270"/>
+<area shape="poly" id="edge13_Node000010_Node000011" title=" " alt="" coords="605,246,568,248,568,242,605,241"/>
+<area shape="poly" id="edge14_Node000011_Node000004" title=" " alt="" coords="372,237,340,233,341,228,373,232"/>
+<area shape="rect" id="Node000013" href="$class_xarxa.html#a644452390beb298a9a47f5e074c9a353" title="Dibuixar." alt="" coords="427,75,529,102"/>
+<area shape="poly" id="edge17_Node000012_Node000013" title=" " alt="" coords="618,91,529,91,529,86,618,86"/>
+<area shape="poly" id="edge18_Node000013_Node000004" title=" " alt="" coords="417,110,389,123,320,167,268,207,265,203,317,162,387,118,415,105"/>
+<area shape="poly" id="edge20_Node000014_Node000004" title=" " alt="" coords="624,142,511,148,449,155,389,167,329,186,279,208,277,203,327,181,387,162,448,150,511,143,623,136"/>
+<area shape="poly" id="edge25_Node000015_Node000006" title=" " alt="" coords="1225,244,1294,243,1294,249,1225,249"/>
+<area shape="poly" id="edge23_Node000015_Node000008" title=" " alt="" coords="1113,236,1013,188,968,170,970,165,1015,183,1115,232"/>
+<area shape="poly" id="edge24_Node000015_Node000010" title=" " alt="" coords="1083,242,1014,232,897,229,790,234,790,229,897,224,1014,227,1084,237"/>
+<area shape="rect" id="Node000016" href="$class_xarxa.html#a3ec71c5575218566f9f71416407191be" title="Establir demanda." alt="" coords="851,242,1006,268"/>
+<area shape="poly" id="edge26_Node000015_Node000016" title=" " alt="" coords="1084,258,1006,258,1006,252,1084,252"/>
+<area shape="poly" id="edge29_Node000015_Node000018" title=" " alt="" coords="1085,273,992,294,990,289,1084,268"/>
+<area shape="rect" id="Node000017" href="$class_simulador_mode_text.html#a07543c3110baefcac39a689d38abc182" title="Llegeix un node Terminal i la seva demanda i ho actualitza a la xarxa cridant la funció establirDeman..." alt="" coords="388,294,567,336"/>
+<area shape="poly" id="edge27_Node000016_Node000017" title=" " alt="" coords="836,270,568,306,567,300,835,265"/>
+<area shape="poly" id="edge28_Node000017_Node000004" title=" " alt="" coords="402,290,387,284,278,235,280,230,389,279,404,285"/>
+<area shape="poly" id="edge30_Node000018_Node000019" title=" " alt="" coords="858,326,794,342,792,337,857,321"/>
+<area shape="poly" id="edge31_Node000019_Node000004" title=" " alt="" coords="600,378,549,379,495,376,440,367,387,351,344,326,307,294,278,261,257,234,262,231,282,257,311,290,347,321,389,346,441,362,495,371,549,374,600,372"/>
+<area shape="poly" id="edge34_Node000021_Node000003" title=" " alt="" coords="1304,187,1293,181,1277,169,1267,156,1259,144,1245,130,1217,113,1189,99,1192,94,1220,108,1248,126,1263,140,1272,153,1281,165,1296,177,1307,182"/>
+<area shape="poly" id="edge39_Node000022_Node000022" title=" " alt="" coords="1432,455,1420,449,1396,447,1375,449,1363,454,1360,459,1365,466,1361,469,1355,460,1359,450,1373,444,1397,442,1421,444,1435,451"/>
+<area shape="rect" id="Node000023" href="$class_gestor_xarxes.html#a7d51af69de370700b78f51254bd900e2" title="Retorna un set amb tots els nodes aixetes els quals estàn trencats o embossats (no passa aigua)" alt="" coords="1062,464,1246,491"/>
+<area shape="poly" id="edge36_Node000022_Node000023" title=" " alt="" coords="1295,483,1247,482,1247,476,1295,477"/>
+<area shape="rect" id="Node000024" href="$class_simulador_mode_text.html#a79ed3bf06a954d297b850b01f084740a" title="Va llegint i guardant terminals fins a trobar un nou case o fi de fitxer. Després crida GestorXarxes ..." alt="" coords="388,416,567,459"/>
+<area shape="poly" id="edge37_Node000023_Node000024" title=" " alt="" coords="1046,474,568,446,568,440,1047,469"/>
+<area shape="poly" id="edge38_Node000024_Node000004" title=" " alt="" coords="410,411,386,394,343,353,306,308,256,234,260,231,310,304,347,349,390,390,413,406"/>
+<area shape="poly" id="edge44_Node000025_Node000019" title=" " alt="" coords="1052,406,795,375,795,370,1053,400"/>
+</map>

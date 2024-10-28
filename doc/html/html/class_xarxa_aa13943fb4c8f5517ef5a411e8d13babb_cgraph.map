@@ -1,0 +1,11 @@
+<map id="Xarxa.obrirAixeta" name="Xarxa.obrirAixeta">
+<area shape="rect" id="Node000001" title="Obrir aixeta." alt="" coords="5,81,125,108"/>
+<area shape="rect" id="Node000002" href="$class_node_aixeta.html#abc42af0213d387ddd4c03edec5770c62" title="Estat de l&#39;aixeta." alt="" coords="173,5,339,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="91,78,172,42,190,35,192,40,174,46,94,83"/>
+<area shape="rect" id="Node000003" href="$class_node_aixeta.html#a99b337749880eb596891234af8158b14" title="Identificador del node." alt="" coords="205,56,307,83"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="124,84,189,75,190,81,125,89"/>
+<area shape="rect" id="Node000004" href="$class_xarxa.html#ac2fb01e420a9efe5d013da6c3d25e0b4" title="Node xarxa." alt="" coords="213,107,299,133"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="125,100,199,110,198,115,124,105"/>
+<area shape="rect" id="Node000005" href="$class_node_aixeta.html#ab513db34e133fcbd0f63dc1abd95e0bb" title="Obre l&#39;aixeta." alt="" coords="179,157,333,184"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="94,106,174,143,192,149,190,154,172,148,91,111"/>
+</map>

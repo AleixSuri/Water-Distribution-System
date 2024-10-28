@@ -1,0 +1,88 @@
+node.connexio {
+    size: 10px;
+    fill-color: dark;
+    text-size: 15;
+    text-alignment: above;
+    text-offset: 25px, 25px;
+}
+
+node.origen {
+    size: 15px;
+    fill-color: white;
+    stroke-mode: plain;  //contorn
+    stroke-color: black;
+    stroke-width: 1.5px;
+    text-size: 15;
+    text-alignment: above;
+    text-offset: 30px, 30px;
+}
+
+node.terminal {
+    size: 8px;
+    fill-color: white;
+    stroke-mode: plain; //contorn
+    stroke-color: black;
+    stroke-width: 2px;
+    text-size: 15;
+    text-alignment: above;
+    text-offset: 20px, 20px;
+}
+
+
+node.tancat {
+    fill-mode: image-scaled;
+    fill-image: url('.\\lib\\nodeTancat.png');
+    size: 15px;
+    text-size: 15px;
+    text-alignment: above;
+    text-offset: 20px, 20px;
+}
+
+edge{
+    text-alignment: above;
+    text-padding: 5px;
+    text-size: 15px;
+}
+
+edge.canonada {
+    arrow-shape: arrow;
+    arrow-size: 10px, 5px;
+}
+
+graph {
+    fill-color: #C3BEEE;
+}
+
+sprite{
+    fill-color: rgba(0, 0, 0, 0);
+    text-size: 10;
+    text-alignment: under;
+    text-offset: 25px, 25px;
+    text-style: italic;
+    icon: url('.\\lib\\ubi.png');
+    icon-mode: at-left;
+    size-mode: fit;
+}
+
+sprite.terminal {
+    fill-color: rgba(0, 0, 0, 0);
+    text-size: 10;
+    text-alignment: under;
+    text-offset: 25px, 25px;
+    text-style: italic;
+    icon: url('.\\lib\\terminal.png');
+    icon-mode: at-left;
+    size-mode: fit;
+}
+
+sprite.canonada {
+    fill-color: rgba(0, 0, 0, 0);
+    text-size: 10;
+    text-alignment: center;
+    text-offset: 25px, 25px;
+    text-style: italic;
+    icon: url('.\\lib\\cabal.png');
+    icon-mode: at-left;
+    size-mode: fit;
+    text-padding: -2px;
+}

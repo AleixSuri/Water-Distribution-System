@@ -1,0 +1,17 @@
+<map id="Terminal.establirDemandaActual" name="Terminal.establirDemandaActual">
+<area shape="rect" id="Node000001" title="Estableix la demanda actual." alt="" coords="848,51,1019,93"/>
+<area shape="rect" id="Node000002" href="$class_gestor_xarxes.html#aa37ac2ac3dfd37f5738ec6a7f6b1a7ee" title="Crea un nou graf amb un sol node origen i un sol node terminal a partir del graf graph." alt="" coords="615,32,800,59"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="832,63,800,59,800,54,833,57"/>
+<area shape="rect" id="Node000006" href="$class_xarxa.html#a3ec71c5575218566f9f71416407191be" title="Establir demanda." alt="" coords="630,84,785,111"/>
+<area shape="poly" id="edge6_Node000001_Node000006" title=" " alt="" coords="833,86,786,91,785,86,832,81"/>
+<area shape="rect" id="Node000003" href="$class_gestor_xarxes.html#a06132634b519e01136ad0f55d2664e93" title="Dibuixa la xarxa x amb tots els cabals i capacitats de cada canonada i node juntament amb l&#39;estat del..." alt="" coords="397,29,559,56"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="600,47,559,46,560,41,600,41"/>
+<area shape="poly" id="edge3_Node000003_Node000003" title=" " alt="" coords="517,17,504,10,478,8,454,10,441,15,437,20,443,27,439,30,432,21,437,11,452,5,478,3,505,5,520,12"/>
+<area shape="rect" id="Node000004" href="$class_simulador_mode_text.html#acf46c7460ef06bf77ae48ab3217c40f1" title="Processarà el fitxer de text, localitzant els nodes corresponents a la xarxa a partir dels seus ident..." alt="" coords="158,59,340,85"/>
+<area shape="poly" id="edge4_Node000003_Node000004" title=" " alt="" coords="381,58,341,63,340,58,381,52"/>
+<area shape="rect" id="Node000005" href="$class_be_water.html#aa8aad185395e8f524e8b46d8317e5590" title=" " alt="" coords="5,59,110,85"/>
+<area shape="poly" id="edge5_Node000004_Node000005" title=" " alt="" coords="142,75,110,75,110,69,142,69"/>
+<area shape="rect" id="Node000007" href="$class_simulador_mode_text.html#a07543c3110baefcac39a689d38abc182" title="Llegeix un node Terminal i la seva demanda i ho actualitza a la xarxa cridant la funció establirDeman..." alt="" coords="388,80,567,123"/>
+<area shape="poly" id="edge7_Node000006_Node000007" title=" " alt="" coords="615,102,568,102,568,97,615,96"/>
+<area shape="poly" id="edge8_Node000007_Node000004" title=" " alt="" coords="372,91,340,86,341,81,373,85"/>
+</map>
